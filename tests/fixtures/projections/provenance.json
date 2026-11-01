@@ -1,0 +1,14 @@
+[
+  {
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2026.parquet",
+    "rawSha256": "29a29dc9efd055a93e069a0382ac830d98a13274bee655beba69d95cff099713",
+    "fixtureSha256": "b3bc773aef0ebceeaaec020a9502a144f665ec3a15e7d98e58a06407487513f5",
+    "transformation": "All original rows, projection required columns only; no values changed"
+  },
+  {
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2027.parquet",
+    "rawSha256": "451fe280bdb1734465a3de86f87ea567fb8f8fb886f68fd4ef74ca747324883e",
+    "fixtureSha256": "122b69598e92315441ff35c44ed64a0cee56eb079818e0f0ba45525b745ecfb9",
+    "transformation": "All original rows, projection required columns only; no values changed"
+  }
+]

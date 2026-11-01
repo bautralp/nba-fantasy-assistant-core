@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "rookie-selection",
+  "purpose": "Research changes must not modify the original complete production scope.",
+  "historicalCommit": "bae82dc11ed06714271cba2652400c66a4126d64",
+  "protectedPaths": [
+    "public/data",
+    "src",
+    "scripts/rookie-parameters.json",
+    "scripts/rookie-profiles.json",
+    "scripts/rookie-acceptance-criteria.json",
+    "tests/fixtures",
+    ".github/workflows/ci.yml",
+    ".github/workflows/refresh-stats.yml",
+    "docs/stage-14-1-revision-backtest.json",
+    "docs/stage-14-1-revision-frozen-parameters.json",
+    "docs/stage-14-1-source-impact.json"
+  ],
+  "historicalStatus": "PRIVATE_ONLY_EXISTING_MISMATCH",
+  "publicCI": "Synthetic implementation tests only; no claim that historical guard passes.",
+  "trustedBaseRequirement": "External operator-reviewed immutable snapshot digest; never auto-rebaseline from candidate."
+}

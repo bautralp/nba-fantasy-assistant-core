@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "types": [
+      "vite/client",
+      "node"
+    ],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "src",
+    "tests/domain",
+    "tests/persistence",
+    "tests/application",
+    "tests/import",
+    "vite.config.ts",
+    "scripts/report_ros_model_audit.ts",
+    "migration/*.ts",
+    "tests/public",
+    "scripts/generate_public_demo.ts"
+  ]
+}

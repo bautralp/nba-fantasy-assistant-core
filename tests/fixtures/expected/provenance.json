@@ -1,0 +1,10 @@
+{
+  "sourceCommit": "0e28afb9d0c2fff0e6fa9e25d90651fab7fa4ed5",
+  "baseMainCommit": "71b3d84347e08f576dec1e7eada6e32609e0d2cd",
+  "sourceBlob": "6f774efbb3d932f59baa7cd6d2f7a097a7a6faef",
+  "sourceSha256": "12b49b7231c93605e3ded82d83f84c30352cccdfa74324e2606638459d6a9b90",
+  "node": "v24.19.0",
+  "chromium": "154.0.8037.57",
+  "command": "CHROMIUM_PATH=/usr/bin/chromium npm run test:capture",
+  "method": "Unmodified full index.html served over loopback HTTP; real browser globals and DOM; no application functions replaced."
+}

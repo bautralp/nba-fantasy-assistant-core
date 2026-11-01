@@ -1,0 +1,5706 @@
+{
+  "imported": {
+    "records": [
+      {
+        "id": "fixture000",
+        "name": "Fixture 000",
+        "rank": 140,
+        "pos": "PG",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture001",
+        "name": "Fixture 001",
+        "rank": 139,
+        "pos": "SG",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture002",
+        "name": "Fixture 002",
+        "rank": 138,
+        "pos": "SF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture003",
+        "name": "Fixture 003",
+        "rank": 137,
+        "pos": "PF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture004",
+        "name": "Fixture 004",
+        "rank": 136,
+        "pos": "C",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture005",
+        "name": "Fixture 005",
+        "rank": 135,
+        "pos": "PG,SG",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture006",
+        "name": "Fixture 006",
+        "rank": 134,
+        "pos": "SF/PF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture007",
+        "name": "Fixture 007",
+        "rank": 133,
+        "pos": "C,PF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture008",
+        "name": "Fixture 008",
+        "rank": 132,
+        "pos": "G",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture009",
+        "name": "Fixture 009",
+        "rank": 131,
+        "pos": "F",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture010",
+        "name": "Fixture 010",
+        "rank": 130,
+        "pos": "",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture011",
+        "name": "Fixture 011",
+        "rank": 129,
+        "pos": "PG,SG,SF,PF,C",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture012",
+        "name": "Fixture 012",
+        "rank": 128,
+        "pos": "PG",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture013",
+        "name": "Fixture 013",
+        "rank": 127,
+        "pos": "SG",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture014",
+        "name": "Fixture 014",
+        "rank": 126,
+        "pos": "SF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture015",
+        "name": "Fixture 015",
+        "rank": 125,
+        "pos": "PF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture016",
+        "name": "Fixture 016",
+        "rank": 124,
+        "pos": "C",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture017",
+        "name": "Fixture 017",
+        "rank": 123,
+        "pos": "PG,SG",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture018",
+        "name": "Fixture 018",
+        "rank": 122,
+        "pos": "SF/PF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture019",
+        "name": "Fixture 019",
+        "rank": 121,
+        "pos": "C,PF",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture020",
+        "name": "Fixture 020",
+        "rank": 120,
+        "pos": "G",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture021",
+        "name": "Fixture 021",
+        "rank": 119,
+        "pos": "F",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture022",
+        "name": "Fixture 022",
+        "rank": 118,
+        "pos": "",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture023",
+        "name": "Fixture 023",
+        "rank": 117,
+        "pos": "PG,SG,SF,PF,C",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      }
+    ],
+    "duplicates": 0,
+    "incomplete": 0,
+    "name": "fixed-fixture.json",
+    "mode": "perGame"
+  },
+  "totals": [
+    {
+      "id": "fixture000",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture001",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture002",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture003",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture004",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture005",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture006",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture007",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture008",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture009",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture010",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture011",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture012",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture013",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture014",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture015",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture016",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture017",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture018",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture019",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture020",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture021",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture022",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture023",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    }
+  ],
+  "model": {
+    "valid": [
+      "fixture000",
+      "fixture001",
+      "fixture002",
+      "fixture003",
+      "fixture004",
+      "fixture005",
+      "fixture006",
+      "fixture007",
+      "fixture008",
+      "fixture009",
+      "fixture010",
+      "fixture011",
+      "fixture012",
+      "fixture013",
+      "fixture014",
+      "fixture015",
+      "fixture016",
+      "fixture017",
+      "fixture018",
+      "fixture019",
+      "fixture020",
+      "fixture021",
+      "fixture022",
+      "fixture023"
+    ],
+    "baselines": {
+      "fg": 0.2,
+      "ft": 0
+    },
+    "means": {
+      "FG%": 0,
+      "FT%": 0,
+      "3PM": 0,
+      "PTS": 320,
+      "REB": 80,
+      "AST": 0,
+      "STL": 0,
+      "BLK": 0,
+      "TO": 0
+    },
+    "deviations": {
+      "FG%": 1,
+      "FT%": 1,
+      "3PM": 1,
+      "PTS": 1,
+      "REB": 1,
+      "AST": 1,
+      "STL": 1,
+      "BLK": 1,
+      "TO": 1
+    },
+    "z": {
+      "fixture000": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture001": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture002": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture003": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture004": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture005": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture006": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture007": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture008": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture009": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture010": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture011": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture012": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture013": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture014": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture015": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture016": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture017": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture018": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture019": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture020": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture021": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture022": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "fixture023": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    "usable": true,
+    "referenceCount": 24
+  },
+  "scores": [
+    {
+      "name": "Team 0",
+      "i": 0,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 1",
+      "i": 1,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 2",
+      "i": 2,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 3",
+      "i": 3,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 4",
+      "i": 4,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 5",
+      "i": 5,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 6",
+      "i": 6,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 7",
+      "i": 7,
+      "count": 1,
+      "rated": 1,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 8",
+      "i": 8,
+      "count": 2,
+      "rated": 2,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    {
+      "name": "Team 9",
+      "i": 9,
+      "count": 2,
+      "rated": 2,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    }
+  ],
+  "ranks": {
+    "FG%": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "FT%": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "3PM": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "PTS": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "REB": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "AST": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "STL": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "BLK": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "TO": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    }
+  },
+  "balance": {
+    "selected": 1,
+    "remaining": 12,
+    "stage": "İlk turlar",
+    "entries": [
+      {
+        "cat": "FG%",
+        "target": "top1",
+        "status": "Takviye gerekli",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.72,
+        "paceGap": 0.72,
+        "futureNeed": 0.7799999999999999,
+        "priority": 1.8947600000000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "FT%",
+        "target": "top3",
+        "status": "Takviye gerekli",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.43,
+        "paceGap": 0.43,
+        "futureNeed": 0.4658333333333333,
+        "priority": 1.5551446875000001,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "3PM",
+        "target": "top5",
+        "status": "Hedefe yakın",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.19,
+        "paceGap": 0.19,
+        "futureNeed": 0.20583333333333334,
+        "priority": 1.2938409375000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "PTS",
+        "target": "top7",
+        "status": "Hedefe yakın",
+        "desired": -0.04,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": -0.04,
+        "paceGap": -0.04,
+        "futureNeed": -0.043333333333333335,
+        "priority": 0.9710837500000001,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "STL",
+        "target": "top1",
+        "status": "Takviye gerekli",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.72,
+        "paceGap": 0.72,
+        "futureNeed": 0.7799999999999999,
+        "priority": 1.8947600000000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "BLK",
+        "target": "top5",
+        "status": "Hedefe yakın",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.19,
+        "paceGap": 0.19,
+        "futureNeed": 0.20583333333333334,
+        "priority": 1.2938409375000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "TO",
+        "target": "top3",
+        "status": "Takviye gerekli",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.43,
+        "paceGap": 0.43,
+        "futureNeed": 0.4658333333333333,
+        "priority": 1.5551446875000001,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      }
+    ],
+    "byCat": {
+      "FG%": {
+        "cat": "FG%",
+        "target": "top1",
+        "status": "Takviye gerekli",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.72,
+        "paceGap": 0.72,
+        "futureNeed": 0.7799999999999999,
+        "priority": 1.8947600000000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      "FT%": {
+        "cat": "FT%",
+        "target": "top3",
+        "status": "Takviye gerekli",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.43,
+        "paceGap": 0.43,
+        "futureNeed": 0.4658333333333333,
+        "priority": 1.5551446875000001,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      "3PM": {
+        "cat": "3PM",
+        "target": "top5",
+        "status": "Hedefe yakın",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.19,
+        "paceGap": 0.19,
+        "futureNeed": 0.20583333333333334,
+        "priority": 1.2938409375000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      "PTS": {
+        "cat": "PTS",
+        "target": "top7",
+        "status": "Hedefe yakın",
+        "desired": -0.04,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": -0.04,
+        "paceGap": -0.04,
+        "futureNeed": -0.043333333333333335,
+        "priority": 0.9710837500000001,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      "STL": {
+        "cat": "STL",
+        "target": "top1",
+        "status": "Takviye gerekli",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.72,
+        "paceGap": 0.72,
+        "futureNeed": 0.7799999999999999,
+        "priority": 1.8947600000000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      "BLK": {
+        "cat": "BLK",
+        "target": "top5",
+        "status": "Hedefe yakın",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.19,
+        "paceGap": 0.19,
+        "futureNeed": 0.20583333333333334,
+        "priority": 1.2938409375000002,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      },
+      "TO": {
+        "cat": "TO",
+        "target": "top3",
+        "status": "Takviye gerekli",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 1,
+        "remaining": 12,
+        "expectedNow": 0.43,
+        "paceGap": 0.43,
+        "futureNeed": 0.4658333333333333,
+        "priority": 1.5551446875000001,
+        "rank": 1,
+        "ahead": [],
+        "close": []
+      }
+    }
+  },
+  "threats": [
+    {
+      "cat": "FG%",
+      "team": "Team 1",
+      "teamIndex": 1,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 2",
+      "teamIndex": 2,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 3",
+      "teamIndex": 3,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 4",
+      "teamIndex": 4,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 5",
+      "teamIndex": 5,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 6",
+      "teamIndex": 6,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 7",
+      "teamIndex": 7,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 8",
+      "teamIndex": 8,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FG%",
+      "team": "Team 9",
+      "teamIndex": 9,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 1",
+      "teamIndex": 1,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 2",
+      "teamIndex": 2,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 3",
+      "teamIndex": 3,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 4",
+      "teamIndex": 4,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 5",
+      "teamIndex": 5,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 6",
+      "teamIndex": 6,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 7",
+      "teamIndex": 7,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 8",
+      "teamIndex": 8,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "STL",
+      "team": "Team 9",
+      "teamIndex": 9,
+      "gap": 0,
+      "ahead": false,
+      "level": "top1",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 1",
+      "teamIndex": 1,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 2",
+      "teamIndex": 2,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 3",
+      "teamIndex": 3,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 4",
+      "teamIndex": 4,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 5",
+      "teamIndex": 5,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 6",
+      "teamIndex": 6,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 7",
+      "teamIndex": 7,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 8",
+      "teamIndex": 8,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "FT%",
+      "team": "Team 9",
+      "teamIndex": 9,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 1",
+      "teamIndex": 1,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 2",
+      "teamIndex": 2,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 3",
+      "teamIndex": 3,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 4",
+      "teamIndex": 4,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 5",
+      "teamIndex": 5,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 6",
+      "teamIndex": 6,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 7",
+      "teamIndex": 7,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 8",
+      "teamIndex": 8,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "TO",
+      "team": "Team 9",
+      "teamIndex": 9,
+      "gap": 0,
+      "ahead": false,
+      "level": "top3",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 1",
+      "teamIndex": 1,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 2",
+      "teamIndex": 2,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 3",
+      "teamIndex": 3,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 4",
+      "teamIndex": 4,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 5",
+      "teamIndex": 5,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 6",
+      "teamIndex": 6,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 7",
+      "teamIndex": 7,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 8",
+      "teamIndex": 8,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "3PM",
+      "team": "Team 9",
+      "teamIndex": 9,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 1",
+      "teamIndex": 1,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 2",
+      "teamIndex": 2,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 3",
+      "teamIndex": 3,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 4",
+      "teamIndex": 4,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 5",
+      "teamIndex": 5,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 6",
+      "teamIndex": 6,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 7",
+      "teamIndex": 7,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 8",
+      "teamIndex": 8,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "BLK",
+      "team": "Team 9",
+      "teamIndex": 9,
+      "gap": 0,
+      "ahead": false,
+      "level": "top5",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 1",
+      "teamIndex": 1,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 2",
+      "teamIndex": 2,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 3",
+      "teamIndex": 3,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 4",
+      "teamIndex": 4,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 5",
+      "teamIndex": 5,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 6",
+      "teamIndex": 6,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 7",
+      "teamIndex": 7,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 1,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 8",
+      "teamIndex": 8,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 2,
+      "confidence": "Düşük"
+    },
+    {
+      "cat": "PTS",
+      "team": "Team 9",
+      "teamIndex": 9,
+      "gap": 0,
+      "ahead": false,
+      "level": "top7",
+      "rated": 2,
+      "confidence": "Düşük"
+    }
+  ],
+  "suggestions": [
+    {
+      "p": "fixture023",
+      "score": 0.55,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "3PM",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "PTS",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 0.9710837500000001,
+          "paceGap": -0.04,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "STL",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "BLK",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "TO",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        }
+      ],
+      "positive": []
+    },
+    {
+      "p": "fixture021",
+      "score": 0.55,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "3PM",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "PTS",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 0.9710837500000001,
+          "paceGap": -0.04,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "STL",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "BLK",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "TO",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        }
+      ],
+      "positive": []
+    },
+    {
+      "p": "fixture020",
+      "score": 0.55,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "3PM",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "PTS",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 0.9710837500000001,
+          "paceGap": -0.04,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "STL",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "BLK",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "TO",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        }
+      ],
+      "positive": []
+    },
+    {
+      "p": "fixture019",
+      "score": 0.55,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "3PM",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "PTS",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 0.9710837500000001,
+          "paceGap": -0.04,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "STL",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "BLK",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "TO",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        }
+      ],
+      "positive": []
+    },
+    {
+      "p": "fixture018",
+      "score": 0.55,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "3PM",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "PTS",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 0.9710837500000001,
+          "paceGap": -0.04,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "STL",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.8947600000000002,
+          "paceGap": 0.72,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "BLK",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Hedefe yakın",
+          "priority": 1.2938409375000002,
+          "paceGap": 0.19,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        },
+        {
+          "cat": "TO",
+          "gain": 0,
+          "br": 1,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Takviye gerekli",
+          "priority": 1.5551446875000001,
+          "paceGap": 0.43,
+          "rivals": [
+            {
+              "name": "Team 1",
+              "ahead": false
+            },
+            {
+              "name": "Team 2",
+              "ahead": false
+            },
+            {
+              "name": "Team 3",
+              "ahead": false
+            },
+            {
+              "name": "Team 4",
+              "ahead": false
+            },
+            {
+              "name": "Team 5",
+              "ahead": false
+            },
+            {
+              "name": "Team 6",
+              "ahead": false
+            },
+            {
+              "name": "Team 7",
+              "ahead": false
+            },
+            {
+              "name": "Team 8",
+              "ahead": false
+            },
+            {
+              "name": "Team 9",
+              "ahead": false
+            }
+          ]
+        }
+      ],
+      "positive": []
+    }
+  ],
+  "lineups": [
+    {
+      "assigned": {
+        "0": "fixture000"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "1": "fixture001"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "2": "fixture002"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "3": "fixture003"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "4": "fixture004"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "0": "fixture005"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "2": "fixture006"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "3": "fixture007"
+      },
+      "filled": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    {
+      "assigned": {
+        "0": "fixture011",
+        "5": "fixture008"
+      },
+      "filled": 2,
+      "unknown": 0,
+      "total": 2
+    },
+    {
+      "assigned": {
+        "6": "fixture009",
+        "7": "fixture010"
+      },
+      "filled": 1,
+      "unknown": 1,
+      "total": 2
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "fixture000",
+      "slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture001",
+      "slots": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture002",
+      "slots": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture003",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture004",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture005",
+      "slots": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture006",
+      "slots": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture007",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture008",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture009",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture010",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0,
+        "reason": "POS boş: yerleşim doğrulanamıyor. Pozisyon uyumu: yeni zorunlu slot açmıyor; UTIL/BENCH yerleşimi kullanılabilir."
+      }
+    },
+    {
+      "id": "fixture011",
+      "slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture012",
+      "slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture013",
+      "slots": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture014",
+      "slots": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture015",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture016",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture017",
+      "slots": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture018",
+      "slots": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture019",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture020",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture021",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture022",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0,
+        "reason": "POS boş: yerleşim doğrulanamıyor. Pozisyon uyumu: yeni zorunlu slot açmıyor; UTIL/BENCH yerleşimi kullanılabilir."
+      }
+    },
+    {
+      "id": "fixture023",
+      "slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    }
+  ],
+  "snake": [
+    {
+      "n": 0,
+      "team": 0,
+      "round": 1
+    },
+    {
+      "n": 1,
+      "team": 1,
+      "round": 1
+    },
+    {
+      "n": 2,
+      "team": 2,
+      "round": 1
+    },
+    {
+      "n": 3,
+      "team": 3,
+      "round": 1
+    },
+    {
+      "n": 4,
+      "team": 4,
+      "round": 1
+    },
+    {
+      "n": 5,
+      "team": 5,
+      "round": 1
+    },
+    {
+      "n": 6,
+      "team": 6,
+      "round": 1
+    },
+    {
+      "n": 7,
+      "team": 7,
+      "round": 1
+    },
+    {
+      "n": 8,
+      "team": 8,
+      "round": 1
+    },
+    {
+      "n": 9,
+      "team": 9,
+      "round": 1
+    },
+    {
+      "n": 10,
+      "team": 9,
+      "round": 2
+    },
+    {
+      "n": 11,
+      "team": 8,
+      "round": 2
+    },
+    {
+      "n": 12,
+      "team": 7,
+      "round": 2
+    },
+    {
+      "n": 13,
+      "team": 6,
+      "round": 2
+    },
+    {
+      "n": 14,
+      "team": 5,
+      "round": 2
+    },
+    {
+      "n": 15,
+      "team": 4,
+      "round": 2
+    },
+    {
+      "n": 16,
+      "team": 3,
+      "round": 2
+    },
+    {
+      "n": 17,
+      "team": 2,
+      "round": 2
+    },
+    {
+      "n": 18,
+      "team": 1,
+      "round": 2
+    },
+    {
+      "n": 19,
+      "team": 0,
+      "round": 2
+    },
+    {
+      "n": 20,
+      "team": 0,
+      "round": 3
+    },
+    {
+      "n": 21,
+      "team": 1,
+      "round": 3
+    },
+    {
+      "n": 22,
+      "team": 2,
+      "round": 3
+    },
+    {
+      "n": 23,
+      "team": 3,
+      "round": 3
+    },
+    {
+      "n": 24,
+      "team": 4,
+      "round": 3
+    },
+    {
+      "n": 25,
+      "team": 5,
+      "round": 3
+    },
+    {
+      "n": 26,
+      "team": 6,
+      "round": 3
+    },
+    {
+      "n": 27,
+      "team": 7,
+      "round": 3
+    },
+    {
+      "n": 28,
+      "team": 8,
+      "round": 3
+    },
+    {
+      "n": 29,
+      "team": 9,
+      "round": 3
+    },
+    {
+      "n": 30,
+      "team": 9,
+      "round": 4
+    },
+    {
+      "n": 31,
+      "team": 8,
+      "round": 4
+    },
+    {
+      "n": 32,
+      "team": 7,
+      "round": 4
+    },
+    {
+      "n": 33,
+      "team": 6,
+      "round": 4
+    },
+    {
+      "n": 34,
+      "team": 5,
+      "round": 4
+    },
+    {
+      "n": 35,
+      "team": 4,
+      "round": 4
+    },
+    {
+      "n": 36,
+      "team": 3,
+      "round": 4
+    },
+    {
+      "n": 37,
+      "team": 2,
+      "round": 4
+    },
+    {
+      "n": 38,
+      "team": 1,
+      "round": 4
+    },
+    {
+      "n": 39,
+      "team": 0,
+      "round": 4
+    },
+    {
+      "n": 40,
+      "team": 0,
+      "round": 5
+    },
+    {
+      "n": 41,
+      "team": 1,
+      "round": 5
+    },
+    {
+      "n": 42,
+      "team": 2,
+      "round": 5
+    },
+    {
+      "n": 43,
+      "team": 3,
+      "round": 5
+    },
+    {
+      "n": 44,
+      "team": 4,
+      "round": 5
+    },
+    {
+      "n": 45,
+      "team": 5,
+      "round": 5
+    },
+    {
+      "n": 46,
+      "team": 6,
+      "round": 5
+    },
+    {
+      "n": 47,
+      "team": 7,
+      "round": 5
+    },
+    {
+      "n": 48,
+      "team": 8,
+      "round": 5
+    },
+    {
+      "n": 49,
+      "team": 9,
+      "round": 5
+    },
+    {
+      "n": 50,
+      "team": 9,
+      "round": 6
+    },
+    {
+      "n": 51,
+      "team": 8,
+      "round": 6
+    },
+    {
+      "n": 52,
+      "team": 7,
+      "round": 6
+    },
+    {
+      "n": 53,
+      "team": 6,
+      "round": 6
+    },
+    {
+      "n": 54,
+      "team": 5,
+      "round": 6
+    },
+    {
+      "n": 55,
+      "team": 4,
+      "round": 6
+    },
+    {
+      "n": 56,
+      "team": 3,
+      "round": 6
+    },
+    {
+      "n": 57,
+      "team": 2,
+      "round": 6
+    },
+    {
+      "n": 58,
+      "team": 1,
+      "round": 6
+    },
+    {
+      "n": 59,
+      "team": 0,
+      "round": 6
+    },
+    {
+      "n": 60,
+      "team": 0,
+      "round": 7
+    },
+    {
+      "n": 61,
+      "team": 1,
+      "round": 7
+    },
+    {
+      "n": 62,
+      "team": 2,
+      "round": 7
+    },
+    {
+      "n": 63,
+      "team": 3,
+      "round": 7
+    },
+    {
+      "n": 64,
+      "team": 4,
+      "round": 7
+    },
+    {
+      "n": 65,
+      "team": 5,
+      "round": 7
+    },
+    {
+      "n": 66,
+      "team": 6,
+      "round": 7
+    },
+    {
+      "n": 67,
+      "team": 7,
+      "round": 7
+    },
+    {
+      "n": 68,
+      "team": 8,
+      "round": 7
+    },
+    {
+      "n": 69,
+      "team": 9,
+      "round": 7
+    },
+    {
+      "n": 70,
+      "team": 9,
+      "round": 8
+    },
+    {
+      "n": 71,
+      "team": 8,
+      "round": 8
+    },
+    {
+      "n": 72,
+      "team": 7,
+      "round": 8
+    },
+    {
+      "n": 73,
+      "team": 6,
+      "round": 8
+    },
+    {
+      "n": 74,
+      "team": 5,
+      "round": 8
+    },
+    {
+      "n": 75,
+      "team": 4,
+      "round": 8
+    },
+    {
+      "n": 76,
+      "team": 3,
+      "round": 8
+    },
+    {
+      "n": 77,
+      "team": 2,
+      "round": 8
+    },
+    {
+      "n": 78,
+      "team": 1,
+      "round": 8
+    },
+    {
+      "n": 79,
+      "team": 0,
+      "round": 8
+    },
+    {
+      "n": 80,
+      "team": 0,
+      "round": 9
+    },
+    {
+      "n": 81,
+      "team": 1,
+      "round": 9
+    },
+    {
+      "n": 82,
+      "team": 2,
+      "round": 9
+    },
+    {
+      "n": 83,
+      "team": 3,
+      "round": 9
+    },
+    {
+      "n": 84,
+      "team": 4,
+      "round": 9
+    },
+    {
+      "n": 85,
+      "team": 5,
+      "round": 9
+    },
+    {
+      "n": 86,
+      "team": 6,
+      "round": 9
+    },
+    {
+      "n": 87,
+      "team": 7,
+      "round": 9
+    },
+    {
+      "n": 88,
+      "team": 8,
+      "round": 9
+    },
+    {
+      "n": 89,
+      "team": 9,
+      "round": 9
+    },
+    {
+      "n": 90,
+      "team": 9,
+      "round": 10
+    },
+    {
+      "n": 91,
+      "team": 8,
+      "round": 10
+    },
+    {
+      "n": 92,
+      "team": 7,
+      "round": 10
+    },
+    {
+      "n": 93,
+      "team": 6,
+      "round": 10
+    },
+    {
+      "n": 94,
+      "team": 5,
+      "round": 10
+    },
+    {
+      "n": 95,
+      "team": 4,
+      "round": 10
+    },
+    {
+      "n": 96,
+      "team": 3,
+      "round": 10
+    },
+    {
+      "n": 97,
+      "team": 2,
+      "round": 10
+    },
+    {
+      "n": 98,
+      "team": 1,
+      "round": 10
+    },
+    {
+      "n": 99,
+      "team": 0,
+      "round": 10
+    },
+    {
+      "n": 100,
+      "team": 0,
+      "round": 11
+    },
+    {
+      "n": 101,
+      "team": 1,
+      "round": 11
+    },
+    {
+      "n": 102,
+      "team": 2,
+      "round": 11
+    },
+    {
+      "n": 103,
+      "team": 3,
+      "round": 11
+    },
+    {
+      "n": 104,
+      "team": 4,
+      "round": 11
+    },
+    {
+      "n": 105,
+      "team": 5,
+      "round": 11
+    },
+    {
+      "n": 106,
+      "team": 6,
+      "round": 11
+    },
+    {
+      "n": 107,
+      "team": 7,
+      "round": 11
+    },
+    {
+      "n": 108,
+      "team": 8,
+      "round": 11
+    },
+    {
+      "n": 109,
+      "team": 9,
+      "round": 11
+    },
+    {
+      "n": 110,
+      "team": 9,
+      "round": 12
+    },
+    {
+      "n": 111,
+      "team": 8,
+      "round": 12
+    },
+    {
+      "n": 112,
+      "team": 7,
+      "round": 12
+    },
+    {
+      "n": 113,
+      "team": 6,
+      "round": 12
+    },
+    {
+      "n": 114,
+      "team": 5,
+      "round": 12
+    },
+    {
+      "n": 115,
+      "team": 4,
+      "round": 12
+    },
+    {
+      "n": 116,
+      "team": 3,
+      "round": 12
+    },
+    {
+      "n": 117,
+      "team": 2,
+      "round": 12
+    },
+    {
+      "n": 118,
+      "team": 1,
+      "round": 12
+    },
+    {
+      "n": 119,
+      "team": 0,
+      "round": 12
+    },
+    {
+      "n": 120,
+      "team": 0,
+      "round": 13
+    },
+    {
+      "n": 121,
+      "team": 1,
+      "round": 13
+    },
+    {
+      "n": 122,
+      "team": 2,
+      "round": 13
+    },
+    {
+      "n": 123,
+      "team": 3,
+      "round": 13
+    },
+    {
+      "n": 124,
+      "team": 4,
+      "round": 13
+    },
+    {
+      "n": 125,
+      "team": 5,
+      "round": 13
+    },
+    {
+      "n": 126,
+      "team": 6,
+      "round": 13
+    },
+    {
+      "n": 127,
+      "team": 7,
+      "round": 13
+    },
+    {
+      "n": 128,
+      "team": 8,
+      "round": 13
+    },
+    {
+      "n": 129,
+      "team": 9,
+      "round": 13
+    },
+    {
+      "n": 130,
+      "team": 9,
+      "round": 14
+    }
+  ],
+  "next": 20,
+  "turn": false,
+  "picks": [
+    {
+      "id": "fixture000",
+      "team": 0
+    },
+    {
+      "id": "fixture001",
+      "team": 1
+    },
+    {
+      "id": "fixture002",
+      "team": 2
+    },
+    {
+      "id": "fixture003",
+      "team": 3
+    },
+    {
+      "id": "fixture004",
+      "team": 4
+    },
+    {
+      "id": "fixture005",
+      "team": 5
+    },
+    {
+      "id": "fixture006",
+      "team": 6
+    },
+    {
+      "id": "fixture007",
+      "team": 7
+    },
+    {
+      "id": "fixture008",
+      "team": 8
+    },
+    {
+      "id": "fixture009",
+      "team": 9
+    },
+    {
+      "id": "fixture010",
+      "team": 9
+    },
+    {
+      "id": "fixture011",
+      "team": 8
+    }
+  ],
+  "tieRanks": {
+    "FG%": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "FT%": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "3PM": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "PTS": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "REB": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "AST": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "STL": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "BLK": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "TO": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    }
+  },
+  "checkpoints": [],
+  "dialogs": []
+}

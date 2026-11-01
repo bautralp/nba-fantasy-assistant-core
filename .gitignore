@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tsbuildinfo
+artifacts/
+.research-cache/
+
+__pycache__/
+*.pyc

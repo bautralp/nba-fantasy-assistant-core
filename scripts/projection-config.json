@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "minutesK": 500,
+  "rateK": {
+    "2PA": 600,
+    "3PA": 800,
+    "FTA": 900,
+    "REB": 700,
+    "AST": 800,
+    "STL": 1600,
+    "BLK": 1800,
+    "TO": 1000
+  },
+  "shootingAttemptsK": {
+    "2P": 180,
+    "3P": 250,
+    "FT": 120
+  },
+  "minimumGames": 5,
+  "minimumMinutes": 80,
+  "role": {
+    "minimumGames": 5,
+    "minutesDelta": 4,
+    "starterDelta": 0.4,
+    "offenseDelta": 0.15,
+    "persistence": 0.6,
+    "recentMinutesWeight": 0.5,
+    "recentRateWeight": 0.25,
+    "sampleGames": 15,
+    "maxMinutes": 40,
+    "scoreWeights": {
+      "minutes": 0.55,
+      "starter": 0.3,
+      "offense": 0.15
+    },
+    "freeThrowProxyWeight": 0.44,
+    "persistenceDeltaFraction": 0.5
+  },
+  "availability": {
+    "priorGames": 20,
+    "leaguePrior": 0.75,
+    "historicalSeasonGames": 82
+  },
+  "confidence": {
+    "mediumPreviousGames": 20,
+    "mediumCurrentGames": 10,
+    "highPreviousGames": 40,
+    "highCurrentGames": 25
+  }
+}

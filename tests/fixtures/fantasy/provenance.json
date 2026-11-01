@@ -1,0 +1,8 @@
+{
+  "source": "https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/2027/players?view=kona_player_info",
+  "retrievedAt": "2026-10-22T19:14:55.388626+00:00",
+  "rawSha256": "1a36e8e58169219e9a1f196081d467de95638a7ce9430eadde4891ed26a93d21",
+  "rawCount": 3230,
+  "selection": "Five unchanged rows with identity/eligibility fields only; anchors, rookie slot and inactive missing-slot row.",
+  "fixtureSha256": "d2d1d7018f804ea503a612bd7b6ea6ed9712ccc3398b9e4703c1f5198f230aac"
+}

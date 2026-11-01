@@ -1,0 +1,35 @@
+{
+  "player_box_2026": {
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2026.parquet",
+    "downloadedSha256": "29a29dc9efd055a93e069a0382ac830d98a13274bee655beba69d95cff099713",
+    "fixtureSha256": "91f8b7c7f0b3f9d8b2d64084ab0d94063321d987d20a60f383be483e0565b7c7",
+    "transformation": "Required columns only, all original rows; no values changed"
+  },
+  "nba_schedule_2026": {
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2026.parquet",
+    "downloadedSha256": "b3884aa4aa276d1fcafc71b69394675904a968902068bff634932e5d7afacae4",
+    "fixtureSha256": "b4e0bdb41f8a85cf91e745951491c0435f20811463ccb40ab498e7e2ad2d7312",
+    "transformation": "Required columns only, all original rows; no values changed"
+  },
+  "initialSnapshot": {
+    "commit": "64e1a651da849d9e48ea3e34ff3ce8315255604d",
+    "sha256": "b74dab731304c3846b0c92c71a7e6b1ea78ad00b5c1c5b5940274518247e37a2",
+    "purpose": "Exact erroneous baseline for bounded repair tests only; never served"
+  },
+  "correctedInitialSnapshot": {
+    "purpose": "Pinned reviewed repair candidate; refresh time is not a source statistic",
+    "sha256": "1867b3c648fa06155f44734dc3dd9c9f9d119fbde2bee4376c25758533568b64"
+  },
+  "player_box_2027": {
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2027.parquet",
+    "downloadedSha256": "451fe280bdb1734465a3de86f87ea567fb8f8fb886f68fd4ef74ca747324883e",
+    "fixtureSha256": "6c8d8efe32a9f96496dfb9d25ef2a66f1775726be81be4d916ed7d70eafa6629",
+    "transformation": "Required columns only, all original rows; no values changed"
+  },
+  "nba_schedule_2027": {
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2027.parquet",
+    "downloadedSha256": "758ca783f1faf3cf7d9db37a31f8a15fcdddc320778f09ca27648f8d54166b41",
+    "fixtureSha256": "cf45f2761767283fcc0c6f67d334943ba66ecaa6b6e5b85a092003dd43268687",
+    "transformation": "Required columns only, all original rows; no values changed"
+  }
+}

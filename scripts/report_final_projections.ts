@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import { analyzeLeague } from '../src/seasonAnalysis/analyzeLeague.ts';
+import { adaptCentralRos, parseAnalysisSchedule } from '../src/seasonAnalysis/centralAdapter.ts';
+import { parseScenarioSnapshot } from '../src/projections/scenarioSnapshot.ts';
+const read=(p:string)=>JSON.parse(fs.readFileSync(p,'utf8'));
+const standard=read(process.argv[4]??'public/data/player-projections.json'),schedule=parseAnalysisSchedule(read(process.argv[5]??'public/data/analysis-schedule.json'));
+const base=adaptCentralRos(standard,schedule),scenario=parseScenarioSnapshot(read(process.argv[3]??'public/data/projection-scenarios.json'),base.snapshot),extended=adaptCentralRos(scenario.projection,schedule);
+const league=read('tests/fixtures/season-analysis/public-league-normalized.json');
+const run=(s:typeof base)=>analyzeLeague({league,projections:s.projections,schedule,datasetRevision:s.datasetRevision,asOf:s.snapshot.asOf,dataUpdatedAt:s.snapshot.generatedAt,lineupPolicy:'daily-max-games'});
+const before=run(base),after=run(extended);
+const cases=['4396993','6606','2991230','6442','5142620','5175737','5254165','5041935','5041955','5095151','4397140'];
+const report={kind:'real-league-model-scenario-not-observed-results',standardCoverage:before.coverage,extendedCoverage:after.coverage,asOf:after.asOf,sourceDataThrough:scenario.sourceDataThrough,modelVersion:scenario.modelVersion,inputRevision:scenario.inputRevision,rankings:after.rankings,teams:after.teams.map(t=>({...t,standardPlayers:league.teams.find((r:{espnTeamId:number})=>r.espnTeamId===t.teamId).roster.filter((p:{espnPlayerId:number})=>scenario.players[String(p.espnPlayerId)]?.tier==='standard').length,extendedPlayers:league.teams.find((r:{espnTeamId:number})=>r.espnTeamId===t.teamId).roster.filter((p:{espnPlayerId:number})=>scenario.players[String(p.espnPlayerId)]?.tier==='extended').length})),players:scenario.projection.players.filter(p=>cases.includes(p.id)).map(p=>({id:p.id,name:p.name,minutes:p.minutes,stats:p.stats,expectedGames:p.rosGP,teamRemaining:p.teamRemaining,metadata:scenario.players[p.id]}))};
+fs.writeFileSync(process.argv[2]??'docs/season/final-projection-results.json',JSON.stringify(report,null,2)+'\n');
+console.log({standard:before.coverage,extended:after.coverage,missing:after.teams.filter(t=>!t.complete).map(t=>({name:t.name,warnings:t.warnings}))});

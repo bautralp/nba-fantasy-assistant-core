@@ -1,0 +1,86 @@
+[
+  {
+    "package": "@nodable/entities",
+    "version": "3.1.0",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-nodable_entities.txt",
+    "source": "https://github.com/nodable/val-parsers/blob/main/LICENSE"
+  },
+  {
+    "package": "anynum",
+    "version": "1.0.1",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-anynum.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "fast-xml-builder",
+    "version": "1.3.1",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-fast-xml-builder.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "fast-xml-parser",
+    "version": "5.11.2",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-fast-xml-parser.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "fflate",
+    "version": "0.8.3",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-fflate.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "is-unsafe",
+    "version": "2.0.2",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-is-unsafe.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "path-expression-matcher",
+    "version": "1.6.2",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-path-expression-matcher.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "react",
+    "version": "19.3.1",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-react.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-react-dom.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-scheduler.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "strnum",
+    "version": "2.5.1",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-strnum.txt",
+    "source": "installed lockfile package license"
+  },
+  {
+    "package": "xml-naming",
+    "version": "0.3.0",
+    "license": "MIT",
+    "notice": "LICENSES/runtime-xml-naming.txt",
+    "source": "installed lockfile package license"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "sport": "fba",
+  "season": 2027,
+  "evidence": {
+    "source": "https://raw.githubusercontent.com/cwendt94/espn-api/700e15ddbb91124f031473d2411c8a6285944274/espn_api/basketball/constant.py",
+    "sha256": "a6684d3e694bab50ed0051e91cfa8fc943fdef325431000861685cf5fc28cd1f",
+    "reviewedAt": "2026-10-22",
+    "note": "Basketball POSITION_MAP, cross-checked against live 2027 FBA anchors. UT/BE normalized to UTIL/BENCH; composite and Rookie slots are retained as non-specific slots, never expanded."
+  },
+  "slots": {
+    "0": "PG",
+    "1": "SG",
+    "2": "SF",
+    "3": "PF",
+    "4": "C",
+    "5": "G",
+    "6": "F",
+    "7": "SG/SF",
+    "8": "G/F",
+    "9": "PF/C",
+    "10": "F/C",
+    "11": "UTIL",
+    "12": "BENCH",
+    "13": "IR",
+    "15": "ROOKIE"
+  }
+}

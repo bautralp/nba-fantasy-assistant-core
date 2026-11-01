@@ -1,0 +1,675 @@
+{
+  "version": 3,
+  "teams": [
+    "Team 0",
+    "Team 1",
+    "Team 2",
+    "Team 3",
+    "Team 4",
+    "Team 5",
+    "Team 6",
+    "Team 7",
+    "Team 8",
+    "Team 9"
+  ],
+  "myTeam": 4,
+  "targets": {
+    "FG%": "top1",
+    "FT%": "top3",
+    "3PM": "top5",
+    "PTS": "top7",
+    "REB": "punt",
+    "AST": "unset",
+    "STL": "top3",
+    "BLK": "top5",
+    "TO": "punt"
+  },
+  "strongLimit": 7,
+  "players": [
+    {
+      "id": "syntheticplayer0",
+      "name": "Synthetic Player 0",
+      "rank": 1,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer1",
+      "name": "Synthetic Player 1",
+      "rank": 2,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer2",
+      "name": "Synthetic Player 2",
+      "rank": 3,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer3",
+      "name": "Synthetic Player 3",
+      "rank": 4,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer4",
+      "name": "Synthetic Player 4",
+      "rank": 5,
+      "pos": "PG,G",
+      "values": {
+        "gp": null,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": false
+    },
+    {
+      "id": "syntheticplayer5",
+      "name": "Synthetic Player 5",
+      "rank": 6,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer6",
+      "name": "Synthetic Player 6",
+      "rank": 7,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer7",
+      "name": "Synthetic Player 7",
+      "rank": 8,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer8",
+      "name": "Synthetic Player 8",
+      "rank": 9,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer9",
+      "name": "Synthetic Player 9",
+      "rank": 10,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer10",
+      "name": "Synthetic Player 10",
+      "rank": 11,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer11",
+      "name": "Synthetic Player 11",
+      "rank": 12,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer12",
+      "name": "Synthetic Player 12",
+      "rank": 13,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer13",
+      "name": "Synthetic Player 13",
+      "rank": 14,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer14",
+      "name": "Synthetic Player 14",
+      "rank": 15,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer15",
+      "name": "Synthetic Player 15",
+      "rank": 16,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer16",
+      "name": "Synthetic Player 16",
+      "rank": 17,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer17",
+      "name": "Synthetic Player 17",
+      "rank": 18,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer18",
+      "name": "Synthetic Player 18",
+      "rank": 19,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer19",
+      "name": "Synthetic Player 19",
+      "rank": 20,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer20",
+      "name": "Synthetic Player 20",
+      "rank": 21,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer21",
+      "name": "Synthetic Player 21",
+      "rank": 22,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer22",
+      "name": "Synthetic Player 22",
+      "rank": 23,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer23",
+      "name": "Synthetic Player 23",
+      "rank": 24,
+      "pos": "SF,F",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    },
+    {
+      "id": "syntheticplayer24",
+      "name": "Synthetic Player 24",
+      "rank": 25,
+      "pos": "PG,G",
+      "values": {
+        "gp": 72,
+        "fgm": 5,
+        "fga": 10,
+        "ftm": 2,
+        "fta": 3,
+        "three": 2,
+        "pts": 14,
+        "reb": 5,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0.5,
+        "to": 2
+      },
+      "mode": "perGame",
+      "valid": true
+    }
+  ],
+  "picks": [
+    {
+      "id": "syntheticplayer1",
+      "team": 1
+    },
+    {
+      "id": "syntheticplayer2",
+      "team": 2
+    },
+    {
+      "id": "syntheticplayer3",
+      "team": 3
+    },
+    {
+      "id": "syntheticplayer4",
+      "team": 4
+    },
+    {
+      "id": "syntheticplayer5",
+      "team": 5
+    },
+    {
+      "id": "syntheticplayer6",
+      "team": 6
+    },
+    {
+      "id": "syntheticplayer7",
+      "team": 7
+    },
+    {
+      "id": "syntheticplayer8",
+      "team": 8
+    },
+    {
+      "id": "syntheticplayer9",
+      "team": 9
+    },
+    {
+      "id": "syntheticplayer10",
+      "team": 9
+    },
+    {
+      "id": "syntheticplayer11",
+      "team": 8
+    },
+    {
+      "id": "syntheticplayer12",
+      "team": 7
+    },
+    {
+      "id": "syntheticplayer13",
+      "team": 6
+    },
+    {
+      "id": "syntheticplayer14",
+      "team": 5
+    },
+    {
+      "id": "syntheticplayer15",
+      "team": 4
+    },
+    {
+      "id": "syntheticplayer16",
+      "team": 3
+    },
+    {
+      "id": "syntheticplayer17",
+      "team": 2
+    },
+    {
+      "id": "syntheticplayer18",
+      "team": 1
+    },
+    {
+      "id": "syntheticplayer19",
+      "team": 0
+    },
+    {
+      "id": "syntheticplayer20",
+      "team": 0
+    },
+    {
+      "id": "syntheticplayer21",
+      "team": 1
+    },
+    {
+      "id": "syntheticplayer22",
+      "team": 2
+    }
+  ],
+  "source": {
+    "file": "synthetic-projections.json",
+    "loaded": "20.10.2026 15:00:00",
+    "mode": "perGame"
+  }
+}

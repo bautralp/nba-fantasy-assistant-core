@@ -1,0 +1,17 @@
+import type { AnalysisView } from '../../application/analysisSelectors';
+import type { DraftView } from '../../application/draftSelectors';
+import type { WorkspaceSnapshot } from '../../domain/models/workspace';
+import { NINE_CATEGORIES } from '../../domain/models/categories';
+import { metric, power, rankLabel, targetLabels } from './analysisFormatting';
+export function CategoryAnalysisPanel({ analysis: a, view: v, workspace: w }: { analysis: AnalysisView; view: DraftView; workspace: WorkspaceSnapshot }) {
+  return <><details open className="category-analysis"><summary><h3>Kategori hedefleri ve ihtiyaçları</h3></summary>
+    <p className="muted">{w.teams.find(t => t.id === w.league.userTeamId)?.name ?? 'Kendi takımınızı seçin.'}{v.plan && ` · ${v.plan.stage} · ${v.plan.selected} seçim · ${v.plan.remaining} kalan kontenjan`}</p>
+    <p className="muted">Güç puanı Z-score temelli takım değerlendirmesidir; FG%/FT% yüzdesi değildir. Hedef sıra mevcut sıradan ayrıdır. Tempo değerleri toplam Z birimindedir; öncelik sezgiseldir. Pozitif tempo açığı hedef temposunun gerisinde olduğunuzu gösterir.</p>
+    {a.categories.every(c => c.score === null) && <p className="notice">Takımınızın geçerli aktif projeksiyonlu oyuncusu yok; kategori güç puanları ve mevcut sıraları hesaplanamıyor. Hedef temposu yalnızca stratejiyi ve seçim sayısını yansıtır.</p>}
+    {!a.activeTargets && <p className="notice">Etkin sıralama hedefi yok. Belirlenmedi ve Punt kategorileri için hedef temposu veya ihtiyaç puanı üretilmez.</p>}
+    <div className="analysis-scroll" tabIndex={0} role="region" aria-label="Kategori analiz tablosu"><table className="analysis-table"><thead><tr>{['Kategori', 'Strateji hedefi', 'Güç puanı', 'Mevcut sıra', 'Hedef temposu / oyuncu', 'Şimdiki hedef temposu', 'Mevcut toplam Z', 'Tempo açığı', 'Kalan ihtiyaç / seçim', 'İhtiyaç önceliği', 'Durum', 'Önde / yakın', 'Kalan kontenjan'].map(h => <th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>
+      {a.categories.map(c => <tr key={c.cat} data-category={c.cat}><th scope="row">{c.cat}</th><td>{targetLabels[c.target]} <small>({c.target})</small></td><td>{power(c.score)}</td><td>{rankLabel(c.rank)}</td><td>{metric(c.balance?.desired)}</td><td>{metric(c.balance?.expectedNow)}</td><td>{metric(c.balance?.actual)}</td><td>{metric(c.balance?.paceGap)}</td><td>{metric(c.balance?.futureNeed)}</td><td>{metric(c.balance?.priority)}</td><td>{c.balance?.status ?? (c.target === 'punt' ? 'Punt · hedef dışı' : 'Hedef analizi yok')}</td><td>{c.balance ? `${c.balance.ahead.join(', ') || '—'} / ${c.balance.close.join(', ') || '—'}` : '—'}</td><td>{c.balance?.remaining ?? v.plan?.remaining ?? '—'}</td></tr>)}
+    </tbody></table></div>
+  </details>
+  <details className="league-analysis"><summary><h3>Lig kategori sıraları · Tüm takımlar</h3></summary><div className="analysis-scroll" tabIndex={0} role="region" aria-label="Lig kategori tablosu"><table className="analysis-table"><thead><tr><th scope="col">Takım</th><th scope="col">Geçerli / Seçilmiş</th>{NINE_CATEGORIES.map(c => <th scope="col" key={c}>{c} · Sıra (puan)</th>)}</tr></thead><tbody>{a.rosters.map(t => <tr className={t.isMine ? 'my-team' : ''} key={t.id}><th scope="row">{t.name}{t.isMine && ' · Benim takımım'}</th><td>{t.rated}/{t.count}</td>{NINE_CATEGORIES.map(c => <td key={c}>{rankLabel(v.ranks[c][t.id])} ({power(v.scores.find(s => s.teamId === t.id)?.score[c])})</td>)}</tr>)}</tbody></table></div></details></>;
+}

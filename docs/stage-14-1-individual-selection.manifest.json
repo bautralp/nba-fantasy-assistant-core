@@ -1,0 +1,14 @@
+{
+  "blobs": {
+    "comparison": "347630d7917d0d7478d8a578bd8a43fe3fda4b8c",
+    "new": "89b6ab293808211732a94194266fc931968423c2",
+    "new-cohorts": "b6609100b5501eac0ea7afaa9aea2ac3a9731fc9",
+    "old": "5991923555c51d22e61a58723fa8184b06e79a8a"
+  },
+  "cacheKey": "rookie-source-v1-39863989952-1",
+  "inputResearchCommit": "3ecfa56de37ac73f4a17b75e15fefe7b3f9905a4",
+  "policy": "individual-gp-v1",
+  "productionEnabled": false,
+  "researchCommit": "b6a2a812d1f2d25d10fde3e428b0f012bfe3b167",
+  "schemaVersion": 1
+}

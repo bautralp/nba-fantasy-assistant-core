@@ -1,0 +1,345 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nba-fantasy-assistant:player-projections:v1",
+  "title": "NBA Fantasy Assistant ROS v1",
+  "description": "Structural contract. rosProjection.ts also enforces shooting identities, ID joins, source provenance and shared 9CAT rank/Z consistency.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "modelVersion",
+    "season",
+    "kind",
+    "unit",
+    "asOf",
+    "generatedAt",
+    "refreshedAt",
+    "sources",
+    "positionReport",
+    "players"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "modelVersion": {
+      "const": 1
+    },
+    "season": {
+      "const": "2026-27"
+    },
+    "kind": {
+      "const": "projected-ros"
+    },
+    "unit": {
+      "const": "perGame"
+    },
+    "asOf": {
+      "type": "string",
+      "format": "date"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "refreshedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 4
+    },
+    "players": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "team",
+          "positions",
+          "eligibility",
+          "status",
+          "minutes",
+          "rosGP",
+          "teamRemaining",
+          "stats",
+          "role",
+          "confidence",
+          "uncertainty",
+          "asOf",
+          "generatedAt",
+          "rank",
+          "totalZ"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "team": {
+            "type": "string",
+            "minLength": 1
+          },
+          "positions": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "PG",
+                "SG",
+                "SF",
+                "PF",
+                "C"
+              ]
+            }
+          },
+          "status": {
+            "enum": [
+              "available",
+              "unavailable"
+            ]
+          },
+          "minutes": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 48
+          },
+          "rosGP": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "teamRemaining": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 82
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "uncertainty": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rank": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "totalZ": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "stats": {
+            "anyOf": [
+              {
+                "type": "object",
+                "required": [
+                  "FGM",
+                  "FGA",
+                  "FTM",
+                  "FTA",
+                  "3PM",
+                  "PTS",
+                  "REB",
+                  "AST",
+                  "STL",
+                  "BLK",
+                  "TO",
+                  "FG%",
+                  "FT%"
+                ],
+                "properties": {
+                  "FGM": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "FGA": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "FTM": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "FTA": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "3PM": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "PTS": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "REB": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "AST": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "STL": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "BLK": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "TO": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "FG%": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "FT%": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "eligibility": {
+            "type": "object",
+            "required": [
+              "playerId",
+              "season",
+              "positions",
+              "provider",
+              "source",
+              "retrievedAt",
+              "status"
+            ],
+            "properties": {
+              "playerId": {
+                "type": "string",
+                "pattern": "^[0-9]+$"
+              },
+              "season": {
+                "const": "2026-27"
+              },
+              "positions": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "enum": [
+                    "PG",
+                    "SG",
+                    "SF",
+                    "PF",
+                    "C"
+                  ]
+                }
+              },
+              "provider": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "retrievedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "status": {
+                "enum": [
+                  "verified",
+                  "unresolved"
+                ]
+              }
+            }
+          },
+          "asOf": {
+            "type": "string",
+            "format": "date"
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "experience": {
+            "enum": [
+              "rookie",
+              "returning-veteran",
+              "international-newcomer",
+              "limited-experience",
+              "veteran",
+              "unknown"
+            ]
+          },
+          "projectionBasis": {
+            "enum": [
+              "NBA history",
+              "NCAA-assisted",
+              "Rookie prior",
+              "Current NBA sample",
+              null
+            ]
+          },
+          "verifiedSourceDate": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "experienceReason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "draftIdentityVerified": {
+            "type": "boolean"
+          },
+          "nbaEntryVerified": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

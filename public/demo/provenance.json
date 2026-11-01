@@ -1,0 +1,16 @@
+{
+  "provenance": {
+    "kind": "synthetic",
+    "generator": "scripts/generate_public_demo.ts",
+    "notice": "Sentetik demo; gerçek ESPN/NBA gözlemi, lig veya tahmin değildir."
+  },
+  "stamp": "2026-11-01T10:00:00Z",
+  "files": {
+    "data/player-projections.json": "0351372efbb0874e8a9ffb9c020a65fa09a3e52e0210a0862d6c126e94b196a0",
+    "data/projection-scenarios.json": "d78d1bc345d02aa9e66ae42d58f17f20cebe176a873dee58a5a731d817902bf7",
+    "data/analysis-schedule.json": "db7e126ad540fe736305562522fa294663f8bbc27498f207cbafd4dbf012edba",
+    "data/projection-refresh-status.json": "bb0c9fbed2b86cc13486a08dddf6a734af839f173cdc18b8c3f8c62c450e5b40",
+    "league.json": "6926e779100bf96d0c94bdc1d8a804d3234ee89b4903d344c1fe8dd337ecc963",
+    "pool.json": "85e7fe332dfc241e15e37f7e874f570de8bed58baf391d7c106c30321cc9b47d"
+  }
+}

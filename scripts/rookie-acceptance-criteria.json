@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "version": "14.1-revision-1",
+  "registeredBeforeRevisionResults": true,
+  "productionEnabled": false,
+  "split": {
+    "trainingEndingYears": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "validationEndingYears": [
+      2019
+    ],
+    "untouchedHoldoutEndingYears": [
+      2020,
+      2021,
+      2022
+    ],
+    "previouslySeenDiagnosticEndingYears": [
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "checkpoints": [
+    0,
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "horizonTeamGames": 30,
+  "minimumFutureAppearancesForConditionalStats": 1,
+  "identity": {
+    "lotteryVerifiedRequired": 14,
+    "firstRoundVerifiedRequired": 30,
+    "selectedCoverageDenominator": 60,
+    "nameSimilarityOnlyForbidden": true,
+    "requiresOfficialDraftAndExplicitIdOrMultipleIdentitySignals": true
+  },
+  "sample": {
+    "minimumTrainingRookies": 150,
+    "minimumTrainingSeasons": 4,
+    "minimumGroupPlayers": 30,
+    "minimumNCAAPairs": 75,
+    "minimumConditionalHoldoutPlayersPerCheckpoint": 30
+  },
+  "accuracy": {
+    "metricScale": "MAE normalized by training-only target mean absolute deviation; percentages on 0..1",
+    "earlyCheckpoints": [
+      1,
+      3,
+      5
+    ],
+    "lateCheckpoints": [
+      10,
+      20
+    ],
+    "minimumEarlyCompositeImprovement": 0.05,
+    "maximumLateCompositeRegression": 0.02,
+    "minimumHoldoutSeasonsWithPositiveComposite": 2,
+    "maximumIndividualMetricRelativeRegression": 0.15,
+    "maximumMetricsOverRegressionLimit": 2
+  },
+  "availability": {
+    "includeFutureZeroAppearances": true,
+    "includeZeroNBAGamesDraftedPlayers": true,
+    "reportGPMAE": true,
+    "reportAnyAppearanceBrier": true,
+    "reportTotalsMAE": true,
+    "maximumGPMAERelativeRegression": 0.02,
+    "maximumBrierRelativeRegression": 0.02,
+    "rosterAndTradeLimitationsMustBeReported": true
+  },
+  "acceptance": "All identity/sample/data-reconciliation/regression/CI conditions must pass; accuracy uses only frozen holdout once. New criteria or parameter tuning after holdout inspection require a new untouched holdout. A pass does not automatically activate production."
+}

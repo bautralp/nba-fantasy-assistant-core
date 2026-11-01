@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "rookie-source-impact",
+  "purpose": "Research changes must not modify the original complete production scope.",
+  "historicalCommit": "ff25aaed9a9e2a47a00a1447efee3fef16df7926",
+  "protectedPaths": [
+    "public/data",
+    "scripts/rookie-parameters.json",
+    "scripts/rookie-profiles.json",
+    "scripts/rookie-acceptance-criteria.json",
+    "tests/fixtures",
+    "docs/stage-14-1-revision-backtest.json",
+    "docs/stage-14-1-revision-frozen-parameters.json",
+    "docs/stage-14-1-revision-coverage.json",
+    "docs/stage-14-1-revision-sources.json",
+    ".github/workflows/ci.yml",
+    ".github/workflows/refresh-stats.yml",
+    "src"
+  ],
+  "historicalStatus": "PRIVATE_ONLY_EXISTING_MISMATCH",
+  "publicCI": "Synthetic implementation tests only; no claim that historical guard passes.",
+  "trustedBaseRequirement": "External operator-reviewed immutable snapshot digest; never auto-rebaseline from candidate."
+}

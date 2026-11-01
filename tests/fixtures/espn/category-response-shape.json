@@ -1,0 +1,27 @@
+{
+  "id": 789, "seasonId": 2027, "scoringPeriodId": 23,
+  "settings": {
+    "name": "Synthetic category league", "isPublic": true,
+    "scoringSettings": {"scoringType": "H2H_MOST_CATEGORIES", "scoringItems": [
+      {"statId": 0, "points": 1, "pointsOverrides": {}, "leagueTotal": 0},
+      {"statId": 1, "points": 1}, {"statId": 2, "points": 1},
+      {"statId": 3, "points": 1}, {"statId": 6, "points": 1},
+      {"statId": 11, "points": 1, "isReverseItem": true},
+      {"statId": 17, "points": 1}, {"statId": 19, "points": 1},
+      {"statId": 20, "points": 1}
+    ]},
+    "rosterSettings": {"lineupSlotCounts": {"0": 1, "11": 2, "12": 1, "13": 1, "14": 0}}
+  },
+  "status": {"currentMatchupPeriod": 4, "latestScoringPeriod": 23, "isViewable": false},
+  "teams": [
+    {"id": 1, "name": "Synthetic A", "rankCalculatedFinal": 0, "rankFinal": 0, "playoffSeed": 2,
+      "record": {"overall": {"wins": 3, "losses": 0, "ties": 0}},
+      "valuesByStat": {"0": 321, "19": 0.4},
+      "roster": {"entries": [{"playerId": 901, "lineupSlotId": 11, "status": "NORMAL", "playerPoolEntry": {"player": {"id": 901, "fullName": "Synthetic Player", "proTeamId": 3, "eligibleSlots": [4, 11, 12, 13]}}}]}},
+    {"id": 2, "name": "Synthetic B", "rankCalculatedFinal": 0, "roster": {"entries": []}}
+  ],
+  "schedule": [
+    {"matchupPeriodId": 4, "home": {"teamId": 1, "totalPoints": 0, "cumulativeScore": {"wins": 5, "losses": 2, "ties": 2, "statBySlot": null}}, "away": {"teamId": 2, "totalPoints": 0, "cumulativeScore": {"wins": 2, "losses": 5, "ties": 2, "statBySlot": null}}},
+    {"matchupPeriodId": 5, "home": {"teamId": 1, "totalPoints": 0, "cumulativeScore": {"wins": 0, "losses": 0, "ties": 0, "statBySlot": null}}, "away": {"teamId": 2}}
+  ]
+}

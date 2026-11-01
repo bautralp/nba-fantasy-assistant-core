@@ -1,0 +1,123 @@
+
+@font-face { font-family: Michroma; src: url('/fonts/michroma-latin.woff2') format('woff2'); font-display: swap; }
+:root { --brand-font: Michroma, 'Eurostile', 'Trebuchet MS', sans-serif; --shadow: 0 8px 28px #182a4010; }
+body { background: linear-gradient(145deg, #8799ab 0%, #76899d 65%, #8193a5 100%); min-height: 100dvh; }
+.app-shell { width: calc(100% - 32px); max-width: 1888px; padding-bottom: 32px; }
+h1, h2, .main-card strong, .setup-step strong { font-family: var(--brand-font); font-weight: 400; letter-spacing: -.025em; }
+.app-header { padding-block: 20px; border-color: #2b40574a; }
+.app-header h1 { font-size: clamp(15px, 2vw, 24px); }
+.is-home .app-header { min-height: 32vh; justify-content: center; border: 0; text-align: center; }
+.is-home .app-header h1 { font-size: clamp(28px, 4.8vw, 78px); max-width: 1100px; line-height: 1.5; text-shadow: 0 1px #f1f4f766; }
+.is-home main { max-width: 1280px; margin-inline: auto; }
+.is-home #page-heading { font-family: inherit; text-align: center; font-size: 15px; }
+.session-note { font-size: 11px; margin-block: 10px; color: #102035; }
+.is-home .session-note { display: none; }
+.main-navigation { align-items: center; }
+/* The page title is the single way back to the main menu. */
+.brand-link { color: inherit; text-decoration: none; border-radius: 6px; }
+.brand-link:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; text-decoration-color: #e9bd49; }
+.brand-link[aria-current="page"] { cursor: default; text-decoration: none; }
+.panel, .main-card, .setup-step { border-radius: 14px; border: 1px solid #b1bfcd; box-shadow: var(--shadow); background: linear-gradient(155deg, #f8fafc, #edf1f5); }
+.main-card { min-height: 205px; border-top: 3px solid #e9bd49; gap: 18px; padding: 28px; }
+.main-card strong { font-size: clamp(15px, 1.35vw, 22px); line-height: 1.6; }
+.main-card > span { color: var(--muted); }
+button, input, select { border-radius: 8px; }
+button { transition: background 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease; }
+button:hover:not(:disabled) { box-shadow: 0 3px 10px #182a401a; }
+.main-card:hover:not(:disabled), .setup-step:hover:not(:disabled) { transform: translateY(-3px); background: #f8fafc; }
+button:active:not(:disabled) { transform: translateY(1px); }
+.primary { background: #182a40; color: #f1f4f7; }
+.primary:hover:not(:disabled) { background: #2b4057; }
+.workspace-tabs [aria-selected="true"] { background: #182a40; color: #f1f4f7; }
+.draft-columns { grid-template-columns: minmax(0, 1fr); }
+.draft-columns > * { min-width: 0; }
+.recommendations-panel { position: static; max-height: none; }
+.league-page { max-width: 1000px; margin-inline: auto; padding-top: 12px; }
+.app-shell:has(> main > div:not([hidden]) .league-page) > main > .main-navigation,
+.app-shell:has(> main > div:not([hidden]) .league-page) > main > .session-note { display: none; }
+@media (max-width: 650px) { .app-shell { width: calc(100% - 16px); } .panel { padding: 10px; } .main-card { min-height: 145px; padding: 20px; } .is-home .app-header { min-height: 26vh; } }
+@keyframes surface-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+.draft-dialog[open], .league-page, [role="tabpanel"]:not([hidden]) { animation: surface-in 200ms ease-out; }
+::view-transition-old(root) { animation-duration: 180ms; }
+::view-transition-new(root) { animation: surface-in 200ms ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+.player-table-frame { min-width: 0; max-width: 100%; margin-top: 10px; }
+.pagination { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding-block: 8px; font-size: 12px; }
+.pagination .actions { margin: 0; }
+.pagination button { min-height: 36px; }
+.top-scrollbar { overflow-x: auto; overflow-y: hidden; height: 18px; max-width: 100%; scrollbar-width: auto; background: #dce3ea; border: 1px solid #bac6d2; border-radius: 4px; }
+.player-table-frame .table-scroll { max-height: 65vh; overflow: auto; margin-top: 0; border: 1px solid #bac6d2; border-radius: 5px; isolation: isolate; }
+.player-table-frame .player-table { border-spacing: 0; border-collapse: separate; font-size: 12px; min-width: 1120px; width: 100%; white-space: nowrap; }
+.player-table-frame .player-table td, .player-table-frame .player-table th { padding: 7px 5px; text-align: right; border-bottom: 1px solid #cbd4dd; }
+.player-table-frame .player-table thead th { position: sticky; top: 0; z-index: 2; background: #dce3ea; color: #182a40; border-bottom: 2px solid #e9bd49; }
+.player-table-frame thead button { border: 0; padding: 2px 0; border-radius: 2px; min-height: 32px; font-size: 10px; font-weight: 750; background: transparent; white-space: nowrap; }
+/* The sort button fills its header cell, so the whole cell is clickable. */
+.player-table-frame .player-table thead th { padding: 0; cursor: pointer; }
+.player-table-frame thead th > button { display: block; width: 100%; min-height: 40px; padding: 7px 5px; text-align: inherit; border-radius: 0; cursor: pointer; }
+.player-table-frame thead th > button:hover:not(:disabled) { box-shadow: none; }
+.player-table-frame thead th > button:active:not(:disabled) { transform: none; }
+.player-table-frame .player-table thead th:hover, .player-table-frame .player-table thead th:has(> button:focus-visible) { background: var(--accent-soft); }
+.player-table-frame thead th > button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -3px; }
+.player-table-frame .player-table th:nth-child(2), .player-table-frame .player-table td:nth-child(2) { text-align: left; min-width: 145px; max-width: 185px; white-space: normal; }
+.player-table-frame td:nth-child(4) { font-size: 10px; }
+.player-table-frame tbody tr:nth-child(odd) td { background: #f1f4f7; }
+.player-table-frame tbody tr:nth-child(even) td { background: #e6ecf1; }
+.player-table-frame tbody tr:hover td { background: #dae4ec; }
+.player-table-frame td:first-child, .player-table-frame td:last-child { font-weight: 750; color: #182a40; }
+.player-table-frame tbody .picked-row td { background: #f0e9d5; }
+.player-table-frame .player-link { color: #182a40; font-size: 12px; }
+.player-table-frame small { display: block; font-size: 10px; color: #384e65; }
+.page-range { padding-block: 8px; }
+@media (min-width: 1360px) { .player-table-frame .player-table { min-width: 0; table-layout: auto; } }
+@media (max-width: 650px) { .player-table-frame .player-table { font-size: 12px; } .pagination { align-items: start; } }
+.stats-toolbar { display: flex; align-items: end; flex-wrap: wrap; gap: 12px 32px; margin-block: 16px; }
+.stats-toolbar label { min-width: 180px; }
+.stats-dates { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 12px; padding-block: 10px; }
+.player-search { max-width: 360px; margin-top: 12px; }
+.table-help { font-size: 12px; color: var(--muted); padding-block: 8px; }
+
+.app-shell:has(> main > div:not([hidden]) .league-page) #page-heading-draft { display: none; }
+
+.panel, .main-card, .setup-step, .draft-dialog { --text: #182A40; --muted: #384E65; --link: #2B4057; }
+.player-table-frame .player-table thead .player-name { left: 0; z-index: 3; }
+.player-table-frame .player-table tbody .player-name { left: 0; z-index: 1; font-weight: 500; }
+.main-cards, .source-cards, main > div:not([hidden]) { animation: surface-in 200ms ease-out; }
+@media (prefers-reduced-motion: reduce) { .main-cards, .source-cards, main > div:not([hidden]) { animation: none; } }
+.player-table-frame .top-scrollbar, .player-table-frame .table-scroll { scrollbar-color: #64758a #dce3ea; }
+.player-table-frame ::-webkit-scrollbar { width: 12px; height: 12px; }
+.player-table-frame ::-webkit-scrollbar-track { background: #dce3ea; }
+.player-table-frame ::-webkit-scrollbar-thumb { background: #64758a; border: 2px solid #dce3ea; border-radius: 6px; }
+/* Keep a pinned name from covering the whole viewport with long owner labels. */
+@media (max-width: 1359px) {
+  .player-table-frame .player-table { table-layout: fixed; }
+  .player-table-frame .player-table thead .player-name { width: 170px; }
+  .player-table-frame .player-table th:first-child { width: 48px; }
+}
+.player-table-frame .player-name small { max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 1359px) {
+  .player-table-frame .player-table th:nth-child(4) { width: 80px; }
+  .player-table-frame .player-table th:nth-child(9), .player-table-frame .player-table th:nth-child(12) { width: 60px; }
+  .player-table-frame .player-table th:last-child { width: 65px; }
+}
+
+@media (max-width: 650px) {
+  .player-table-frame .top-scrollbar { background: #e6edf3; scrollbar-color: #4f657d #e6edf3; }
+  .player-table-frame .top-scrollbar::-webkit-scrollbar-track { background: #e6edf3; }
+  .player-table-frame .top-scrollbar::-webkit-scrollbar-thumb { background: #4f657d; border-color: #e6edf3; }
+}
+
+/* A readable 320–340px recommendation rail starts where the pool still has
+   at least 850px. Narrower screens keep each panel at full width. */
+@media (min-width: 1280px) {
+  .draft-columns { grid-template-columns: minmax(0, 1fr) clamp(320px, 18vw, 340px); }
+  .recommendations-panel { position: sticky; top: 8px; max-height: calc(100dvh - 16px); }
+}
+/* The Draft pool scrolls within its column even on wide desktop screens. */
+.draft-columns .player-table-frame .player-table { min-width: 1120px; }
+.player-table-frame .player-table tbody tr { cursor: default; }
+.player-table-frame .player-table tbody .activatable-row { cursor: pointer; }
+.player-table-frame .activatable-row:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.player-table-frame .activatable-row:focus-visible td { box-shadow: inset 0 2px var(--focus-ring), inset 0 -2px var(--focus-ring); }
+.pool-rank-info { font-size: 12px; margin-block: 6px; }

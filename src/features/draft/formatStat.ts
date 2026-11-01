@@ -1,0 +1,1 @@
+export const formatStat = (value: number | null, percent = false) => value === null || !Number.isFinite(value) ? '—' : percent ? `${(value * 100).toFixed(1)}%` : Number.isInteger(value) ? String(value) : value.toFixed(2);

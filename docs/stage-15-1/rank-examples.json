@@ -1,0 +1,47 @@
+{
+  "source": "automatic",
+  "valid": 119,
+  "excluded": 1,
+  "examples": [
+    {
+      "player": "Fixture Player 114",
+      "rank": 1,
+      "totalZ": 3.020569628294214
+    },
+    {
+      "player": "Fixture Player 109",
+      "rank": 2,
+      "totalZ": 2.875626869381102
+    },
+    {
+      "player": "Fixture Player 104",
+      "rank": 3,
+      "totalZ": 2.7306841104679895
+    },
+    {
+      "player": "Fixture Player 099",
+      "rank": 4,
+      "totalZ": 2.5857413515548773
+    },
+    {
+      "player": "Fixture Player 094",
+      "rank": 5,
+      "totalZ": 2.440798592641765
+    },
+    {
+      "player": "Fixture Player 118",
+      "rank": 6,
+      "totalZ": 2.429366692300755
+    },
+    {
+      "player": "Fixture Player 089",
+      "rank": 7,
+      "totalZ": 2.295855833728653
+    },
+    {
+      "player": "Fixture Player 113",
+      "rank": 8,
+      "totalZ": 2.2844239333876426
+    }
+  ]
+}

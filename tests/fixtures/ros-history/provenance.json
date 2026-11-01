@@ -1,0 +1,115 @@
+{
+  "provider": "SportsDataverse ESPN NBA observed boxscores/schedules",
+  "license": "See docs/sportsdataverse-MIT-LICENSE.txt",
+  "scope": "New offline research fixtures; no modification of existing frozen corpus",
+  "files": [
+    {
+      "name": "nba_schedule_2019.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2019.parquet",
+      "sha256": "f00e6ac49c47ac34168f0b932fad74b0b17f03230b39e67eaf02424e3109eae3",
+      "bytes": 89329
+    },
+    {
+      "name": "nba_schedule_2020.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2020.parquet",
+      "sha256": "402485c4c3638838eade99aeba795bc0dda869c29089a5062baa28a34bd3b752",
+      "bytes": 137301
+    },
+    {
+      "name": "nba_schedule_2021.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2021.parquet",
+      "sha256": "0c2eab5b22cc956646ac0351ddf6110d9527e46f4ee4d9200bf2945051688392",
+      "bytes": 130148
+    },
+    {
+      "name": "nba_schedule_2022.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2022.parquet",
+      "sha256": "e3a764147f108c6fb3883eaa5617234ab41aa95e668dd7eb9506616c8a953d2f",
+      "bytes": 140437
+    },
+    {
+      "name": "nba_schedule_2023.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2023.parquet",
+      "sha256": "9532db81a254b2ea9982111fbea970bb61ea34b6aa3fc4607b2cad17ba55c60b",
+      "bytes": 138092
+    },
+    {
+      "name": "nba_schedule_2024.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2024.parquet",
+      "sha256": "2069783562b531b91ee9ad6a85358761ad6a611ce3291a60ed124bb978969b63",
+      "bytes": 143706
+    },
+    {
+      "name": "nba_schedule_2025.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2025.parquet",
+      "sha256": "239829fdcf99629ee682bca4d6d0a6709b3c095be39c39f425664754ae1a979e",
+      "bytes": 151821
+    },
+    {
+      "name": "nba_schedule_2026.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2026.parquet",
+      "sha256": "b3884aa4aa276d1fcafc71b69394675904a968902068bff634932e5d7afacae4",
+      "bytes": 525802
+    },
+    {
+      "name": "nba_schedule_2027.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2027.parquet",
+      "sha256": "dc53008e3d794703d058030ae3a20c7052aed2f91abdd04301efd639181ed1fa",
+      "bytes": 106094
+    },
+    {
+      "name": "player_box_2019.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2019.parquet",
+      "sha256": "dbdf7f55fc5b3929c48f56ee2e962c0e3b7b503a7cf1be916e8efbf444dd4dbe",
+      "bytes": 721558
+    },
+    {
+      "name": "player_box_2020.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2020.parquet",
+      "sha256": "9d9cb6be4517107d48745270102557b719f052b1dcc3cc90e3b8a3594e6b1eaa",
+      "bytes": 635116
+    },
+    {
+      "name": "player_box_2021.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2021.parquet",
+      "sha256": "50133d2a044dd9736e05b2c779e3faa3f0a03ed5f18219cf9f44962427c421c8",
+      "bytes": 546479
+    },
+    {
+      "name": "player_box_2022.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2022.parquet",
+      "sha256": "474d15255f2a908f2c0ac0f7104b504c3cf2815b02dd0b0097c69cb634fe4395",
+      "bytes": 605985
+    },
+    {
+      "name": "player_box_2023.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2023.parquet",
+      "sha256": "968d835cd04b10533c5b5af8c0e41bf0154a73782e9446c76f765109223e8679",
+      "bytes": 595949
+    },
+    {
+      "name": "player_box_2024.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2024.parquet",
+      "sha256": "1e500a538ec45ddbcb58d9789b5494f8db4f25658eafd01d90f2d09600921665",
+      "bytes": 610610
+    },
+    {
+      "name": "player_box_2025.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2025.parquet",
+      "sha256": "e89f7fbc1124092c715b722e6d72d9dd1b9d28776ca6888b508fd2831cd705e2",
+      "bytes": 610289
+    },
+    {
+      "name": "player_box_2026.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2026.parquet",
+      "sha256": "29a29dc9efd055a93e069a0382ac830d98a13274bee655beba69d95cff099713",
+      "bytes": 606444
+    },
+    {
+      "name": "player_box_2027.parquet",
+      "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2027.parquet",
+      "sha256": "decf09223dea530cdf8fdc10acfc1742e58d8612ab6551138e208fbd68e87513",
+      "bytes": 51665
+    }
+  ]
+}

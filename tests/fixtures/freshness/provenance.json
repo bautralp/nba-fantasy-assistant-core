@@ -1,0 +1,56 @@
+{
+  "player_box_2027.parquet": {
+    "sha256": "decf09223dea530cdf8fdc10acfc1742e58d8612ab6551138e208fbd68e87513",
+    "lastModifiedUTC": "2026-10-24T11:26:51Z",
+    "transformation": "Original downloaded bytes",
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2027.parquet"
+  },
+  "nba_schedule_2027.parquet": {
+    "sha256": "dc53008e3d794703d058030ae3a20c7052aed2f91abdd04301efd639181ed1fa",
+    "lastModifiedUTC": "2026-10-24T11:27:28Z",
+    "transformation": "Original downloaded bytes",
+    "source": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2027.parquet"
+  },
+  "espn-20261018.json": {
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261018",
+    "downloadedSha256": "73b077980c6c52f0f95bf3de8ba737571fd006236edcaf92671802fc39edc06c",
+    "fixtureSha256": "d6053dda260da778dcad98434c1a672afd317805d1079b735aa87943b454e6cf",
+    "transformation": "Only identity, date, season, status, competition type and team IDs; values unchanged"
+  },
+  "espn-20261019.json": {
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261019",
+    "downloadedSha256": "73b077980c6c52f0f95bf3de8ba737571fd006236edcaf92671802fc39edc06c",
+    "fixtureSha256": "d6053dda260da778dcad98434c1a672afd317805d1079b735aa87943b454e6cf",
+    "transformation": "Only identity, date, season, status, competition type and team IDs; values unchanged"
+  },
+  "espn-20261020.json": {
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261020",
+    "downloadedSha256": "f5854d257c53a8220500d7a56941a5db1fac251aff8a59123667937f44a204d9",
+    "fixtureSha256": "9ae6ff68106620e1da59fd8194adb7ccdcc0fa69e4fb9795955bf00dc6b7e050",
+    "transformation": "Only identity, date, season, status, competition type and team IDs; values unchanged"
+  },
+  "espn-20261021.json": {
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261021",
+    "downloadedSha256": "2e6378c5a6181211a0f14fb38e30e040ced498465142b8a1d51c55bef32351cf",
+    "fixtureSha256": "a750cf26a616a7d639545361e22bbddb9bbc02ba8383e57e5f2dbbcf03c2066b",
+    "transformation": "Only identity, date, season, status, competition type and team IDs; values unchanged"
+  },
+  "espn-20261022.json": {
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261022",
+    "downloadedSha256": "0b8dd2585b6058a27b839f263ae0e911e3c8e6aa33a77630b5bf446eb44f1458",
+    "fixtureSha256": "7325784aeb71545e59e4eafde7e22d7a76772f51f64abd83af80b88e2ed49566",
+    "transformation": "Only identity, date, season, status, competition type and team IDs; values unchanged"
+  },
+  "espn-20261023.json": {
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+    "downloadedSha256": "ce7b19ce82d8304a7a705e4132e1b3151bbd0596960453bfa7a622259dfe8864",
+    "fixtureSha256": "ab5239efb3bfd59cd47d8d312f28b78f67751f615e5c440458061174bd7d6858",
+    "transformation": "Only identity, date, season, status, competition type and team IDs; values unchanged"
+  },
+  "espn-20261024.json": {
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261024",
+    "downloadedSha256": "ebbbe320cb6f7251101614e0fa2bd4482216115c90ee51d05a08f4e6a88832db",
+    "fixtureSha256": "e70635383efe0476f657156bc0dd3b850a0354308e545986f68e41c1b5a0a9ff",
+    "transformation": "Only identity, date, season, status, competition type and team IDs; values unchanged"
+  }
+}

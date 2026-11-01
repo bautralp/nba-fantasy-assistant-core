@@ -1,0 +1,158 @@
+{
+  "280": {
+    "actual": {
+      "width": 280,
+      "label": "SportsDataverse oyuncu istatistikleri",
+      "overflow": true,
+      "available": 240,
+      "content": 1120,
+      "rows": 50
+    },
+    "ros": {
+      "width": 280,
+      "label": "Projected oyuncu s\u0131ralamalar\u0131",
+      "overflow": true,
+      "available": 240,
+      "content": 1120,
+      "rows": 50
+    },
+    "draft": {
+      "width": 280,
+      "label": "Oyuncu istatistik tablosu",
+      "overflow": true,
+      "available": 240,
+      "content": 1120,
+      "rows": 50
+    }
+  },
+  "375": {
+    "actual": {
+      "width": 375,
+      "label": "SportsDataverse oyuncu istatistikleri",
+      "overflow": true,
+      "available": 335,
+      "content": 1120,
+      "rows": 50
+    },
+    "ros": {
+      "width": 375,
+      "label": "Projected oyuncu s\u0131ralamalar\u0131",
+      "overflow": true,
+      "available": 335,
+      "content": 1120,
+      "rows": 50
+    },
+    "draft": {
+      "width": 375,
+      "label": "Oyuncu istatistik tablosu",
+      "overflow": true,
+      "available": 335,
+      "content": 1120,
+      "rows": 50
+    }
+  },
+  "768": {
+    "actual": {
+      "width": 768,
+      "label": "SportsDataverse oyuncu istatistikleri",
+      "overflow": true,
+      "available": 700,
+      "content": 1120,
+      "rows": 50
+    },
+    "ros": {
+      "width": 768,
+      "label": "Projected oyuncu s\u0131ralamalar\u0131",
+      "overflow": true,
+      "available": 700,
+      "content": 1120,
+      "rows": 50
+    },
+    "draft": {
+      "width": 768,
+      "label": "Oyuncu istatistik tablosu",
+      "overflow": true,
+      "available": 700,
+      "content": 1120,
+      "rows": 50
+    }
+  },
+  "1024": {
+    "actual": {
+      "width": 1024,
+      "label": "SportsDataverse oyuncu istatistikleri",
+      "overflow": true,
+      "available": 956,
+      "content": 1120,
+      "rows": 50
+    },
+    "ros": {
+      "width": 1024,
+      "label": "Projected oyuncu s\u0131ralamalar\u0131",
+      "overflow": true,
+      "available": 956,
+      "content": 1120,
+      "rows": 50
+    },
+    "draft": {
+      "width": 1024,
+      "label": "Oyuncu istatistik tablosu",
+      "overflow": true,
+      "available": 956,
+      "content": 1120,
+      "rows": 50
+    }
+  },
+  "1366": {
+    "actual": {
+      "width": 1366,
+      "label": "SportsDataverse oyuncu istatistikleri",
+      "overflow": false,
+      "available": 1298,
+      "content": 1298,
+      "rows": 50
+    },
+    "ros": {
+      "width": 1366,
+      "label": "Projected oyuncu s\u0131ralamalar\u0131",
+      "overflow": false,
+      "available": 1298,
+      "content": 1298,
+      "rows": 50
+    },
+    "draft": {
+      "width": 1366,
+      "label": "Oyuncu istatistik tablosu",
+      "overflow": false,
+      "available": 1298,
+      "content": 1298,
+      "rows": 50
+    }
+  },
+  "1920": {
+    "actual": {
+      "width": 1920,
+      "label": "SportsDataverse oyuncu istatistikleri",
+      "overflow": false,
+      "available": 1852,
+      "content": 1852,
+      "rows": 50
+    },
+    "ros": {
+      "width": 1920,
+      "label": "Projected oyuncu s\u0131ralamalar\u0131",
+      "overflow": false,
+      "available": 1852,
+      "content": 1852,
+      "rows": 50
+    },
+    "draft": {
+      "width": 1920,
+      "label": "Oyuncu istatistik tablosu",
+      "overflow": false,
+      "available": 1852,
+      "content": 1852,
+      "rows": 50
+    }
+  }
+}

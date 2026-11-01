@@ -1,0 +1,1622 @@
+{
+  "imported": {
+    "records": [
+      {
+        "id": "fixture000",
+        "name": "Fixture 000",
+        "rank": 140,
+        "pos": "PG",
+        "values": {
+          "gp": 40,
+          "fgm": 2,
+          "fga": 10,
+          "ftm": 0,
+          "fta": 5,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      }
+    ],
+    "duplicates": 0,
+    "incomplete": 0,
+    "name": "fixed-fixture.json",
+    "mode": "perGame"
+  },
+  "totals": [
+    {
+      "id": "fixture000",
+      "totals": {
+        "gp": 40,
+        "fgm": 80,
+        "fga": 400,
+        "ftm": 0,
+        "fta": 200,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    }
+  ],
+  "model": {
+    "valid": [
+      "fixture000"
+    ],
+    "baselines": {
+      "fg": 0.2,
+      "ft": 0
+    },
+    "means": {
+      "FG%": 0,
+      "FT%": 0,
+      "3PM": 0,
+      "PTS": 320,
+      "REB": 80,
+      "AST": 0,
+      "STL": 0,
+      "BLK": 0,
+      "TO": 0
+    },
+    "deviations": {
+      "FG%": 1,
+      "FT%": 1,
+      "3PM": 1,
+      "PTS": 1,
+      "REB": 1,
+      "AST": 1,
+      "STL": 1,
+      "BLK": 1,
+      "TO": 1
+    },
+    "z": {
+      "fixture000": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      }
+    },
+    "usable": true,
+    "referenceCount": 1
+  },
+  "scores": [
+    {
+      "name": "Team 0",
+      "i": 0,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 1",
+      "i": 1,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 2",
+      "i": 2,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 3",
+      "i": 3,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 4",
+      "i": 4,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 5",
+      "i": 5,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 6",
+      "i": 6,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 7",
+      "i": 7,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 8",
+      "i": 8,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 9",
+      "i": 9,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    }
+  ],
+  "ranks": {
+    "FG%": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "FT%": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "3PM": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "PTS": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "REB": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "AST": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "STL": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "BLK": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "TO": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    }
+  },
+  "balance": {
+    "selected": 0,
+    "remaining": 13,
+    "stage": "İlk turlar",
+    "entries": [
+      {
+        "cat": "FG%",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "FT%",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "3PM",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "PTS",
+        "target": "top7",
+        "status": "Başlangıç",
+        "desired": -0.04,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": -0.04,
+        "priority": 0.9859850000000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "STL",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "BLK",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "TO",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      }
+    ],
+    "byCat": {
+      "FG%": {
+        "cat": "FG%",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "FT%": {
+        "cat": "FT%",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "3PM": {
+        "cat": "3PM",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "PTS": {
+        "cat": "PTS",
+        "target": "top7",
+        "status": "Başlangıç",
+        "desired": -0.04,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": -0.04,
+        "priority": 0.9859850000000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "STL": {
+        "cat": "STL",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "BLK": {
+        "cat": "BLK",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "TO": {
+        "cat": "TO",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      }
+    }
+  },
+  "threats": [],
+  "suggestions": [
+    {
+      "p": "fixture000",
+      "score": 0.55,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "STL",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ],
+      "positive": []
+    }
+  ],
+  "lineups": [
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "fixture000",
+      "slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    }
+  ],
+  "snake": [
+    {
+      "n": 0,
+      "team": 0,
+      "round": 1
+    },
+    {
+      "n": 1,
+      "team": 1,
+      "round": 1
+    },
+    {
+      "n": 2,
+      "team": 2,
+      "round": 1
+    },
+    {
+      "n": 3,
+      "team": 3,
+      "round": 1
+    },
+    {
+      "n": 4,
+      "team": 4,
+      "round": 1
+    },
+    {
+      "n": 5,
+      "team": 5,
+      "round": 1
+    },
+    {
+      "n": 6,
+      "team": 6,
+      "round": 1
+    },
+    {
+      "n": 7,
+      "team": 7,
+      "round": 1
+    },
+    {
+      "n": 8,
+      "team": 8,
+      "round": 1
+    },
+    {
+      "n": 9,
+      "team": 9,
+      "round": 1
+    },
+    {
+      "n": 10,
+      "team": 9,
+      "round": 2
+    },
+    {
+      "n": 11,
+      "team": 8,
+      "round": 2
+    },
+    {
+      "n": 12,
+      "team": 7,
+      "round": 2
+    },
+    {
+      "n": 13,
+      "team": 6,
+      "round": 2
+    },
+    {
+      "n": 14,
+      "team": 5,
+      "round": 2
+    },
+    {
+      "n": 15,
+      "team": 4,
+      "round": 2
+    },
+    {
+      "n": 16,
+      "team": 3,
+      "round": 2
+    },
+    {
+      "n": 17,
+      "team": 2,
+      "round": 2
+    },
+    {
+      "n": 18,
+      "team": 1,
+      "round": 2
+    },
+    {
+      "n": 19,
+      "team": 0,
+      "round": 2
+    },
+    {
+      "n": 20,
+      "team": 0,
+      "round": 3
+    },
+    {
+      "n": 21,
+      "team": 1,
+      "round": 3
+    },
+    {
+      "n": 22,
+      "team": 2,
+      "round": 3
+    },
+    {
+      "n": 23,
+      "team": 3,
+      "round": 3
+    },
+    {
+      "n": 24,
+      "team": 4,
+      "round": 3
+    },
+    {
+      "n": 25,
+      "team": 5,
+      "round": 3
+    },
+    {
+      "n": 26,
+      "team": 6,
+      "round": 3
+    },
+    {
+      "n": 27,
+      "team": 7,
+      "round": 3
+    },
+    {
+      "n": 28,
+      "team": 8,
+      "round": 3
+    },
+    {
+      "n": 29,
+      "team": 9,
+      "round": 3
+    },
+    {
+      "n": 30,
+      "team": 9,
+      "round": 4
+    },
+    {
+      "n": 31,
+      "team": 8,
+      "round": 4
+    },
+    {
+      "n": 32,
+      "team": 7,
+      "round": 4
+    },
+    {
+      "n": 33,
+      "team": 6,
+      "round": 4
+    },
+    {
+      "n": 34,
+      "team": 5,
+      "round": 4
+    },
+    {
+      "n": 35,
+      "team": 4,
+      "round": 4
+    },
+    {
+      "n": 36,
+      "team": 3,
+      "round": 4
+    },
+    {
+      "n": 37,
+      "team": 2,
+      "round": 4
+    },
+    {
+      "n": 38,
+      "team": 1,
+      "round": 4
+    },
+    {
+      "n": 39,
+      "team": 0,
+      "round": 4
+    },
+    {
+      "n": 40,
+      "team": 0,
+      "round": 5
+    },
+    {
+      "n": 41,
+      "team": 1,
+      "round": 5
+    },
+    {
+      "n": 42,
+      "team": 2,
+      "round": 5
+    },
+    {
+      "n": 43,
+      "team": 3,
+      "round": 5
+    },
+    {
+      "n": 44,
+      "team": 4,
+      "round": 5
+    },
+    {
+      "n": 45,
+      "team": 5,
+      "round": 5
+    },
+    {
+      "n": 46,
+      "team": 6,
+      "round": 5
+    },
+    {
+      "n": 47,
+      "team": 7,
+      "round": 5
+    },
+    {
+      "n": 48,
+      "team": 8,
+      "round": 5
+    },
+    {
+      "n": 49,
+      "team": 9,
+      "round": 5
+    },
+    {
+      "n": 50,
+      "team": 9,
+      "round": 6
+    },
+    {
+      "n": 51,
+      "team": 8,
+      "round": 6
+    },
+    {
+      "n": 52,
+      "team": 7,
+      "round": 6
+    },
+    {
+      "n": 53,
+      "team": 6,
+      "round": 6
+    },
+    {
+      "n": 54,
+      "team": 5,
+      "round": 6
+    },
+    {
+      "n": 55,
+      "team": 4,
+      "round": 6
+    },
+    {
+      "n": 56,
+      "team": 3,
+      "round": 6
+    },
+    {
+      "n": 57,
+      "team": 2,
+      "round": 6
+    },
+    {
+      "n": 58,
+      "team": 1,
+      "round": 6
+    },
+    {
+      "n": 59,
+      "team": 0,
+      "round": 6
+    },
+    {
+      "n": 60,
+      "team": 0,
+      "round": 7
+    },
+    {
+      "n": 61,
+      "team": 1,
+      "round": 7
+    },
+    {
+      "n": 62,
+      "team": 2,
+      "round": 7
+    },
+    {
+      "n": 63,
+      "team": 3,
+      "round": 7
+    },
+    {
+      "n": 64,
+      "team": 4,
+      "round": 7
+    },
+    {
+      "n": 65,
+      "team": 5,
+      "round": 7
+    },
+    {
+      "n": 66,
+      "team": 6,
+      "round": 7
+    },
+    {
+      "n": 67,
+      "team": 7,
+      "round": 7
+    },
+    {
+      "n": 68,
+      "team": 8,
+      "round": 7
+    },
+    {
+      "n": 69,
+      "team": 9,
+      "round": 7
+    },
+    {
+      "n": 70,
+      "team": 9,
+      "round": 8
+    },
+    {
+      "n": 71,
+      "team": 8,
+      "round": 8
+    },
+    {
+      "n": 72,
+      "team": 7,
+      "round": 8
+    },
+    {
+      "n": 73,
+      "team": 6,
+      "round": 8
+    },
+    {
+      "n": 74,
+      "team": 5,
+      "round": 8
+    },
+    {
+      "n": 75,
+      "team": 4,
+      "round": 8
+    },
+    {
+      "n": 76,
+      "team": 3,
+      "round": 8
+    },
+    {
+      "n": 77,
+      "team": 2,
+      "round": 8
+    },
+    {
+      "n": 78,
+      "team": 1,
+      "round": 8
+    },
+    {
+      "n": 79,
+      "team": 0,
+      "round": 8
+    },
+    {
+      "n": 80,
+      "team": 0,
+      "round": 9
+    },
+    {
+      "n": 81,
+      "team": 1,
+      "round": 9
+    },
+    {
+      "n": 82,
+      "team": 2,
+      "round": 9
+    },
+    {
+      "n": 83,
+      "team": 3,
+      "round": 9
+    },
+    {
+      "n": 84,
+      "team": 4,
+      "round": 9
+    },
+    {
+      "n": 85,
+      "team": 5,
+      "round": 9
+    },
+    {
+      "n": 86,
+      "team": 6,
+      "round": 9
+    },
+    {
+      "n": 87,
+      "team": 7,
+      "round": 9
+    },
+    {
+      "n": 88,
+      "team": 8,
+      "round": 9
+    },
+    {
+      "n": 89,
+      "team": 9,
+      "round": 9
+    },
+    {
+      "n": 90,
+      "team": 9,
+      "round": 10
+    },
+    {
+      "n": 91,
+      "team": 8,
+      "round": 10
+    },
+    {
+      "n": 92,
+      "team": 7,
+      "round": 10
+    },
+    {
+      "n": 93,
+      "team": 6,
+      "round": 10
+    },
+    {
+      "n": 94,
+      "team": 5,
+      "round": 10
+    },
+    {
+      "n": 95,
+      "team": 4,
+      "round": 10
+    },
+    {
+      "n": 96,
+      "team": 3,
+      "round": 10
+    },
+    {
+      "n": 97,
+      "team": 2,
+      "round": 10
+    },
+    {
+      "n": 98,
+      "team": 1,
+      "round": 10
+    },
+    {
+      "n": 99,
+      "team": 0,
+      "round": 10
+    },
+    {
+      "n": 100,
+      "team": 0,
+      "round": 11
+    },
+    {
+      "n": 101,
+      "team": 1,
+      "round": 11
+    },
+    {
+      "n": 102,
+      "team": 2,
+      "round": 11
+    },
+    {
+      "n": 103,
+      "team": 3,
+      "round": 11
+    },
+    {
+      "n": 104,
+      "team": 4,
+      "round": 11
+    },
+    {
+      "n": 105,
+      "team": 5,
+      "round": 11
+    },
+    {
+      "n": 106,
+      "team": 6,
+      "round": 11
+    },
+    {
+      "n": 107,
+      "team": 7,
+      "round": 11
+    },
+    {
+      "n": 108,
+      "team": 8,
+      "round": 11
+    },
+    {
+      "n": 109,
+      "team": 9,
+      "round": 11
+    },
+    {
+      "n": 110,
+      "team": 9,
+      "round": 12
+    },
+    {
+      "n": 111,
+      "team": 8,
+      "round": 12
+    },
+    {
+      "n": 112,
+      "team": 7,
+      "round": 12
+    },
+    {
+      "n": 113,
+      "team": 6,
+      "round": 12
+    },
+    {
+      "n": 114,
+      "team": 5,
+      "round": 12
+    },
+    {
+      "n": 115,
+      "team": 4,
+      "round": 12
+    },
+    {
+      "n": 116,
+      "team": 3,
+      "round": 12
+    },
+    {
+      "n": 117,
+      "team": 2,
+      "round": 12
+    },
+    {
+      "n": 118,
+      "team": 1,
+      "round": 12
+    },
+    {
+      "n": 119,
+      "team": 0,
+      "round": 12
+    },
+    {
+      "n": 120,
+      "team": 0,
+      "round": 13
+    },
+    {
+      "n": 121,
+      "team": 1,
+      "round": 13
+    },
+    {
+      "n": 122,
+      "team": 2,
+      "round": 13
+    },
+    {
+      "n": 123,
+      "team": 3,
+      "round": 13
+    },
+    {
+      "n": 124,
+      "team": 4,
+      "round": 13
+    },
+    {
+      "n": 125,
+      "team": 5,
+      "round": 13
+    },
+    {
+      "n": 126,
+      "team": 6,
+      "round": 13
+    },
+    {
+      "n": 127,
+      "team": 7,
+      "round": 13
+    },
+    {
+      "n": 128,
+      "team": 8,
+      "round": 13
+    },
+    {
+      "n": 129,
+      "team": 9,
+      "round": 13
+    },
+    {
+      "n": 130,
+      "team": 9,
+      "round": 14
+    }
+  ],
+  "next": 1,
+  "turn": true,
+  "picks": [],
+  "tieRanks": {
+    "FG%": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "FT%": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "3PM": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "PTS": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "REB": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "AST": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "STL": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "BLK": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "TO": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    }
+  },
+  "checkpoints": [],
+  "dialogs": []
+}

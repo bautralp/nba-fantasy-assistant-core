@@ -1,0 +1,4264 @@
+[
+  {
+    "name": "empty-pool",
+    "pool": [],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": []
+  },
+  {
+    "name": "empty-rosters",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": []
+  },
+  {
+    "name": "single-player",
+    "pool": [
+      0
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": []
+  },
+  {
+    "name": "early",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      }
+    ]
+  },
+  {
+    "name": "middle",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      },
+      {
+        "id": "fixture012",
+        "team": 7
+      },
+      {
+        "id": "fixture013",
+        "team": 6
+      },
+      {
+        "id": "fixture014",
+        "team": 5
+      },
+      {
+        "id": "fixture015",
+        "team": 4
+      },
+      {
+        "id": "fixture016",
+        "team": 3
+      },
+      {
+        "id": "fixture017",
+        "team": 2
+      },
+      {
+        "id": "fixture018",
+        "team": 1
+      },
+      {
+        "id": "fixture019",
+        "team": 0
+      },
+      {
+        "id": "fixture020",
+        "team": 0
+      },
+      {
+        "id": "fixture021",
+        "team": 1
+      },
+      {
+        "id": "fixture022",
+        "team": 2
+      },
+      {
+        "id": "fixture023",
+        "team": 3
+      },
+      {
+        "id": "fixture024",
+        "team": 4
+      },
+      {
+        "id": "fixture025",
+        "team": 5
+      },
+      {
+        "id": "fixture026",
+        "team": 6
+      },
+      {
+        "id": "fixture027",
+        "team": 7
+      },
+      {
+        "id": "fixture028",
+        "team": 8
+      },
+      {
+        "id": "fixture029",
+        "team": 9
+      },
+      {
+        "id": "fixture030",
+        "team": 9
+      },
+      {
+        "id": "fixture031",
+        "team": 8
+      },
+      {
+        "id": "fixture032",
+        "team": 7
+      },
+      {
+        "id": "fixture033",
+        "team": 6
+      },
+      {
+        "id": "fixture034",
+        "team": 5
+      },
+      {
+        "id": "fixture035",
+        "team": 4
+      },
+      {
+        "id": "fixture036",
+        "team": 3
+      },
+      {
+        "id": "fixture037",
+        "team": 2
+      },
+      {
+        "id": "fixture038",
+        "team": 1
+      },
+      {
+        "id": "fixture039",
+        "team": 0
+      },
+      {
+        "id": "fixture040",
+        "team": 0
+      },
+      {
+        "id": "fixture041",
+        "team": 1
+      },
+      {
+        "id": "fixture042",
+        "team": 2
+      },
+      {
+        "id": "fixture043",
+        "team": 3
+      },
+      {
+        "id": "fixture044",
+        "team": 4
+      },
+      {
+        "id": "fixture045",
+        "team": 5
+      },
+      {
+        "id": "fixture046",
+        "team": 6
+      },
+      {
+        "id": "fixture047",
+        "team": 7
+      },
+      {
+        "id": "fixture048",
+        "team": 8
+      },
+      {
+        "id": "fixture049",
+        "team": 9
+      },
+      {
+        "id": "fixture050",
+        "team": 9
+      }
+    ]
+  },
+  {
+    "name": "late",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      },
+      {
+        "id": "fixture012",
+        "team": 7
+      },
+      {
+        "id": "fixture013",
+        "team": 6
+      },
+      {
+        "id": "fixture014",
+        "team": 5
+      },
+      {
+        "id": "fixture015",
+        "team": 4
+      },
+      {
+        "id": "fixture016",
+        "team": 3
+      },
+      {
+        "id": "fixture017",
+        "team": 2
+      },
+      {
+        "id": "fixture018",
+        "team": 1
+      },
+      {
+        "id": "fixture019",
+        "team": 0
+      },
+      {
+        "id": "fixture020",
+        "team": 0
+      },
+      {
+        "id": "fixture021",
+        "team": 1
+      },
+      {
+        "id": "fixture022",
+        "team": 2
+      },
+      {
+        "id": "fixture023",
+        "team": 3
+      },
+      {
+        "id": "fixture024",
+        "team": 4
+      },
+      {
+        "id": "fixture025",
+        "team": 5
+      },
+      {
+        "id": "fixture026",
+        "team": 6
+      },
+      {
+        "id": "fixture027",
+        "team": 7
+      },
+      {
+        "id": "fixture028",
+        "team": 8
+      },
+      {
+        "id": "fixture029",
+        "team": 9
+      },
+      {
+        "id": "fixture030",
+        "team": 9
+      },
+      {
+        "id": "fixture031",
+        "team": 8
+      },
+      {
+        "id": "fixture032",
+        "team": 7
+      },
+      {
+        "id": "fixture033",
+        "team": 6
+      },
+      {
+        "id": "fixture034",
+        "team": 5
+      },
+      {
+        "id": "fixture035",
+        "team": 4
+      },
+      {
+        "id": "fixture036",
+        "team": 3
+      },
+      {
+        "id": "fixture037",
+        "team": 2
+      },
+      {
+        "id": "fixture038",
+        "team": 1
+      },
+      {
+        "id": "fixture039",
+        "team": 0
+      },
+      {
+        "id": "fixture040",
+        "team": 0
+      },
+      {
+        "id": "fixture041",
+        "team": 1
+      },
+      {
+        "id": "fixture042",
+        "team": 2
+      },
+      {
+        "id": "fixture043",
+        "team": 3
+      },
+      {
+        "id": "fixture044",
+        "team": 4
+      },
+      {
+        "id": "fixture045",
+        "team": 5
+      },
+      {
+        "id": "fixture046",
+        "team": 6
+      },
+      {
+        "id": "fixture047",
+        "team": 7
+      },
+      {
+        "id": "fixture048",
+        "team": 8
+      },
+      {
+        "id": "fixture049",
+        "team": 9
+      },
+      {
+        "id": "fixture050",
+        "team": 9
+      },
+      {
+        "id": "fixture051",
+        "team": 8
+      },
+      {
+        "id": "fixture052",
+        "team": 7
+      },
+      {
+        "id": "fixture053",
+        "team": 6
+      },
+      {
+        "id": "fixture054",
+        "team": 5
+      },
+      {
+        "id": "fixture055",
+        "team": 4
+      },
+      {
+        "id": "fixture056",
+        "team": 3
+      },
+      {
+        "id": "fixture057",
+        "team": 2
+      },
+      {
+        "id": "fixture058",
+        "team": 1
+      },
+      {
+        "id": "fixture059",
+        "team": 0
+      },
+      {
+        "id": "fixture060",
+        "team": 0
+      },
+      {
+        "id": "fixture061",
+        "team": 1
+      },
+      {
+        "id": "fixture062",
+        "team": 2
+      },
+      {
+        "id": "fixture063",
+        "team": 3
+      },
+      {
+        "id": "fixture064",
+        "team": 4
+      },
+      {
+        "id": "fixture065",
+        "team": 5
+      },
+      {
+        "id": "fixture066",
+        "team": 6
+      },
+      {
+        "id": "fixture067",
+        "team": 7
+      },
+      {
+        "id": "fixture068",
+        "team": 8
+      },
+      {
+        "id": "fixture069",
+        "team": 9
+      },
+      {
+        "id": "fixture070",
+        "team": 9
+      },
+      {
+        "id": "fixture071",
+        "team": 8
+      },
+      {
+        "id": "fixture072",
+        "team": 7
+      },
+      {
+        "id": "fixture073",
+        "team": 6
+      },
+      {
+        "id": "fixture074",
+        "team": 5
+      },
+      {
+        "id": "fixture075",
+        "team": 4
+      },
+      {
+        "id": "fixture076",
+        "team": 3
+      },
+      {
+        "id": "fixture077",
+        "team": 2
+      },
+      {
+        "id": "fixture078",
+        "team": 1
+      },
+      {
+        "id": "fixture079",
+        "team": 0
+      },
+      {
+        "id": "fixture080",
+        "team": 0
+      },
+      {
+        "id": "fixture081",
+        "team": 1
+      },
+      {
+        "id": "fixture082",
+        "team": 2
+      },
+      {
+        "id": "fixture083",
+        "team": 3
+      },
+      {
+        "id": "fixture084",
+        "team": 4
+      },
+      {
+        "id": "fixture085",
+        "team": 5
+      },
+      {
+        "id": "fixture086",
+        "team": 6
+      },
+      {
+        "id": "fixture087",
+        "team": 7
+      },
+      {
+        "id": "fixture088",
+        "team": 8
+      },
+      {
+        "id": "fixture089",
+        "team": 9
+      },
+      {
+        "id": "fixture090",
+        "team": 9
+      },
+      {
+        "id": "fixture091",
+        "team": 8
+      },
+      {
+        "id": "fixture092",
+        "team": 7
+      },
+      {
+        "id": "fixture093",
+        "team": 6
+      },
+      {
+        "id": "fixture094",
+        "team": 5
+      },
+      {
+        "id": "fixture095",
+        "team": 4
+      },
+      {
+        "id": "fixture096",
+        "team": 3
+      },
+      {
+        "id": "fixture097",
+        "team": 2
+      },
+      {
+        "id": "fixture098",
+        "team": 1
+      },
+      {
+        "id": "fixture099",
+        "team": 0
+      },
+      {
+        "id": "fixture100",
+        "team": 0
+      }
+    ]
+  },
+  {
+    "name": "last-pick",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "mode": "perGame",
+    "myTeam": 9,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      },
+      {
+        "id": "fixture012",
+        "team": 7
+      },
+      {
+        "id": "fixture013",
+        "team": 6
+      },
+      {
+        "id": "fixture014",
+        "team": 5
+      },
+      {
+        "id": "fixture015",
+        "team": 4
+      },
+      {
+        "id": "fixture016",
+        "team": 3
+      },
+      {
+        "id": "fixture017",
+        "team": 2
+      },
+      {
+        "id": "fixture018",
+        "team": 1
+      },
+      {
+        "id": "fixture019",
+        "team": 0
+      },
+      {
+        "id": "fixture020",
+        "team": 0
+      },
+      {
+        "id": "fixture021",
+        "team": 1
+      },
+      {
+        "id": "fixture022",
+        "team": 2
+      },
+      {
+        "id": "fixture023",
+        "team": 3
+      },
+      {
+        "id": "fixture024",
+        "team": 4
+      },
+      {
+        "id": "fixture025",
+        "team": 5
+      },
+      {
+        "id": "fixture026",
+        "team": 6
+      },
+      {
+        "id": "fixture027",
+        "team": 7
+      },
+      {
+        "id": "fixture028",
+        "team": 8
+      },
+      {
+        "id": "fixture029",
+        "team": 9
+      },
+      {
+        "id": "fixture030",
+        "team": 9
+      },
+      {
+        "id": "fixture031",
+        "team": 8
+      },
+      {
+        "id": "fixture032",
+        "team": 7
+      },
+      {
+        "id": "fixture033",
+        "team": 6
+      },
+      {
+        "id": "fixture034",
+        "team": 5
+      },
+      {
+        "id": "fixture035",
+        "team": 4
+      },
+      {
+        "id": "fixture036",
+        "team": 3
+      },
+      {
+        "id": "fixture037",
+        "team": 2
+      },
+      {
+        "id": "fixture038",
+        "team": 1
+      },
+      {
+        "id": "fixture039",
+        "team": 0
+      },
+      {
+        "id": "fixture040",
+        "team": 0
+      },
+      {
+        "id": "fixture041",
+        "team": 1
+      },
+      {
+        "id": "fixture042",
+        "team": 2
+      },
+      {
+        "id": "fixture043",
+        "team": 3
+      },
+      {
+        "id": "fixture044",
+        "team": 4
+      },
+      {
+        "id": "fixture045",
+        "team": 5
+      },
+      {
+        "id": "fixture046",
+        "team": 6
+      },
+      {
+        "id": "fixture047",
+        "team": 7
+      },
+      {
+        "id": "fixture048",
+        "team": 8
+      },
+      {
+        "id": "fixture049",
+        "team": 9
+      },
+      {
+        "id": "fixture050",
+        "team": 9
+      },
+      {
+        "id": "fixture051",
+        "team": 8
+      },
+      {
+        "id": "fixture052",
+        "team": 7
+      },
+      {
+        "id": "fixture053",
+        "team": 6
+      },
+      {
+        "id": "fixture054",
+        "team": 5
+      },
+      {
+        "id": "fixture055",
+        "team": 4
+      },
+      {
+        "id": "fixture056",
+        "team": 3
+      },
+      {
+        "id": "fixture057",
+        "team": 2
+      },
+      {
+        "id": "fixture058",
+        "team": 1
+      },
+      {
+        "id": "fixture059",
+        "team": 0
+      },
+      {
+        "id": "fixture060",
+        "team": 0
+      },
+      {
+        "id": "fixture061",
+        "team": 1
+      },
+      {
+        "id": "fixture062",
+        "team": 2
+      },
+      {
+        "id": "fixture063",
+        "team": 3
+      },
+      {
+        "id": "fixture064",
+        "team": 4
+      },
+      {
+        "id": "fixture065",
+        "team": 5
+      },
+      {
+        "id": "fixture066",
+        "team": 6
+      },
+      {
+        "id": "fixture067",
+        "team": 7
+      },
+      {
+        "id": "fixture068",
+        "team": 8
+      },
+      {
+        "id": "fixture069",
+        "team": 9
+      },
+      {
+        "id": "fixture070",
+        "team": 9
+      },
+      {
+        "id": "fixture071",
+        "team": 8
+      },
+      {
+        "id": "fixture072",
+        "team": 7
+      },
+      {
+        "id": "fixture073",
+        "team": 6
+      },
+      {
+        "id": "fixture074",
+        "team": 5
+      },
+      {
+        "id": "fixture075",
+        "team": 4
+      },
+      {
+        "id": "fixture076",
+        "team": 3
+      },
+      {
+        "id": "fixture077",
+        "team": 2
+      },
+      {
+        "id": "fixture078",
+        "team": 1
+      },
+      {
+        "id": "fixture079",
+        "team": 0
+      },
+      {
+        "id": "fixture080",
+        "team": 0
+      },
+      {
+        "id": "fixture081",
+        "team": 1
+      },
+      {
+        "id": "fixture082",
+        "team": 2
+      },
+      {
+        "id": "fixture083",
+        "team": 3
+      },
+      {
+        "id": "fixture084",
+        "team": 4
+      },
+      {
+        "id": "fixture085",
+        "team": 5
+      },
+      {
+        "id": "fixture086",
+        "team": 6
+      },
+      {
+        "id": "fixture087",
+        "team": 7
+      },
+      {
+        "id": "fixture088",
+        "team": 8
+      },
+      {
+        "id": "fixture089",
+        "team": 9
+      },
+      {
+        "id": "fixture090",
+        "team": 9
+      },
+      {
+        "id": "fixture091",
+        "team": 8
+      },
+      {
+        "id": "fixture092",
+        "team": 7
+      },
+      {
+        "id": "fixture093",
+        "team": 6
+      },
+      {
+        "id": "fixture094",
+        "team": 5
+      },
+      {
+        "id": "fixture095",
+        "team": 4
+      },
+      {
+        "id": "fixture096",
+        "team": 3
+      },
+      {
+        "id": "fixture097",
+        "team": 2
+      },
+      {
+        "id": "fixture098",
+        "team": 1
+      },
+      {
+        "id": "fixture099",
+        "team": 0
+      },
+      {
+        "id": "fixture100",
+        "team": 0
+      },
+      {
+        "id": "fixture101",
+        "team": 1
+      },
+      {
+        "id": "fixture102",
+        "team": 2
+      },
+      {
+        "id": "fixture103",
+        "team": 3
+      },
+      {
+        "id": "fixture104",
+        "team": 4
+      },
+      {
+        "id": "fixture105",
+        "team": 5
+      },
+      {
+        "id": "fixture106",
+        "team": 6
+      },
+      {
+        "id": "fixture107",
+        "team": 7
+      },
+      {
+        "id": "fixture108",
+        "team": 8
+      },
+      {
+        "id": "fixture109",
+        "team": 9
+      },
+      {
+        "id": "fixture110",
+        "team": 9
+      },
+      {
+        "id": "fixture111",
+        "team": 8
+      },
+      {
+        "id": "fixture112",
+        "team": 7
+      },
+      {
+        "id": "fixture113",
+        "team": 6
+      },
+      {
+        "id": "fixture114",
+        "team": 5
+      },
+      {
+        "id": "fixture115",
+        "team": 4
+      },
+      {
+        "id": "fixture116",
+        "team": 3
+      },
+      {
+        "id": "fixture117",
+        "team": 2
+      },
+      {
+        "id": "fixture118",
+        "team": 1
+      },
+      {
+        "id": "fixture119",
+        "team": 0
+      },
+      {
+        "id": "fixture120",
+        "team": 0
+      },
+      {
+        "id": "fixture121",
+        "team": 1
+      },
+      {
+        "id": "fixture122",
+        "team": 2
+      },
+      {
+        "id": "fixture123",
+        "team": 3
+      },
+      {
+        "id": "fixture124",
+        "team": 4
+      },
+      {
+        "id": "fixture125",
+        "team": 5
+      },
+      {
+        "id": "fixture126",
+        "team": 6
+      },
+      {
+        "id": "fixture127",
+        "team": 7
+      },
+      {
+        "id": "fixture128",
+        "team": 8
+      }
+    ]
+  },
+  {
+    "name": "completed",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      },
+      {
+        "id": "fixture012",
+        "team": 7
+      },
+      {
+        "id": "fixture013",
+        "team": 6
+      },
+      {
+        "id": "fixture014",
+        "team": 5
+      },
+      {
+        "id": "fixture015",
+        "team": 4
+      },
+      {
+        "id": "fixture016",
+        "team": 3
+      },
+      {
+        "id": "fixture017",
+        "team": 2
+      },
+      {
+        "id": "fixture018",
+        "team": 1
+      },
+      {
+        "id": "fixture019",
+        "team": 0
+      },
+      {
+        "id": "fixture020",
+        "team": 0
+      },
+      {
+        "id": "fixture021",
+        "team": 1
+      },
+      {
+        "id": "fixture022",
+        "team": 2
+      },
+      {
+        "id": "fixture023",
+        "team": 3
+      },
+      {
+        "id": "fixture024",
+        "team": 4
+      },
+      {
+        "id": "fixture025",
+        "team": 5
+      },
+      {
+        "id": "fixture026",
+        "team": 6
+      },
+      {
+        "id": "fixture027",
+        "team": 7
+      },
+      {
+        "id": "fixture028",
+        "team": 8
+      },
+      {
+        "id": "fixture029",
+        "team": 9
+      },
+      {
+        "id": "fixture030",
+        "team": 9
+      },
+      {
+        "id": "fixture031",
+        "team": 8
+      },
+      {
+        "id": "fixture032",
+        "team": 7
+      },
+      {
+        "id": "fixture033",
+        "team": 6
+      },
+      {
+        "id": "fixture034",
+        "team": 5
+      },
+      {
+        "id": "fixture035",
+        "team": 4
+      },
+      {
+        "id": "fixture036",
+        "team": 3
+      },
+      {
+        "id": "fixture037",
+        "team": 2
+      },
+      {
+        "id": "fixture038",
+        "team": 1
+      },
+      {
+        "id": "fixture039",
+        "team": 0
+      },
+      {
+        "id": "fixture040",
+        "team": 0
+      },
+      {
+        "id": "fixture041",
+        "team": 1
+      },
+      {
+        "id": "fixture042",
+        "team": 2
+      },
+      {
+        "id": "fixture043",
+        "team": 3
+      },
+      {
+        "id": "fixture044",
+        "team": 4
+      },
+      {
+        "id": "fixture045",
+        "team": 5
+      },
+      {
+        "id": "fixture046",
+        "team": 6
+      },
+      {
+        "id": "fixture047",
+        "team": 7
+      },
+      {
+        "id": "fixture048",
+        "team": 8
+      },
+      {
+        "id": "fixture049",
+        "team": 9
+      },
+      {
+        "id": "fixture050",
+        "team": 9
+      },
+      {
+        "id": "fixture051",
+        "team": 8
+      },
+      {
+        "id": "fixture052",
+        "team": 7
+      },
+      {
+        "id": "fixture053",
+        "team": 6
+      },
+      {
+        "id": "fixture054",
+        "team": 5
+      },
+      {
+        "id": "fixture055",
+        "team": 4
+      },
+      {
+        "id": "fixture056",
+        "team": 3
+      },
+      {
+        "id": "fixture057",
+        "team": 2
+      },
+      {
+        "id": "fixture058",
+        "team": 1
+      },
+      {
+        "id": "fixture059",
+        "team": 0
+      },
+      {
+        "id": "fixture060",
+        "team": 0
+      },
+      {
+        "id": "fixture061",
+        "team": 1
+      },
+      {
+        "id": "fixture062",
+        "team": 2
+      },
+      {
+        "id": "fixture063",
+        "team": 3
+      },
+      {
+        "id": "fixture064",
+        "team": 4
+      },
+      {
+        "id": "fixture065",
+        "team": 5
+      },
+      {
+        "id": "fixture066",
+        "team": 6
+      },
+      {
+        "id": "fixture067",
+        "team": 7
+      },
+      {
+        "id": "fixture068",
+        "team": 8
+      },
+      {
+        "id": "fixture069",
+        "team": 9
+      },
+      {
+        "id": "fixture070",
+        "team": 9
+      },
+      {
+        "id": "fixture071",
+        "team": 8
+      },
+      {
+        "id": "fixture072",
+        "team": 7
+      },
+      {
+        "id": "fixture073",
+        "team": 6
+      },
+      {
+        "id": "fixture074",
+        "team": 5
+      },
+      {
+        "id": "fixture075",
+        "team": 4
+      },
+      {
+        "id": "fixture076",
+        "team": 3
+      },
+      {
+        "id": "fixture077",
+        "team": 2
+      },
+      {
+        "id": "fixture078",
+        "team": 1
+      },
+      {
+        "id": "fixture079",
+        "team": 0
+      },
+      {
+        "id": "fixture080",
+        "team": 0
+      },
+      {
+        "id": "fixture081",
+        "team": 1
+      },
+      {
+        "id": "fixture082",
+        "team": 2
+      },
+      {
+        "id": "fixture083",
+        "team": 3
+      },
+      {
+        "id": "fixture084",
+        "team": 4
+      },
+      {
+        "id": "fixture085",
+        "team": 5
+      },
+      {
+        "id": "fixture086",
+        "team": 6
+      },
+      {
+        "id": "fixture087",
+        "team": 7
+      },
+      {
+        "id": "fixture088",
+        "team": 8
+      },
+      {
+        "id": "fixture089",
+        "team": 9
+      },
+      {
+        "id": "fixture090",
+        "team": 9
+      },
+      {
+        "id": "fixture091",
+        "team": 8
+      },
+      {
+        "id": "fixture092",
+        "team": 7
+      },
+      {
+        "id": "fixture093",
+        "team": 6
+      },
+      {
+        "id": "fixture094",
+        "team": 5
+      },
+      {
+        "id": "fixture095",
+        "team": 4
+      },
+      {
+        "id": "fixture096",
+        "team": 3
+      },
+      {
+        "id": "fixture097",
+        "team": 2
+      },
+      {
+        "id": "fixture098",
+        "team": 1
+      },
+      {
+        "id": "fixture099",
+        "team": 0
+      },
+      {
+        "id": "fixture100",
+        "team": 0
+      },
+      {
+        "id": "fixture101",
+        "team": 1
+      },
+      {
+        "id": "fixture102",
+        "team": 2
+      },
+      {
+        "id": "fixture103",
+        "team": 3
+      },
+      {
+        "id": "fixture104",
+        "team": 4
+      },
+      {
+        "id": "fixture105",
+        "team": 5
+      },
+      {
+        "id": "fixture106",
+        "team": 6
+      },
+      {
+        "id": "fixture107",
+        "team": 7
+      },
+      {
+        "id": "fixture108",
+        "team": 8
+      },
+      {
+        "id": "fixture109",
+        "team": 9
+      },
+      {
+        "id": "fixture110",
+        "team": 9
+      },
+      {
+        "id": "fixture111",
+        "team": 8
+      },
+      {
+        "id": "fixture112",
+        "team": 7
+      },
+      {
+        "id": "fixture113",
+        "team": 6
+      },
+      {
+        "id": "fixture114",
+        "team": 5
+      },
+      {
+        "id": "fixture115",
+        "team": 4
+      },
+      {
+        "id": "fixture116",
+        "team": 3
+      },
+      {
+        "id": "fixture117",
+        "team": 2
+      },
+      {
+        "id": "fixture118",
+        "team": 1
+      },
+      {
+        "id": "fixture119",
+        "team": 0
+      },
+      {
+        "id": "fixture120",
+        "team": 0
+      },
+      {
+        "id": "fixture121",
+        "team": 1
+      },
+      {
+        "id": "fixture122",
+        "team": 2
+      },
+      {
+        "id": "fixture123",
+        "team": 3
+      },
+      {
+        "id": "fixture124",
+        "team": 4
+      },
+      {
+        "id": "fixture125",
+        "team": 5
+      },
+      {
+        "id": "fixture126",
+        "team": 6
+      },
+      {
+        "id": "fixture127",
+        "team": 7
+      },
+      {
+        "id": "fixture128",
+        "team": 8
+      },
+      {
+        "id": "fixture129",
+        "team": 9
+      }
+    ]
+  },
+  {
+    "name": "all-unset",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "unset",
+      "FT%": "unset",
+      "3PM": "unset",
+      "PTS": "unset",
+      "REB": "unset",
+      "AST": "unset",
+      "STL": "unset",
+      "BLK": "unset",
+      "TO": "unset"
+    },
+    "picks": []
+  },
+  {
+    "name": "all-punt",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "punt",
+      "FT%": "punt",
+      "3PM": "punt",
+      "PTS": "punt",
+      "REB": "punt",
+      "AST": "punt",
+      "STL": "punt",
+      "BLK": "punt",
+      "TO": "punt"
+    },
+    "picks": []
+  },
+  {
+    "name": "all-top1",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top1",
+      "3PM": "top1",
+      "PTS": "top1",
+      "REB": "top1",
+      "AST": "top1",
+      "STL": "top1",
+      "BLK": "top1",
+      "TO": "top1"
+    },
+    "picks": []
+  },
+  {
+    "name": "all-top7",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top7",
+      "FT%": "top7",
+      "3PM": "top7",
+      "PTS": "top7",
+      "REB": "top7",
+      "AST": "top7",
+      "STL": "top7",
+      "BLK": "top7",
+      "TO": "top7"
+    },
+    "picks": []
+  },
+  {
+    "name": "reference-over-130",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": []
+  },
+  {
+    "name": "reference-exactly-130",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": []
+  },
+  {
+    "name": "equivalent-totals",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "totals",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      }
+    ],
+    "rows": [
+      {
+        "PLAYER": "Fixture 000",
+        "GP": 40,
+        "FGM": 80.0,
+        "FGA": 400.0,
+        "FTM": 0.0,
+        "FTA": 200.0,
+        "3PM": 0.0,
+        "PTS": 320.0,
+        "REB": 80.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "TO": 0.0,
+        "RANK": 140,
+        "POS": "PG"
+      },
+      {
+        "PLAYER": "Fixture 001",
+        "GP": 41,
+        "FGM": 153.75,
+        "FGA": 471.5,
+        "FTM": 30.75,
+        "FTA": 225.5,
+        "3PM": 90.2,
+        "PTS": 594.5,
+        "REB": 150.33333333333334,
+        "AST": 95.66666666666667,
+        "STL": 24.599999999999998,
+        "BLK": 47.833333333333336,
+        "TO": 51.25,
+        "RANK": 139,
+        "POS": "SG"
+      },
+      {
+        "PLAYER": "Fixture 002",
+        "GP": 42,
+        "FGM": 231.0,
+        "FGA": 546.0,
+        "FTM": 63.0,
+        "FTA": 252.0,
+        "3PM": 25.2,
+        "PTS": 882.0,
+        "REB": 224.00000000000003,
+        "AST": 196.0,
+        "STL": 50.4,
+        "BLK": 7.0,
+        "TO": 105.0,
+        "RANK": 138,
+        "POS": "SF"
+      },
+      {
+        "PLAYER": "Fixture 003",
+        "GP": 43,
+        "FGM": 311.75,
+        "FGA": 623.5,
+        "FTM": 96.75,
+        "FTA": 279.5,
+        "3PM": 120.39999999999999,
+        "PTS": 1182.5,
+        "REB": 301.0,
+        "AST": 301.0,
+        "STL": 77.4,
+        "BLK": 57.33333333333333,
+        "TO": 161.25,
+        "RANK": 137,
+        "POS": "PF"
+      },
+      {
+        "PLAYER": "Fixture 004",
+        "GP": 44,
+        "FGM": 143.0,
+        "FGA": 704.0,
+        "FTM": 132.0,
+        "FTA": 308.0,
+        "3PM": 52.8,
+        "PTS": 374.0,
+        "REB": 381.33333333333337,
+        "AST": 73.33333333333334,
+        "STL": 8.8,
+        "BLK": 14.666666666666666,
+        "TO": 33.0,
+        "RANK": 136,
+        "POS": "C"
+      },
+      {
+        "PLAYER": "Fixture 005",
+        "GP": 45,
+        "FGM": 225.0,
+        "FGA": 787.5,
+        "FTM": 168.75,
+        "FTA": 337.5,
+        "3PM": 153.0,
+        "PTS": 675.0,
+        "REB": 465.0,
+        "AST": 180.0,
+        "STL": 36.0,
+        "BLK": 67.5,
+        "TO": 90.0,
+        "RANK": 135,
+        "POS": "PG,SG"
+      },
+      {
+        "PLAYER": "Fixture 006",
+        "GP": 46,
+        "FGM": 310.5,
+        "FGA": 874.0,
+        "FTM": 11.5,
+        "FTA": 368.0,
+        "3PM": 82.8,
+        "PTS": 989.0,
+        "REB": 107.33333333333334,
+        "AST": 291.3333333333333,
+        "STL": 64.39999999999999,
+        "BLK": 23.0,
+        "TO": 149.5,
+        "RANK": 134,
+        "POS": "SF/PF"
+      },
+      {
+        "PLAYER": "Fixture 007",
+        "GP": 47,
+        "FGM": 129.25,
+        "FGA": 470.0,
+        "FTM": 47.0,
+        "FTA": 399.5,
+        "3PM": 9.4,
+        "PTS": 1316.0,
+        "REB": 188.0,
+        "AST": 47.0,
+        "STL": 94.0,
+        "BLK": 78.33333333333334,
+        "TO": 11.75,
+        "RANK": 133,
+        "POS": "C,PF"
+      },
+      {
+        "PLAYER": "Fixture 008",
+        "GP": 48,
+        "FGM": 216.0,
+        "FGA": 552.0,
+        "FTM": 84.0,
+        "FTA": 432.0,
+        "3PM": 115.19999999999999,
+        "PTS": 432.0,
+        "REB": 272.0,
+        "AST": 160.0,
+        "STL": 19.200000000000003,
+        "BLK": 32.0,
+        "TO": 72.0,
+        "RANK": 132,
+        "POS": "G"
+      },
+      {
+        "PLAYER": "Fixture 009",
+        "GP": 49,
+        "FGM": 306.25,
+        "FGA": 637.0,
+        "FTM": 122.5,
+        "FTA": 245.0,
+        "3PM": 39.2,
+        "PTS": 759.5,
+        "REB": 359.3333333333333,
+        "AST": 277.6666666666667,
+        "STL": 49.0,
+        "BLK": 89.83333333333333,
+        "TO": 134.75,
+        "RANK": 131,
+        "POS": "F"
+      },
+      {
+        "PLAYER": "Fixture 010",
+        "GP": 50,
+        "FGM": 112.5,
+        "FGA": 725.0,
+        "FTM": 162.5,
+        "FTA": 275.0,
+        "3PM": 150.0,
+        "PTS": 1100.0,
+        "REB": 450.0,
+        "AST": 16.666666666666664,
+        "STL": 80.0,
+        "BLK": 41.66666666666667,
+        "TO": 200.0,
+        "RANK": 130,
+        "POS": ""
+      },
+      {
+        "PLAYER": "Fixture 011",
+        "GP": 51,
+        "FGM": 204.0,
+        "FGA": 816.0,
+        "FTM": 204.0,
+        "FTA": 306.0,
+        "3PM": 71.39999999999999,
+        "PTS": 1453.5,
+        "REB": 544.0,
+        "AST": 136.0,
+        "STL": 0.0,
+        "BLK": 102.0,
+        "TO": 51.0,
+        "RANK": 129,
+        "POS": "PG,SG,SF,PF,C"
+      },
+      {
+        "PLAYER": "Fixture 012",
+        "GP": 52,
+        "FGM": 299.0,
+        "FGA": 910.0,
+        "FTM": 26.0,
+        "FTA": 338.0,
+        "3PM": 187.20000000000002,
+        "PTS": 494.0,
+        "REB": 138.66666666666666,
+        "AST": 260.0,
+        "STL": 31.2,
+        "BLK": 52.0,
+        "TO": 117.0,
+        "RANK": 128,
+        "POS": "PG"
+      },
+      {
+        "PLAYER": "Fixture 013",
+        "GP": 53,
+        "FGM": 397.5,
+        "FGA": 1007.0,
+        "FTM": 66.25,
+        "FTA": 371.0,
+        "3PM": 106.0,
+        "PTS": 848.0,
+        "REB": 229.66666666666669,
+        "AST": 388.66666666666663,
+        "STL": 63.599999999999994,
+        "BLK": 0.0,
+        "TO": 185.5,
+        "RANK": 127,
+        "POS": "SG"
+      },
+      {
+        "PLAYER": "Fixture 014",
+        "GP": 54,
+        "FGM": 189.0,
+        "FGA": 540.0,
+        "FTM": 108.0,
+        "FTA": 405.0,
+        "3PM": 21.6,
+        "PTS": 1215.0,
+        "REB": 324.0,
+        "AST": 108.0,
+        "STL": 97.2,
+        "BLK": 63.00000000000001,
+        "TO": 27.0,
+        "RANK": 126,
+        "POS": "SF"
+      },
+      {
+        "PLAYER": "Fixture 015",
+        "GP": 55,
+        "FGM": 288.75,
+        "FGA": 632.5,
+        "FTM": 151.25,
+        "FTA": 440.0,
+        "3PM": 143.0,
+        "PTS": 1595.0,
+        "REB": 421.6666666666667,
+        "AST": 238.33333333333331,
+        "STL": 11.0,
+        "BLK": 9.166666666666666,
+        "TO": 96.25,
+        "RANK": 125,
+        "POS": "PF"
+      },
+      {
+        "PLAYER": "Fixture 016",
+        "GP": 56,
+        "FGM": 392.0,
+        "FGA": 728.0,
+        "FTM": 196.0,
+        "FTA": 476.0,
+        "3PM": 56.0,
+        "PTS": 560.0,
+        "REB": 522.6666666666666,
+        "AST": 373.33333333333337,
+        "STL": 44.800000000000004,
+        "BLK": 74.66666666666666,
+        "TO": 168.0,
+        "RANK": 124,
+        "POS": "C"
+      },
+      {
+        "PLAYER": "Fixture 017",
+        "GP": 57,
+        "FGM": 171.0,
+        "FGA": 826.5,
+        "FTM": 0.0,
+        "FTA": 513.0,
+        "3PM": 182.4,
+        "PTS": 940.5,
+        "REB": 627.0,
+        "AST": 76.0,
+        "STL": 79.8,
+        "BLK": 19.0,
+        "TO": 0.0,
+        "RANK": 123,
+        "POS": "PG,SG"
+      },
+      {
+        "PLAYER": "Fixture 018",
+        "GP": 58,
+        "FGM": 275.5,
+        "FGA": 928.0,
+        "FTM": 43.5,
+        "FTA": 290.0,
+        "3PM": 92.80000000000001,
+        "PTS": 1334.0,
+        "REB": 174.0,
+        "AST": 212.66666666666666,
+        "STL": 116.0,
+        "BLK": 87.0,
+        "TO": 72.5,
+        "RANK": 122,
+        "POS": "SF/PF"
+      },
+      {
+        "PLAYER": "Fixture 019",
+        "GP": 59,
+        "FGM": 383.5,
+        "FGA": 1032.5,
+        "FTM": 88.5,
+        "FTA": 324.5,
+        "3PM": 0.0,
+        "PTS": 1740.5,
+        "REB": 275.3333333333333,
+        "AST": 354.0,
+        "STL": 23.6,
+        "BLK": 29.5,
+        "TO": 147.5,
+        "RANK": 121,
+        "POS": "C,PF"
+      },
+      {
+        "PLAYER": "Fixture 020",
+        "GP": 60,
+        "FGM": 150.0,
+        "FGA": 1140.0,
+        "FTM": 135.0,
+        "FTA": 360.0,
+        "3PM": 132.0,
+        "PTS": 630.0,
+        "REB": 380.0,
+        "AST": 40.0,
+        "STL": 60.0,
+        "BLK": 100.0,
+        "TO": 225.0,
+        "RANK": 120,
+        "POS": "G"
+      },
+      {
+        "PLAYER": "Fixture 021",
+        "GP": 61,
+        "FGM": 259.25,
+        "FGA": 610.0,
+        "FTM": 183.0,
+        "FTA": 396.5,
+        "3PM": 36.6,
+        "PTS": 1037.0,
+        "REB": 488.0,
+        "AST": 183.0,
+        "STL": 97.60000000000001,
+        "BLK": 40.666666666666664,
+        "TO": 45.75,
+        "RANK": 119,
+        "POS": "F"
+      },
+      {
+        "PLAYER": "Fixture 022",
+        "GP": 62,
+        "FGM": 372.0,
+        "FGA": 713.0,
+        "FTM": 232.5,
+        "FTA": 434.0,
+        "3PM": 173.6,
+        "PTS": 1457.0,
+        "REB": 599.3333333333334,
+        "AST": 330.66666666666663,
+        "STL": 0.0,
+        "BLK": 113.66666666666666,
+        "TO": 124.0,
+        "RANK": 118,
+        "POS": ""
+      },
+      {
+        "PLAYER": "Fixture 023",
+        "GP": 63,
+        "FGM": 126.0,
+        "FGA": 819.0,
+        "FTM": 15.75,
+        "FTA": 472.5,
+        "3PM": 75.6,
+        "PTS": 1890.0,
+        "REB": 714.0,
+        "AST": 0.0,
+        "STL": 37.8,
+        "BLK": 52.5,
+        "TO": 204.75,
+        "RANK": 117,
+        "POS": "PG,SG,SF,PF,C"
+      }
+    ]
+  },
+  {
+    "name": "zero-volume",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [],
+    "overrides": {
+      "0": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "1": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "2": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "3": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "4": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "5": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "6": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "7": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "8": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "9": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "10": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "11": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "12": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "13": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "14": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "15": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "16": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "17": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "18": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "19": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "20": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "21": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "22": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      },
+      "23": {
+        "FGM": 0,
+        "FGA": 0,
+        "FTM": 0,
+        "FTA": 0
+      }
+    }
+  },
+  {
+    "name": "identical-statistics",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      }
+    ],
+    "identical": true
+  },
+  {
+    "name": "invalid-projections",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 1
+      },
+      {
+        "id": "fixture002",
+        "team": 2
+      },
+      {
+        "id": "fixture003",
+        "team": 3
+      },
+      {
+        "id": "fixture004",
+        "team": 4
+      },
+      {
+        "id": "fixture005",
+        "team": 5
+      },
+      {
+        "id": "fixture006",
+        "team": 6
+      },
+      {
+        "id": "fixture007",
+        "team": 7
+      },
+      {
+        "id": "fixture008",
+        "team": 8
+      },
+      {
+        "id": "fixture009",
+        "team": 9
+      },
+      {
+        "id": "fixture010",
+        "team": 9
+      },
+      {
+        "id": "fixture011",
+        "team": 8
+      }
+    ],
+    "overrides": {
+      "0": {
+        "PTS": null
+      },
+      "1": {
+        "GP": 0
+      },
+      "2": {
+        "FGM": 100
+      },
+      "3": {
+        "TO": -1
+      },
+      "4": {
+        "FTM": 100
+      },
+      "5": {
+        "AST": "unknown"
+      }
+    }
+  },
+  {
+    "name": "all-invalid",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [],
+    "overrides": {
+      "0": {
+        "GP": 0
+      },
+      "1": {
+        "GP": 0
+      },
+      "2": {
+        "GP": 0
+      },
+      "3": {
+        "GP": 0
+      },
+      "4": {
+        "GP": 0
+      },
+      "5": {
+        "GP": 0
+      },
+      "6": {
+        "GP": 0
+      },
+      "7": {
+        "GP": 0
+      },
+      "8": {
+        "GP": 0
+      },
+      "9": {
+        "GP": 0
+      },
+      "10": {
+        "GP": 0
+      },
+      "11": {
+        "GP": 0
+      },
+      "12": {
+        "GP": 0
+      },
+      "13": {
+        "GP": 0
+      },
+      "14": {
+        "GP": 0
+      },
+      "15": {
+        "GP": 0
+      },
+      "16": {
+        "GP": 0
+      },
+      "17": {
+        "GP": 0
+      },
+      "18": {
+        "GP": 0
+      },
+      "19": {
+        "GP": 0
+      },
+      "20": {
+        "GP": 0
+      },
+      "21": {
+        "GP": 0
+      },
+      "22": {
+        "GP": 0
+      },
+      "23": {
+        "GP": 0
+      }
+    }
+  },
+  {
+    "name": "multi-position-roster",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture005",
+        "team": 0
+      },
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture011",
+        "team": 0
+      },
+      {
+        "id": "fixture002",
+        "team": 0
+      },
+      {
+        "id": "fixture003",
+        "team": 0
+      },
+      {
+        "id": "fixture004",
+        "team": 0
+      },
+      {
+        "id": "fixture006",
+        "team": 0
+      },
+      {
+        "id": "fixture008",
+        "team": 0
+      },
+      {
+        "id": "fixture009",
+        "team": 0
+      },
+      {
+        "id": "fixture010",
+        "team": 0
+      },
+      {
+        "id": "fixture012",
+        "team": 0
+      },
+      {
+        "id": "fixture013",
+        "team": 0
+      }
+    ]
+  },
+  {
+    "name": "draft-operations",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [],
+    "actions": [
+      {
+        "fn": "undo",
+        "args": []
+      },
+      {
+        "fn": "updateSlot",
+        "args": [
+          3
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture000",
+          0
+        ]
+      },
+      {
+        "fn": "updateSlot",
+        "args": [
+          5
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture001",
+          5
+        ],
+        "confirm": false
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture001",
+          5
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture000",
+          3
+        ],
+        "confirm": false
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture000",
+          3
+        ]
+      },
+      {
+        "fn": "undo",
+        "args": []
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture000",
+          3
+        ],
+        "confirm": false
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture000",
+          3
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture002",
+          0
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture003",
+          1
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture002",
+          -1
+        ],
+        "confirm": false
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture002",
+          -1
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "missing",
+          0
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture004",
+          10
+        ]
+      },
+      {
+        "fn": "undo",
+        "args": []
+      }
+    ]
+  },
+  {
+    "name": "full-team",
+    "pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "mode": "perGame",
+    "myTeam": 0,
+    "targets": {
+      "FG%": "top1",
+      "FT%": "top3",
+      "3PM": "top5",
+      "PTS": "top7",
+      "REB": "punt",
+      "AST": "unset",
+      "STL": "top1",
+      "BLK": "top5",
+      "TO": "top3"
+    },
+    "picks": [
+      {
+        "id": "fixture000",
+        "team": 0
+      },
+      {
+        "id": "fixture001",
+        "team": 0
+      },
+      {
+        "id": "fixture002",
+        "team": 0
+      },
+      {
+        "id": "fixture003",
+        "team": 0
+      },
+      {
+        "id": "fixture004",
+        "team": 0
+      },
+      {
+        "id": "fixture005",
+        "team": 0
+      },
+      {
+        "id": "fixture006",
+        "team": 0
+      },
+      {
+        "id": "fixture007",
+        "team": 0
+      },
+      {
+        "id": "fixture008",
+        "team": 0
+      },
+      {
+        "id": "fixture009",
+        "team": 0
+      },
+      {
+        "id": "fixture010",
+        "team": 0
+      },
+      {
+        "id": "fixture011",
+        "team": 0
+      },
+      {
+        "id": "fixture012",
+        "team": 0
+      },
+      {
+        "id": "fixture013",
+        "team": 1
+      }
+    ],
+    "actions": [
+      {
+        "fn": "assign",
+        "args": [
+          "fixture014",
+          0
+        ]
+      },
+      {
+        "fn": "assign",
+        "args": [
+          "fixture013",
+          0
+        ]
+      }
+    ]
+  }
+]

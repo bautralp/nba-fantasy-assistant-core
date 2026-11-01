@@ -1,0 +1,27 @@
+{
+  "status": "INERT DESIGN; NOT INSTALLED",
+  "pages_repository": "nba-fantasy-assistant/nba-fantasy-assistant.github.io",
+  "site_url": "https://nba-fantasy-assistant.github.io",
+  "daily_cron_utc": "23 14 * * *",
+  "active_daily_owner_during_preflight": "existing private repository only",
+  "future_source_repository": "USER_DECISION_REQUIRED",
+  "required_guards": [
+    "exact canonical repository and main ref",
+    "successful freshness before projections and commit",
+    "single daily owner; disable old schedule before activating new",
+    "capture exact post-refresh main SHA",
+    "call publisher explicitly because GITHUB_TOKEN push does not trigger push workflow",
+    "no fork or PR write/deploy/research permissions",
+    "publish exact current main; stale head rejection; serialized production lock",
+    "non-force target gh-pages push; stage allowlist and browser/HTTPS verification",
+    "production gate must reject missing or incompatible JSON",
+    "fine-grained target-only contents:write token or target GitHub App; never source/research write"
+  ],
+  "activation_blockers": [
+    "data redistribution rights",
+    "missing approved production inputs",
+    "historical equivalence not fully established",
+    "settings and target-only credential review",
+    "action and dependency immutable pinning review"
+  ]
+}

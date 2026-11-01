@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fantasy Draft Asistanı v3.3 · 9-cat</title>
+<style>
+:root{color-scheme:dark;--bg:#09101c;--surface:#111d2b;--surface2:#172639;--surface3:#1c3047;--line:#304258;--text:#f0f5ff;--muted:#a2b4ca;--accent:#f4c76c;--cyan:#65c9e9;--green:#80dcc1;--red:#fc9d9d;--shadow:0 18px 50px #0003}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 10% -20%,#203653 0,transparent 42%),var(--bg);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text)}button,input,select{font:inherit}button{background:#203448;color:var(--text);border:1px solid #3b536d;border-radius:8px;padding:9px 12px;cursor:pointer}button:hover{background:#2c465f}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}button:disabled{opacity:.5;cursor:not-allowed}.primary{background:var(--accent);color:#1b2636;border-color:var(--accent);font-weight:800}.primary:hover{background:#ffdc8e}.quiet{background:transparent}.tiny{padding:5px 8px;font-size:12px}.danger{color:var(--red)}label{color:var(--muted);font-size:12px;display:block;margin-bottom:5px}input:not([type=file]):not([type=radio]),select{border:1px solid #435b75;background:#091727;color:var(--text);padding:10px;border-radius:8px;min-width:0;width:100%}input[type=radio]{accent-color:var(--accent)}select{cursor:pointer}.container{max-width:1760px;margin:auto;padding:20px 24px 34px}.top{display:flex;gap:14px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}.overline{text-transform:uppercase;letter-spacing:.18em;color:var(--accent);font-weight:800;font-size:11px}h1{font-size:clamp(24px,2.65vw,36px);letter-spacing:-1px;line-height:1.12;margin:4px 0 6px}h2{font-size:17px;margin:0}h3{font-size:14px;margin:0 0 8px}.sub{font-size:12px;color:var(--muted)}.actions{display:flex;gap:8px;flex-wrap:wrap}.hidden{display:none!important}.panel{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:15px;box-shadow:var(--shadow)}.notice{padding:10px 12px;background:#2e271b;border:1px solid #635231;border-radius:9px;color:#f0dba6;font-size:12px}.success{color:var(--green)}.stats{display:grid;grid-template-columns:repeat(5,minmax(120px,1fr));gap:10px;margin:18px 0}.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px}.stat .k{font-size:11px;color:var(--muted)}.stat .v{font-size:20px;font-weight:850;margin-top:3px;line-height:1.1;font-variant-numeric:tabular-nums}.stat .secondary{font-size:11px;color:var(--muted);margin-top:4px}.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin:0 0 15px;overflow:auto}.tabs button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;color:var(--muted);font-weight:800;padding:11px 15px;white-space:nowrap}.tabs button[aria-selected=true]{color:var(--text);border-color:var(--accent)}.section{display:grid;gap:14px}.section-title{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:space-between;margin-bottom:11px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:end}.search{max-width:380px;min-width:190px;flex:1}.filter{width:165px}.matrix{overflow:auto;max-height:66vh;border:1px solid var(--line);border-radius:10px;background:#0a1727;scrollbar-color:#506782 #132235}.board{border-collapse:separate;border-spacing:0;width:100%;min-width:1220px;font-size:12px;table-layout:fixed}.board th,.board td{border-bottom:1px solid #283b4e;border-right:1px solid #253749}.board thead th{position:sticky;top:0;background:#203449;z-index:3;padding:11px 5px;height:76px;vertical-align:middle;text-align:center;line-height:1.2}.board th:first-child,.board td:first-child{position:sticky;left:0;z-index:2;background:#112237;text-align:left;width:230px;min-width:230px}.board thead th:first-child{z-index:5;background:#233950;padding:12px}.board th.team-me{background:#43392e;color:#ffe4ad}.board .team-slot{font-size:10px;color:var(--muted);display:block;margin-bottom:4px}.board .team-title{font-weight:850;display:block;overflow-wrap:anywhere}.board td{height:40px;padding:0;text-align:center}.board tbody tr:hover td{background:#203043}.board tbody tr:hover td:first-child{background:#253d57}.board tbody tr.picked td:first-child{color:#93aec4}.board .name-wrap{display:flex;gap:7px;align-items:center;padding:5px 8px}.board .player-label{font-weight:750;font-size:12px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.board .more{background:transparent;border:1px solid #3b536d;padding:1px 5px;border-radius:5px;font-size:11px;flex:none}.board .assign{display:block;width:100%;height:40px;min-height:40px;padding:0;border:0;border-radius:0;background:transparent;color:#e1edf8;font-size:17px}.board .assign:hover{background:#274862}.board .assign.selected{background:#276052;color:#c4ffe7;font-weight:900}.board .details-row td{position:static!important;background:#182a3e!important;border-bottom:2px solid #56718a;padding:12px 15px;text-align:left}.data-strip{display:flex;flex-wrap:wrap;gap:6px}.data-tag{font-size:11px;display:inline-flex;gap:7px;align-items:center;padding:5px 9px;background:#0a1c2b;border:1px solid #37516a;border-radius:6px}.data-tag b{color:var(--accent);font-variant-numeric:tabular-nums}.muted{color:var(--muted)}.empty{padding:27px!important;text-align:center!important;color:var(--muted)}.below{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(350px,.8fr);gap:14px}.rec-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.rec{border:1px solid #38506b;background:#15293e;border-radius:10px;padding:12px;min-width:0}.rec .number{font-size:11px;font-weight:900;color:var(--accent)}.rec-name{font-size:15px;font-weight:850;margin:4px 0 7px}.rec .score{font-size:11px;color:var(--muted)}.rec ul{padding-left:17px;margin:8px 0 0;font-size:11px;color:#c8d9e9}.rec li{margin-bottom:5px}.rec .deltas{display:flex;gap:4px;flex-wrap:wrap;margin:8px 0}.chip{background:#29415a;padding:3px 6px;border-radius:5px;font-size:11px;white-space:nowrap}.chip.positive{color:#aef6d7;background:#194137}.chip.negative{color:#ffbfbc;background:#4a292e}.rec-actions{display:flex;justify-content:flex-end;margin-top:10px}.control-grid{display:grid;grid-template-columns:repeat(3,minmax(210px,1fr));gap:12px}.field{min-width:0}.team-grid{display:grid;grid-template-columns:repeat(5,minmax(145px,1fr));gap:9px}.team-config{background:#14283a;border:1px solid #344b63;border-radius:9px;padding:10px}.cat-grid{display:grid;grid-template-columns:repeat(9,minmax(100px,1fr));gap:7px}.cat-card{background:#17293b;border:1px solid #344e66;border-radius:10px;padding:9px}.cat-card h3{color:#f6d693}.cat-card select{font-size:12px;padding:7px 4px}.matrix-key{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--muted)}.swatch{display:inline-block;width:11px;height:11px;margin-right:5px;background:#276052;border-radius:3px}.small-table{width:100%;border-collapse:collapse;font-size:12px}.small-table th,.small-table td{text-align:left;padding:7px 8px;border-bottom:1px solid #283f54}.small-table th{color:#adbfce;position:sticky;top:0;background:var(--surface)}.small-table .mine{background:#253243}.rank-1{color:#94e7cc;font-weight:800}.rank-mid{color:#dfc98f}.scroll-x{overflow-x:auto}.rosters{display:grid;grid-template-columns:repeat(5,minmax(180px,1fr));gap:9px}.rosters details{border:1px solid #35495e;background:#142637;border-radius:9px;padding:10px}.rosters summary{cursor:pointer;font-weight:750;font-size:12px;overflow-wrap:anywhere}.rosters ol{font-size:11px;color:#c3d4e8;padding-left:19px}.rosters li{margin:6px 0}.footnote{color:var(--muted);font-size:11px;line-height:1.55}.spaced{margin-top:15px}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.grow{flex:1}.file-input{padding:10px;border:1px dashed #64809f;background:#0e2133;border-radius:9px;width:100%}.badge{display:inline-block;font-size:11px;border:1px solid #3b596f;border-radius:30px;padding:3px 8px;color:#bdd4e5}.warn-text{color:#f8d895}.mini-help{border-left:3px solid var(--accent);background:#192c40;color:#c2d7e8;padding:10px 12px;border-radius:4px;font-size:12px}.footer{margin:22px 0 0;font-size:11px;color:#8198b2}#toast{position:fixed;right:17px;bottom:18px;background:#214b43;border:1px solid #609787;border-radius:9px;padding:11px 14px;color:#fff;display:none;z-index:20;max-width:460px;box-shadow:var(--shadow)}#toast.error{background:#613336;border-color:#a36269}.active-alert{border:1px solid #b78b39;background:linear-gradient(90deg,#362d1e,#182637);border-radius:10px;padding:13px;margin:0 0 13px;color:#ffe4af;display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:space-between}strong{font-weight:800}@media(max-width:1200px){.cat-grid{grid-template-columns:repeat(5,minmax(100px,1fr))}.team-grid{grid-template-columns:repeat(3,minmax(150px,1fr))}.rosters{grid-template-columns:repeat(3,minmax(170px,1fr))}.below{grid-template-columns:1fr}}@media(max-width:780px){.container{padding:12px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.stat:last-child{grid-column:span 2}.rec-grid{grid-template-columns:1fr}.team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.rosters{grid-template-columns:repeat(2,minmax(0,1fr))}.control-grid{grid-template-columns:1fr}.matrix{max-height:67vh}.actions{width:100%}.board{min-width:1100px}.board th:first-child,.board td:first-child{min-width:190px;width:190px}.section-title{align-items:start}}@media print{.actions,.tabs,.toolbar,.assign,.more{display:none!important}.matrix{max-height:none;overflow:visible}.board{min-width:auto}.container{padding:0}}
+.roster-line{display:flex;gap:12px;justify-content:space-between;padding:4px 7px;border-bottom:1px solid var(--line);font-size:12px}.roster-line span{color:var(--muted);width:54px}.roster-line strong{text-align:right}.roster-slots{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:3px 12px;padding-top:9px}
+
+/* v3.1: 9-cat projeksiyon tablosu ve güç sıralamaları */
+.section,.section>.panel,.section>.below,.below>.panel{min-width:0}
+.matrix{width:100%;max-width:100%;min-width:0}
+.power-section{margin:0 0 15px}.power-grid{display:grid;grid-template-columns:repeat(9,minmax(142px,1fr));gap:8px}
+.power-card{border:1px solid #344c64;border-radius:9px;padding:10px;background:#14273a;min-width:0}
+.power-title{font-weight:850;color:var(--accent);font-size:13px;display:flex;justify-content:space-between;gap:5px}
+.power-card ol{margin:7px 0 0;padding:0;list-style:none;display:grid;gap:3px}
+.power-card li{display:flex;align-items:baseline;gap:6px;font-size:11px;min-width:0;white-space:nowrap}
+.power-card li .power-rank{color:#90b6cf;width:17px;flex:none;text-align:right}
+.power-card li .power-team{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.power-card li .power-score{color:#a3b6cd;font-variant-numeric:tabular-nums;font-size:10px;flex:none}
+.power-card li.my-power{color:var(--green);font-weight:850}.power-card li.my-power .power-score{color:var(--green)}
+.power-empty{font-size:11px;color:var(--muted);margin-top:9px}
+.board{min-width:1870px;table-layout:fixed}.board thead th{height:53px;padding:5px 3px;white-space:nowrap}.board td{height:38px;padding:3px 4px;font-variant-numeric:tabular-nums}
+.board th:first-child,.board td:first-child{width:210px;min-width:210px}.board td.number{text-align:right;font-size:11px;color:#d9e6f5}
+.board td.rank-number{font-weight:800;color:#e7ca85}.board thead .sort-head{width:100%;padding:8px 1px;border:0;background:transparent;font-size:11px;color:inherit;font-weight:800;border-radius:4px;white-space:nowrap}
+.board thead .sort-head:hover{color:var(--accent);background:#2b445b}
+.board thead .sort-head .sort-arrow{color:var(--accent);font-size:10px}
+.board th:last-child,.board td:last-child{position:sticky;right:0;z-index:2;background:#152a3d;width:187px;min-width:187px;border-left:2px solid #45637d}
+.board thead th:last-child{z-index:5;background:#263e55}
+.board tbody tr:hover td:last-child{background:#243d51}.board tbody tr.picked td:last-child{background:#173d35}
+.board .team-picker{padding:6px!important;font-size:11px!important;width:100%;max-width:177px;border:1px solid #43617b;background:#0d2032;color:#e4f2ff;border-radius:6px}
+.board .team-picker.is-picked{color:#aff5d5;background:#17443c;border-color:#3f9577}
+.board .details-row td{position:static!important;text-align:left;font-variant-numeric:normal}
+.rec-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media(max-width:1550px){.power-grid{grid-template-columns:repeat(5,minmax(140px,1fr))}.rec-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px){.power-grid{grid-template-columns:repeat(3,minmax(136px,1fr))}.rec-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:580px){.power-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rec-grid{grid-template-columns:1fr}.power-section{padding:12px}}
+
+/* v3.2 · ana draft alanı: tablo ve öneriler yan yana; alt sekmeler */
+.container{max-width:1760px;padding-top:15px}
+.top{margin-bottom:15px}
+.power-section{margin-bottom:14px}
+.workspace-grid{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(340px,1fr);gap:14px;align-items:start;margin-bottom:17px}
+.workspace-grid>*{min-width:0}
+.player-pool{padding:13px;min-width:0}
+.pool-head{margin-bottom:10px}
+.pool-toolbar{align-items:end;gap:7px;margin-bottom:9px}
+.pool-toolbar .search{min-width:145px;max-width:270px}
+.pool-toolbar .filter{width:145px}
+.pool-toolbar .field{flex-shrink:1}
+.pool-toolbar label{margin-bottom:3px}
+.pool-toolbar input,.pool-toolbar select{padding:7px 9px!important}
+.pool-toolbar button{white-space:nowrap}
+.player-pool .matrix-key{margin:6px 0 8px;gap:8px 14px}
+.player-pool .matrix{max-height:clamp(325px,49vh,540px);margin-top:0}
+.board{min-width:1160px;font-size:11px}
+.board th:first-child,.board td:first-child{min-width:170px;width:170px}
+.board th:last-child,.board td:last-child{min-width:152px;width:152px}
+.board thead th{height:41px;padding:2px}
+.board td{height:32px;padding:1px 3px}
+.board .player-label{font-size:11px}
+.board .name-wrap{padding:2px 5px;gap:4px}
+.board .sort-head{font-size:10px;padding:4px 0}
+.board .team-picker{padding:3px!important;font-size:10px!important;height:28px;max-width:146px}
+.board-pagination{margin-top:10px;gap:7px}
+.sidebar{display:flex;flex-direction:column;gap:10px;min-width:0}
+.sidebar .panel{padding:13px;min-width:0}
+.sidebar .section-title{gap:6px;margin-bottom:8px}
+.sidebar .section-title h2{font-size:16px}
+.sidebar .section-title .tiny{white-space:nowrap}
+.recs-scroll{max-height:clamp(370px,60vh,620px);overflow-y:auto;padding-right:4px;scrollbar-color:#506782 #132235}
+#inlineRecs .rec-grid{grid-template-columns:minmax(0,1fr);gap:7px}
+#inlineRecs .rec{padding:9px 10px}
+#inlineRecs .rec-top{display:flex;gap:9px;align-items:start}
+#inlineRecs .rec .number{background:#34445a;border-radius:5px;padding:2px 6px;align-self:center}
+#inlineRecs .rec-main{flex:1;min-width:0}
+#inlineRecs .rec-name{font-size:13px;margin:0 0 2px}
+#inlineRecs .rec .score{font-size:10px;line-height:1.25}
+#inlineRecs .rec-top button{padding:4px 6px;font-size:10px;flex:none}
+#inlineRecs .rec .deltas{margin:5px 0 0;gap:4px}
+#inlineRecs .chip{font-size:10px;padding:2px 5px}
+#inlineRecs .rec-detail{margin-top:4px;border-top:1px solid #344e65;padding-top:3px}
+#inlineRecs .rec-detail summary{font-size:11px;color:#bcd3e9;cursor:pointer;list-style:revert}
+#inlineRecs .rec-detail ul{margin-top:6px}
+.threat-panel{box-shadow:none}
+.threat-panel summary{cursor:pointer;font-weight:700}
+.tabs{margin-top:0;padding-left:2px}
+#view-draft{margin-top:3px}
+@media(max-width:1130px){.workspace-grid{grid-template-columns:minmax(0,1.45fr) minmax(330px,1fr)}.pool-toolbar .search{max-width:200px}.pool-toolbar .filter{width:130px}}
+@media(max-width:920px){.workspace-grid{grid-template-columns:minmax(0,1fr)}.sidebar{display:grid;grid-template-columns:1fr}.recs-scroll{max-height:430px}.player-pool .matrix{max-height:420px}.power-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:580px){.container{padding:11px}.top{gap:10px}.workspace-grid{gap:10px}.player-pool{padding:10px}.pool-toolbar{align-items:end}.pool-toolbar .search{flex-basis:100%;max-width:none}.pool-toolbar .filter{flex:1;min-width:130px}.pool-toolbar button{padding:7px}.board{min-width:1090px}.board th:first-child,.board td:first-child{min-width:156px;width:156px}.board th:last-child,.board td:last-child{min-width:145px;width:145px}.sidebar .section-title{align-items:center}.power-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* v3.3 · roster open by default, goal-aware recommendation status */
+.balance-brief{border:1px solid #3b556b;background:#182b3d;border-radius:8px;padding:8px 9px;margin:3px 0 10px;font-size:11px}
+.balance-caption{display:flex;gap:9px;justify-content:space-between;align-items:center;margin-bottom:5px}
+.balance-caption b{font-size:12px;color:#e9eef6}.balance-caption>span{color:#9fb8cc}
+.balance-minor{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:5px;color:#bbcdde}
+.balance-tag{display:inline-block;font-size:10px;padding:2px 5px;border-radius:5px;background:#304355;color:#d4e5f6}
+.balance-tag.urgent{background:#534125;color:#ffe1a7}.balance-tag.safe{background:#1c4a3b;color:#9ce4c6}
+.balance-table .row-urgent td{background:#302b26}.balance-table td{white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="container">
+<header class="top"><div><div class="overline">2026–27 · Local draft room · v3.3</div><h1>Fantasy Draft <span style="color:var(--accent)">Asistanı</span></h1><div class="sub">10 takım · H2H Most Categories · 9-cat · API gerektirmez · Dosya bilgisayarında çalışır</div></div><div class="actions"><button id="downloadBackup">Yedeği indir</button><button id="uploadBackup">Yedek yükle</button><button id="undo" class="quiet">↶ Son seçimi geri al</button><input id="backupFile" type="file" accept=".json" class="hidden"></div></header>
+<section class="panel power-section" aria-labelledby="powerTitle">
+  <div class="section-title"><div><h2 id="powerTitle">Kategori bazında güç sıralaması · İlk 5 takım</h2><div class="sub">Her seçimde yenilenir · yalnızca seçilmiş oyuncuların 2026–27 projeksiyon verilerine göre geçici güç göstergesi</div></div><span id="powerSummary" class="badge"></span></div>
+  <div class="power-grid" id="powerGrid"></div>
+  <p class="footnote" style="margin:10px 0 0">Not: Kadrolar tamamlanmadan yapılan sıralama kesin lig sıralaması değildir. Puanlar, seçilen oyuncu sayısına göre normalize edilen Z-score göstergesidir; 0 seçimli takımlar sıralanamaz.</p>
+</section>
+<main class="workspace-grid" aria-label="Canlı draft alanı">
+  <section class="panel player-pool" aria-labelledby="poolTitle">
+    <div class="section-title pool-head"><div><h2 id="poolTitle">Oyuncu havuzu · Draft matrisi</h2><div class="sub">İstatistik başlığına tıkla: sırala · En sağdaki menüden seçen takımı belirle</div></div></div>
+    <div class="toolbar pool-toolbar">
+      <div class="field search"><label for="query">Oyuncu ara</label><input id="query" placeholder="İsim filtrele..."></div>
+      <div class="field filter"><label for="filter">Göster</label><select id="filter"><option value="all">Tüm oyuncular</option><option value="available">Seçilmemişler</option><option value="picked">Seçilmişler</option></select></div>
+      <button id="resetSort" class="tiny">↺ Genel ranking</button><button id="clearDraft" class="tiny danger">Draftı sıfırla</button>
+    </div>
+    <div class="matrix-key"><span><span class="swatch"></span>Seçilmiş</span><span>RANK: genel sıralama</span><span id="matrixCount"></span></div>
+    <div class="matrix" id="matrixArea"><table class="board"><thead id="matrixHead"></thead><tbody id="matrixBody"></tbody></table></div>
+    <div class="row board-pagination"><button class="tiny" id="prevPage">← Önceki</button><span id="pageInfo" class="sub"></span><button class="tiny" id="nextPage">Sonraki →</button></div>
+  </section>
+  <aside class="sidebar" aria-label="Güncel öneriler ve rakipler">
+    <section class="panel recommendations-panel"><div class="section-title"><div><h2>Güncel en uygun 5 oyuncu</h2><div class="sub">Her seçimde kadro açığı ve kalan turlara göre güncellenir</div></div><button class="tiny" data-go="analysis">Tüm analiz →</button></div><div id="balanceBrief"></div><div id="inlineRecs" class="recs-scroll"></div></section>
+    <details class="panel threat-panel"><summary>Aktif kategori tehditleri <span class="sub">· Görüntüle</span></summary><div id="inlineThreats" class="spaced"></div></details>
+  </aside>
+</main>
+<nav class="tabs" aria-label="Uygulama bölümleri"><button data-tab="draft" aria-selected="true">Draft matrisi</button><button data-tab="analysis" aria-selected="false">Öneriler & rakipler</button><button data-tab="config" aria-selected="false">Takımlar & strateji</button><button data-tab="data" aria-selected="false">Oyuncu verisi</button></nav>
+<section class="section" id="view-draft">
+  <div class="panel"><div class="section-title"><div><h2>Draft matrisi · Takım kadroları</h2><div class="sub">Oyuncu seçimleri yukarıdaki ana matriste yapılır; burada takımların pozisyon slotlarını inceleyebilirsin.</div></div><span class="sub">13 pozisyon slotu varsayılan olarak açık</span></div><div class="rosters" id="rosters"></div></div>
+</section>
+<section class="section hidden" id="view-analysis">
+ <div class="panel"><h2>Kategori güç sıralaması</h2><p class="footnote">Bu tablo draft esnasındaki <strong>geçici projeksiyon göstergesidir</strong>; tamamlanmamış kadroları ortalama üstünden temkinli ölçekler. Sıralamalar henüz analize uygun oyuncusu olmayan takımları dışarıda bırakır. 13 oyuncu tamamlanınca kadro kıyaslaması daha anlamlı hâle gelir. Kazanma olasılığı değildir.</p><div class="scroll-x"><table class="small-table"><thead id="ranksHead"></thead><tbody id="ranksBody"></tbody></table></div></div>
+ <div class="panel"><h2>Kadro dengesi ve hedefe gidiş</h2><p class="footnote">Hedeflerin seçim sayısına göre beklenen ilerlemesi ile şimdiye kadar seçilmiş oyuncuların toplam Z katkısı karşılaştırılır. Rakip güç sıralamaları ek bir uyarıdır; tamamlanmamış takımlardan kesin sıralama çıkarılmaz.</p><div id="balanceFull"></div></div>
+ <div class="panel"><div class="section-title"><h2>En uygun 5 oyuncu</h2><span class="sub" id="recommendStatus"></span></div><div id="fullRecs"></div></div>
+ <div class="panel"><h2>Rakip tehdit raporu</h2><div id="fullThreats" class="spaced"></div></div>
+</section>
+<section class="section hidden" id="view-config">
+ <div class="panel"><h2>Takımlar ve draft sırası</h2><p class="sub">Aşağıdaki kutular 1–10 başlangıç draft pozisyonlarıdır. İsimler tamamen düzenlenebilir; snake sırası otomatik hesaplanır. Draft başladıktan sonra sıra değiştirmek kayıtları sıfırlamayı gerektirir.</p><div class="team-grid" id="teamSettings"></div><div class="control-grid spaced"><div class="field"><label for="myTeam">Benim takımım</label><select id="myTeam"></select></div><div class="field"><label for="draftPosition">Draft başlangıç sıram</label><select id="draftPosition"></select></div></div></div>
+ <div class="panel"><div class="section-title"><h2>Kategori stratejim</h2><span id="targetCount" class="badge"></span></div><div class="cat-grid" id="categorySettings"></div><p class="mini-help spaced"><strong>Lig zirvesi / İlk 3 / İlk 5 / İlk 7:</strong> Kategori bazında hedef lig sıralamasıdır; istediğin sayıda hedef belirleyebilirsin. Hedeflerin hepsi birbirinden bağımsızdır. <strong>Punt:</strong> Bu kategorinin öneri puanına katkısı sıfırdır; oyuncular kötü olsun diye ayrıca bir ceza uygulanmaz. Boş bırakılan kategoriler de karar motorunda dikkate alınmaz.</p></div>
+ <div class="panel"><h2>İşleyiş</h2><p class="sub">Oyuncu tablosunun en sağındaki tek takım listesinden seçimi işaretle veya değiştir. Seçilen oyuncular ilgili kadroya atanır. Son seçimi geri alabilirsin. Kadrolar pozisyon slotlarına otomatik yerleştirilir; pozisyon uygunluğu öneri puanını etkiler.</p><p class="sub">5 oyunculuk öneri listesi her draft seçiminden sonra güncellenir; kendi sıranı beklemez. Takım etki puanları oyuncuların sezonluk projeksiyonlarından z-score ile hesaplanır. Şut yüzdesi katkısı isabet ve deneme hacimlerini dikkate alır; TO ters yönde değerlendirilir. Öneriler mevcut kadronun hedeflerine göre tur bazında eksik kaldığı kategorilere ağırlık verir; zaten güçlü olan kategorilerin ağırlığını düşürür. Bu Z-score hedef ilerleme modeli bir galibiyet olasılığı hesabı değildir.</p></div>
+</section>
+<section class="section hidden" id="view-data">
+ <div class="panel"><h2>Oyuncu havuzunu içe aktar</h2><p class="sub">Google Drive / Google Sheets dosyanı <strong>Dosya → İndir → Virgülle ayrılmış değerler (.csv)</strong> yoluyla bilgisayarına kaydet, ardından buradan yükle. CSV, TSV ve JSON <strong>tamamen çevrimdışı</strong> çalışır; XLSX doğrudan desteklenmez.</p>
+ <div class="control-grid"><div class="field"><label for="statMode">Dosyadaki istatistik türü</label><select id="statMode"><option value="perGame">Maç başına projection (GP ile çarpılacak)</option><option value="season">Sezonluk projection toplamları (yeniden çarpılmayacak)</option></select></div><div class="field"><label for="projectionFile">Oyuncu dosyası</label><input type="file" id="projectionFile" class="file-input" accept=".csv,.tsv,.txt,.json,text/csv,application/json"></div><div class="field"><label>Örnek kolon başlıkları</label><button id="csvTemplate" style="width:100%">Boş CSV şablonu indir</button></div></div>
+ <div class="notice spaced">Gerekli kolonlar: <strong>PLAYER, GP, FGM, FGA, FTM, FTA, 3PM, PTS, REB, AST, STL, BLK, TO</strong>. Gerekli pozisyon: POS (PG, SG, SF, PF, C; çoklu pozisyon örn. PG/SG). İsteğe bağlı: RANK. FG% / FT% tek başına yeterli değildir. 0 gerçek bir değerdir; boş hücre ise bilinmeyen veridir. Sezon toplamları ile maç başına verileri karıştırma.</div>
+ <div class="spaced" id="dataStatus"></div>
+ <div class="row spaced"><button id="clearPlayers" class="danger">Oyuncu havuzunu ve draftı temizle</button><span class="footnote">Yeni veri yüklerken isimleri eşleşen eski seçimler korunur. Eşleşmeyen seçimler için onay istenir.</span></div></div>
+ <div class="panel"><h2>Veri ve model hakkında</h2><div class="footnote"><p>Projeksiyon kaynaklarına otomatik bağlanmıyoruz. Dosyanın adı, yükleme tarihi ve maç başı / sezon toplamı tercihi cihazda saklanır. Kullanılan tüm veriler yalnızca tarayıcıdaki localStorage alanında tutulur; bu HTML dosyası sunucuya veri göndermez.</p><p>Oyuncu başına en az 13 istatistik alanı geçerli değilse oyuncu havuzunda görünür ancak öneri motoruna girmez. GP, maç başına istatistiklerde tahmini sezon toplamını elde etmek; sezon toplamlarında oyuncunun öngörülen sürekliliğini göstermek için kullanılır.</p><p>Takımların ilk turlarda eşit sayıda oyuncusu olmadığı ve kalan seçimler bilinmediği için rakip analizi bir sezondaki gerçek kategori zaferini garanti edemez. En yakın rakip tehditleri ilk seçimlerde düşük güvenle işaretlenir.</p><p>Desteklenen dosya: CSV/TSV/JSON. Dosyanı Excel'de düzenleyebilirsin, ancak buraya yüklemeden önce CSV olarak dışa aktar.</p></div></div>
+</section>
+<div class="footer">NBA Fantasy Assistant · Yerel, API'siz draft karar desteği · Ekrandaki kategori sıralamaları gerçek maç sonuçları değil, yüklediğin projeksiyonlara dayalı modellerdir.</div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+'use strict';
+const CATS=['FG%','FT%','3PM','PTS','REB','AST','STL','BLK','TO'];
+const INITIAL_TEAMS=['Takım 1','Takım 2','Takım 3','Takım 4','Takım 5','Takım 6','Takım 7','Takım 8','Takım 9','Takım 10'];
+const KEY='nba_fantasy_assistant_v3';
+const SLOTS=['PG','SG','SF','PF','C','G','F','UTIL','UTIL','UTIL','BENCH','BENCH','BENCH'];
+const MUST=SLOTS.filter(s=>!['UTIL','BENCH'].includes(s));
+const REQUIRED=['name','gp','fgm','fga','ftm','fta','three','pts','reb','ast','stl','blk','to'];
+const COLNAMES={name:'PLAYER',gp:'GP',fgm:'FGM',fga:'FGA',ftm:'FTM',fta:'FTA',three:'3PM',pts:'PTS',reb:'REB',ast:'AST',stl:'STL',blk:'BLK',to:'TO'};
+const DEFAULT_STATE=()=>({version:3,teams:[...INITIAL_TEAMS],myTeam:4,targets:Object.fromEntries(CATS.map(k=>[k,'unset'])),strongLimit:7,players:[],picks:[],source:null});
+let closedRosters=new Set();let state=loadState();let tabName='draft',query='',filter='all',page=0,sortKey='rank',sortDir='asc',expanded=new Set(),cache=null,toastTimeout=0;
+const $=id=>document.getElementById(id);
+function escapeHTML(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function norm(s){return String(s??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('en').replace(/[^a-z0-9]/g,'');}
+function rawName(s){return String(s??'').trim();}
+function toast(message,error=false){const el=$('toast');el.textContent=message;el.className=error?'error':'';el.style.display='block';clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>el.style.display='none',4300)}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));return true}catch(e){toast('Tarayıcıya kaydedilemedi: '+e.message+'. Yedek indir.',true);return false}}
+function validateState(s){return s&&s.version===3&&Array.isArray(s.teams)&&s.teams.length===10&&Number.isInteger(s.myTeam)&&s.myTeam>=0&&s.myTeam<10&&Array.isArray(s.players)&&Array.isArray(s.picks)&&s.targets&&typeof s.targets==='object';}
+function loadState(){try{const v=JSON.parse(localStorage.getItem(KEY));return validateState(v)?v:DEFAULT_STATE()}catch(e){return DEFAULT_STATE()}}
+function invalidate(){cache=null}
+function saveRender(){invalidate();save();render()}
+function playersById(){return new Map(state.players.map(p=>[p.id,p]))}
+function pickedMap(){return new Map(state.picks.map(p=>[p.id,p]))}
+function nextTeamIdx(n){const round=Math.floor(n/10);const pos=n%10;return round%2===0?pos:9-pos}
+function nextRound(n){return Math.floor(n/10)+1}
+function myNextPick(){for(let i=state.picks.length;i<130;i++)if(nextTeamIdx(i)===state.myTeam)return i+1;return null}
+function onMyTurn(){return state.picks.length<130&&nextTeamIdx(state.picks.length)===state.myTeam}
+function fmt(n,d=1){return Number.isFinite(n)?n.toLocaleString('tr-TR',{minimumFractionDigits:d,maximumFractionDigits:d}):'—'}
+function integer(n){return Number.isFinite(n)?Math.round(n).toLocaleString('tr-TR'):'—'}
+function targetName(v){return {top1:'Lig zirvesi',top3:'İlk 3',top5:'İlk 5',top7:'İlk 7',punt:'Punt',unset:'Belirlenmedi'}[v]||'Belirlenmedi'}
+function currentEliteCount(){return CATS.filter(k=>['top1','top3','top5','top7'].includes(state.targets[k])).length}
+function parsedNumber(v){if(typeof v==='number')return Number.isFinite(v)?v:null;let s=String(v??'').trim().replace(/\s/g,'');if(!s)return null;if(/^[-+]?\d{1,3}(?:\.\d{3})+,\d+$/.test(s))s=s.replace(/\./g,'').replace(',','.');else if(/^[-+]?\d+,\d+$/.test(s))s=s.replace(',','.');else if(/^[-+]?\d{1,3}(?:,\d{3})+(?:\.\d+)?$/.test(s))s=s.replace(/,/g,'');const v2=Number(s);return Number.isFinite(v2)?v2:null}
+function csvRows(s){s=String(s).replace(/^\ufeff/,'');let head=s.split(/\r?\n/).find(x=>x.trim())||'';let ds=[',',';','\t'].map(sep=>[sep,(head.match(new RegExp(sep==='\t'?'\t':sep===';'?';':',','g'))||[]).length]).sort((a,b)=>b[1]-a[1]);const sep=ds[0][0];const rows=[];let row=[],val='',quoted=false;for(let i=0;i<s.length;i++){const ch=s[i];if(ch==='"'){if(quoted&&s[i+1]==='"'){val+='"';i++}else quoted=!quoted}else if(ch===sep&&!quoted){row.push(val);val=''}else if((ch==='\r'||ch==='\n')&&!quoted){if(ch==='\r'&&s[i+1]==='\n')i++;row.push(val);if(row.some(x=>x.trim()))rows.push(row);row=[];val=''}else val+=ch;}row.push(val);if(row.some(x=>x.trim()))rows.push(row);if(quoted)throw Error('CSV içinde kapatılmamış tırnak.');if(rows.length<2)throw Error('Başlık ve en az bir oyuncu satırı gerekli.');const headers=rows.shift().map(x=>x.trim());return rows.map(r=>Object.fromEntries(headers.map((h,i)=>[h,r[i]??''])))}
+function canonicalHeader(s){const v=norm(s);const aliases={name:['player','playername','oyuncu','oyuncuadi','name','fullname','playerfull','players'],gp:['gp','g','games','gamesplayed','projectedgames','projgp','gms'],fgm:['fgm','fgmade','fieldgoalsmade'],fga:['fga','fgattempts','fieldgoalsattempted'],ftm:['ftm','ftmade','freethrowsmade'],fta:['fta','ftattempts','freethrowsattempted'],three:['3pm','3ptm','3p','fg3m','threes','threepointersmade','tpm'],pts:['pts','points','point'],reb:['reb','rebs','trb','rebounds'],ast:['ast','assists'],stl:['stl','steals'],blk:['blk','blocks'],to:['to','tov','turnovers','turnover'],rank:['rank','ranking','espnrank','draftposition'],pos:['pos','position','positions','eligiblepositions']};return Object.keys(aliases).find(k=>aliases[k].includes(v))||null;}
+function fromObjects(arr,mode,name){if(!Array.isArray(arr)||!arr.length)throw Error('Veri satırı bulunamadı.');const keys=Object.keys(arr[0]);const mapping=Object.fromEntries(keys.map(k=>[k,canonicalHeader(k)]));const found=new Set(Object.values(mapping));const missing=REQUIRED.filter(x=>!found.has(x));if(missing.length)throw Error('Eksik kolon: '+missing.map(x=>COLNAMES[x]).join(', '));const records=[],seen=new Set();let duplicates=0,incomplete=0;for(const r of arr){let parsed={};for(const [old,k] of Object.entries(mapping))if(k)parsed[k]=r[old];const name1=rawName(parsed.name);if(!name1)continue;const id=norm(name1);if(!id)continue;if(seen.has(id)){duplicates++;continue}seen.add(id);let values={};for(const k of REQUIRED.filter(x=>x!=='name'))values[k]=parsedNumber(parsed[k]);const valid=Object.values(values).every(v=>v!==null&&v>=0)&&values.gp>0&&values.fgm<=values.fga&&values.ftm<=values.fta;
+if(!valid)incomplete++;
+const rank=parsedNumber(parsed.rank);records.push({id,name:name1,rank:rank!==null&&rank>0?rank:null,pos:rawName(parsed.pos||''),values,mode,valid});}
+if(!records.length)throw Error('Geçerli oyuncu ismi bulunamadı.');return {records,duplicates,incomplete,name,mode};}
+function parseInput(text,fileName,mode){let data;if(fileName.toLowerCase().endsWith('.json')){let j=JSON.parse(text);if(Array.isArray(j))data=j;else if(Array.isArray(j.players))data=j.players;else if(Array.isArray(j.data))data=j.data;else throw Error('JSON içinde oyuncu dizisi bulunamadı.')}else data=csvRows(text);return fromObjects(data,mode,fileName);}
+function projectTotals(p){if(!p||!p.valid)return null;const v=p.values, factor=p.mode==='perGame'?v.gp:1;const s={gp:v.gp};for(const k of REQUIRED.filter(k=>!['name','gp'].includes(k)))s[k]=v[k]*factor;return s;}
+function avg(a){return a.reduce((x,y)=>x+y,0)/(a.length||1)}
+function sd(a){if(a.length<2)return 1;const m=avg(a);return Math.sqrt(a.reduce((x,v)=>x+(v-m)**2,0)/(a.length-1))||1}
+function calculateModel(){if(cache)return cache;const valid=state.players.map(p=>({p,s:projectTotals(p)})).filter(o=>o.s);if(valid.length===0)return cache={valid,baselines:null,z:new Map(),usable:false};
+const baseline=(rows)=>{const fgm=rows.reduce((s,o)=>s+o.s.fgm,0),fga=rows.reduce((s,o)=>s+o.s.fga,0),ftm=rows.reduce((s,o)=>s+o.s.ftm,0),fta=rows.reduce((s,o)=>s+o.s.fta,0);return {fg:fga?fgm/fga:.47,ft:fta?ftm/fta:.78}};
+const raw=(s,b)=>({'FG%':s.fgm-b.fg*s.fga,'FT%':s.ftm-b.ft*s.fta,'3PM':s.three,'PTS':s.pts,'REB':s.reb,'AST':s.ast,'STL':s.stl,'BLK':s.blk,'TO':-s.to});
+const allb=baseline(valid);const allraw=valid.map(o=>({p:o.p,s:o.s,r:raw(o.s,allb)}));const meanAll=Object.fromEntries(CATS.map(c=>[c,avg(allraw.map(x=>x.r[c]))]));const sdAll=Object.fromEntries(CATS.map(c=>[c,sd(allraw.map(x=>x.r[c]))]));
+const ref=allraw.map(o=>({...o,initial:CATS.reduce((sum,c)=>sum+(o.r[c]-meanAll[c])/sdAll[c],0)})).sort((a,b)=>b.initial-a.initial).slice(0,Math.min(130,allraw.length));
+const b=baseline(ref);const rr=ref.map(o=>raw(o.s,b));const means=Object.fromEntries(CATS.map(c=>[c,avg(rr.map(x=>x[c]))]));const deviations=Object.fromEntries(CATS.map(c=>[c,sd(rr.map(x=>x[c]))]));const z=new Map(valid.map(o=>[o.p.id,Object.fromEntries(CATS.map(c=>[c,(raw(o.s,b)[c]-means[c])/deviations[c]]))]));
+return cache={valid,baselines:b,means,deviations,z,usable:true,referenceCount:ref.length};}
+function teamsScores(extraId=null){const model=calculateModel(),totals=state.teams.map((name,i)=>({name,i,count:0,rated:0,sum:Object.fromEntries(CATS.map(c=>[c,0])),score:{}}));for(const pick of state.picks){const t=totals[pick.team];if(!t)continue;t.count++;const z=model.z.get(pick.id);if(!z)continue;t.rated++;for(const c of CATS)t.sum[c]+=z[c]};if(extraId){const t=totals[state.myTeam];t.count++;const z=model.z.get(extraId);if(z){t.rated++;for(const c of CATS)t.sum[c]+=z[c]}}
+for(const t of totals)for(const c of CATS)t.score[c]=t.rated?13*t.sum[c]/(t.rated+4):null;return totals;}
+function rankTeams(scores){return Object.fromEntries(CATS.map(c=>{const rows=scores.filter(t=>t.score[c]!==null).sort((a,b)=>b.score[c]-a.score[c]);const positions=Object.fromEntries(scores.map(t=>[t.i,null]));rows.forEach((t,i)=>positions[t.i]=i>0&&Math.abs(rows[i-1].score[c]-t.score[c])<1e-10?positions[rows[i-1].i]:i+1);return [c,positions]}));}
+function threats(scores){const mine=scores[state.myTeam];if(mine.rated===0)return[];const out=[];for(const c of CATS){if(!['top1','top3','top5','top7'].includes(state.targets[c]))continue;const v=mine.score[c];for(const t of scores){if(t.i===state.myTeam||t.rated===0)continue;const gap=t.score[c]-v;const close=Math.abs(gap)<0.65;if(gap>0.000001||close)out.push({cat:c,team:t.name,teamIndex:t.i,gap,ahead:gap>0,level:state.targets[c],rated:t.rated,confidence:Math.min(mine.rated,t.rated)<3?'Düşük':'Orta'});}}return out.sort((a,b)=>(a.ahead===b.ahead?0:a.ahead?-1:1)||({top1:0,top3:1,top5:2,top7:3}[a.level]-{top1:0,top3:1,top5:2,top7:3}[b.level])||b.gap-a.gap);}
+// Draft-phase category balance, not fixed tier weighting.
+// Target rates are heuristic season-total Z units per selected player, not predicted league cutoff scores.
+const TARGET_PACE={top1:.72,top3:.43,top5:.19,top7:-.04};
+const TARGET_TIER={top1:1.12,top3:1.07,top5:1.03,top7:.91};
+function clamp(n,lo,hi){return Math.max(lo,Math.min(hi,n));}
+function balancePlan(scores=teamsScores(),ranks=rankTeams(scores)){
+ const me=scores[state.myTeam];const selected=me.count;const remain=Math.max(1,13-selected);
+ const stage=selected<4?'İlk turlar':selected<9?'Orta turlar':'Son turlar';
+ const entries=[];
+ for(const cat of CATS){
+  const target=state.targets[cat];if(!(target in TARGET_PACE))continue;
+  const desired=TARGET_PACE[target],actual=me.sum[cat];
+  const expectedNow=selected*desired;
+  const paceGap=expectedNow-actual; // Positive: currently behind the chosen target's draft pace.
+  const futureNeed=(13*desired-actual)/remain;
+  const normalizedLag=selected?paceGap/Math.sqrt(selected):0;
+  // Both goal attainment by the final pick and progress so far matter.
+  // Discount large surpluses even in a top-1 category; boost deficits in top-5/7 categories.
+  const demand=.55*clamp(futureNeed,-2.5,2.5)+.5*clamp(normalizedLag,-3,3);
+  let priority=clamp((1.10+.75*demand)*TARGET_TIER[target],.26,2.4);
+  // Rival information is provisional. Only modestly adjust pressure when both rosters have data.
+  const other=scores.filter(t=>t.i!==state.myTeam&&t.rated>=2);
+  const ahead=me.rated>=2?other.filter(t=>t.score[cat]!==null&&me.score[cat]!==null&&t.score[cat]>me.score[cat]+.15):[];
+  const close=me.rated>=2?other.filter(t=>t.score[cat]!==null&&me.score[cat]!==null&&Math.abs(t.score[cat]-me.score[cat])<=.35):[];
+  if(ahead.length&&paceGap>-.4)priority=clamp(priority+Math.min(.16,ahead.length*.03),.26,2.4);
+  const normalizedPace=selected?paceGap/Math.sqrt(selected):0;
+  const status=selected===0?'Başlangıç':normalizedPace>1?'Kritik açık':normalizedPace>.25?'Takviye gerekli':normalizedPace<-.9?'Hedefin önünde':'Hedefe yakın';
+  entries.push({cat,target,status,desired,actual,selected,remaining:13-selected,expectedNow,paceGap,futureNeed,priority,rank:ranks[cat][state.myTeam],ahead:ahead.slice(0,3).map(t=>t.name),close:close.slice(0,2).map(t=>t.name)});
+ }
+ return {selected,remaining:13-selected,stage,entries,byCat:Object.fromEntries(entries.map(e=>[e.cat,e]))};
+}
+function suggestions(){
+ if(state.picks.length>=130||state.picks.filter(p=>p.team===state.myTeam).length>=13||currentEliteCount()===0)return[];
+ const model=calculateModel();if(!model.usable)return[];
+ const taken=pickedMap(),base=teamsScores(),ranks=rankTeams(base),plan=balancePlan(base,ranks),threat=threats(base);
+ // Rank the whole pool using current team needs. Compute full comparative ranks only for the five finalists.
+ const all=[];
+ for(const p of state.players){
+  if(taken.has(p.id)||!model.z.has(p.id))continue;
+  const z=model.z.get(p.id);let score=0;
+  for(const item of plan.entries)score+=item.priority*z[item.cat];
+  const fit=positionFit(state.myTeam,p);score+=fit.bonus;
+  all.push({p,score,fit});
+ }
+ all.sort((a,b)=>b.score-a.score||(a.p.rank??9999)-(b.p.rank??9999));
+ return all.slice(0,5).map(r=>{
+  const after=teamsScores(r.p.id),afterRanks=rankTeams(after),z=model.z.get(r.p.id);
+  const contributions=plan.entries.map(item=>{
+   const cat=item.cat;
+   const br=ranks[cat][state.myTeam],ar=afterRanks[cat][state.myTeam];
+   const gain=(after[state.myTeam].score[cat]??0)-(base[state.myTeam].score[cat]??0);
+   const related=threat.filter(t=>t.cat===cat);
+   return {cat,gain,br,ar,goal:item.target,z:z[cat],weighted:z[cat]*item.priority,need:item.status,priority:item.priority,paceGap:item.paceGap,rivals:related.map(x=>({name:x.team,ahead:x.ahead}))};
+  }).sort((a,b)=>b.weighted-a.weighted);
+  return {...r,contributions,positive:contributions.filter(c=>c.weighted>.025)};
+ });
+}
+function balanceBriefMarkup(){
+ if(!currentEliteCount())return '';
+ const plan=balancePlan();const chosen=plan.entries;
+ if(!chosen.length)return '';
+ const needy=[...chosen].sort((a,b)=>b.priority-a.priority).slice(0,3);
+ const safe=[...chosen].filter(e=>e.status==='Hedefin önünde').sort((a,b)=>a.priority-b.priority).slice(0,2);
+ const tags=needy.map(e=>`<span class="balance-tag urgent" title="Hedef ilerleme farkı: ${fmt(e.paceGap,2)} Z · Kalan seçim başına ihtiyaç: ${fmt(e.futureNeed,2)} Z">${escapeHTML(e.cat)} · ${escapeHTML(targetName(e.target))}</span>`).join('');
+ const safeTags=safe.map(e=>`<span class="balance-tag safe">${escapeHTML(e.cat)} · önde</span>`).join('');
+ return `<div class="balance-brief"><div class="balance-caption"><b>Hedef dengesi · ${plan.selected}/13</b><span>${plan.stage}</span></div><div class="balance-minor">Öncelikli takviye: ${tags||'—'}</div>${safeTags?`<div class="balance-minor">Güçlü ilerleme: ${safeTags}</div>`:''}</div>`;
+}
+function balanceFullMarkup(){
+ const plan=balancePlan();if(!plan.entries.length)return '<p class="sub">Önce kategori hedeflerini belirle.</p>';
+ return `<p class="sub">${plan.stage} · ${plan.selected}/13 seçim. <strong>Öncelik</strong> sütunu öneri modelindeki göreli ağırlıktır (galibiyet olasılığı değildir). Pozitif ilerleme farkı, hedef tempodan geride kalındığı anlamına gelir.</p><div class="scroll-x"><table class="small-table balance-table"><thead><tr><th>Kategori</th><th>Hedef</th><th>Durum</th><th>Hedefe göre fark (Z)</th><th>Kalan seçim başına ihtiyaç (Z)</th><th>Öncelik</th><th>Geçici lig sırası</th></tr></thead><tbody>${plan.entries.map(e=>`<tr class="${e.status==='Kritik açık'?'row-urgent':''}"><td><strong>${escapeHTML(e.cat)}</strong></td><td>${escapeHTML(targetName(e.target))}</td><td>${escapeHTML(e.status)}</td><td>${e.selected?fmt(e.paceGap,2):'—'}</td><td>${fmt(e.futureNeed,2)}</td><td>${fmt(e.priority,2)}</td><td>${e.rank===null?'—':e.rank+'.'}</td></tr>`).join('')}</tbody></table></div><p class="footnote">Seçilmeyen oyuncuların gelecekteki dağılımı bilinmediğinden bu tablo stratejinin gidişatını gösteren sezgisel bir ölçüttür. Özellikle erken turlarda gerçek lig sırasını tahmin ettiğini varsayma.</p>`;
+}
+function renderHeader(){ $('undo').disabled=state.picks.length===0; }
+function renderMatrixHead(){
+ const cols=[['name','Oyuncu'],['rank','RANK'],['pos','POS'],['gp','GP'],['fgm','FGM'],['fga','FGA'],['fgpct','FG%'],['ftm','FTM'],['fta','FTA'],['ftpct','FT%'],['three','3PM'],['pts','PTS'],['reb','REB'],['ast','AST'],['stl','STL'],['blk','BLK'],['to','TO']];
+ $('matrixHead').innerHTML='<tr>'+cols.map(([key,title])=>`<th scope="col" aria-sort="${key===sortKey?(sortDir==='asc'?'ascending':'descending'):'none'}"><button class="sort-head" data-sort="${key}" title="${title} sütununa göre sırala">${title} <span class="sort-arrow">${key===sortKey?(sortDir==='asc'?'▲':'▼'):''}</span></button></th>`).join('')+'<th scope="col">Seçen takım</th></tr>';
+}
+function sortValue(p,key){
+ if(key==='name')return p.name.toLocaleLowerCase('tr-TR');
+ if(key==='pos')return p.pos||null;
+ if(key==='rank')return p.rank;
+ if(key==='fgpct')return p.values.fga>0?100*p.values.fgm/p.values.fga:null;
+ if(key==='ftpct')return p.values.fta>0?100*p.values.ftm/p.values.fta:null;
+ return p.values[key]??null;
+}
+function sortedPlayers(records){
+ const order=new Map(state.players.map((p,i)=>[p.id,i]));
+ return records.sort((a,b)=>{const av=sortValue(a,sortKey),bv=sortValue(b,sortKey);
+  if(av===null||av===undefined||av==='')return bv===null||bv===undefined||bv===''?order.get(a.id)-order.get(b.id):1;
+  if(bv===null||bv===undefined||bv==='')return -1;
+  const compare=typeof av==='string'?av.localeCompare(bv,'tr'):(av-bv);
+  return (sortDir==='asc'?compare:-compare)||order.get(a.id)-order.get(b.id);
+ });
+}
+function teamOptionOrder(){
+ if(state.picks.length>=130)return state.teams.map((_,i)=>i);
+ const order=[],start=state.picks.length;
+ for(let p=start;p<130&&order.length<10;p++){const i=nextTeamIdx(p);if(!order.includes(i))order.push(i)}
+ for(let i=0;i<10;i++)if(!order.includes(i))order.push(i);
+ return order;
+}
+function formatProjection(v,key){return v===null||v===undefined||!Number.isFinite(v)?'—':fmt(v,key==='gp'||key==='rank'?0:key==='fgpct'||key==='ftpct'?1:2)}
+function renderMatrix(){
+ renderMatrixHead();const records=sortedPlayers(matchingPlayers()),size=80,max=Math.max(1,Math.ceil(records.length/size));
+ if(page>=max)page=max-1;const chunk=records.slice(page*size,(page+1)*size),taken=pickedMap(),teamOrder=teamOptionOrder();
+ $('matrixCount').textContent=`${records.length} sonuç · ${state.players.filter(x=>x.valid).length} analiz edilebilir · ${sortKey==='rank'?'Genel ranking':sortKey.toUpperCase()} ${sortDir==='asc'?'↑':'↓'}`;
+ const cols=['rank','pos','gp','fgm','fga','fgpct','ftm','fta','ftpct','three','pts','reb','ast','stl','blk','to'];
+ $('matrixBody').innerHTML=chunk.length?chunk.map(p=>{
+   const picked=taken.get(p.id),details=expanded.has(p.id);
+   const nameCell=`<td><div class="name-wrap"><button class="more" data-expand="${escapeHTML(p.id)}" aria-label="${escapeHTML(p.name)} istatistiklerini ${details?'kapat':'aç'}">${details?'▴':'▾'}</button><span class="player-label" title="${escapeHTML(p.name)}">${escapeHTML(p.name)}</span>${p.valid?'':`<span title="Eksik veri" style="color:var(--red)">!</span>`}</div></td>`;
+   const statCells=cols.map(key=>{
+      const value=key==='pos'?p.pos||'—':formatProjection(sortValue(p,key),key);
+      return `<td class="number ${key==='rank'?'rank-number':''}" title="${escapeHTML(key.toUpperCase())}: ${escapeHTML(value)}">${escapeHTML(value)}</td>`;
+   }).join('');
+   const selected=picked?String(picked.team):'';
+   const options=(picked?'<option value="-1">↶ Seçimi kaldır</option>':'<option value="" selected>— Takım seç —</option>')+
+      teamOrder.map(i=>`<option value="${i}" ${selected===String(i)?'selected':''}>${i===nextTeamIdx(state.picks.length)&&state.picks.length<130?'▶ ':''}${escapeHTML(state.teams[i])}</option>`).join('');
+   const picker=`<td><select class="team-picker ${picked?'is-picked':''}" data-pick-team="${escapeHTML(p.id)}" aria-label="${escapeHTML(p.name)} oyuncusunun seçildiği takım">${options}</select></td>`;
+   return `<tr class="${picked?'picked':''}">${nameCell}${statCells}${picker}</tr>${details?`<tr class="details-row"><td colspan="18">${detailMarkup(p)}</td></tr>`:''}`;
+ }).join(''):'<tr><td class="empty" colspan="18">Bu filtreyle oyuncu bulunamadı. Oyuncu verisi sekmesinden bir projection dosyası yükleyebilirsin.</td></tr>';
+ $('pageInfo').textContent=`Sayfa ${page+1}/${max}`;$('prevPage').disabled=page===0;$('nextPage').disabled=page>=max-1;
+}
+function matchingPlayers(){const taken=pickedMap();return state.players.filter(p=>(filter==='all'||(filter==='picked'?taken.has(p.id):!taken.has(p.id)))&&norm(p.name).includes(norm(query)));}
+function detailMarkup(p){const v=p.values;const parts=[['GP',v.gp],['FGM',v.fgm],['FGA',v.fga],['FG%',v.fga?100*v.fgm/v.fga:null],['FTM',v.ftm],['FTA',v.fta],['FT%',v.fta?100*v.ftm/v.fta:null],['3PM',v.three],['PTS',v.pts],['REB',v.reb],['AST',v.ast],['STL',v.stl],['BLK',v.blk],['TO',v.to]];return `<div class="sub">${escapeHTML(p.name)} · ${escapeHTML(p.mode==='perGame'?'Maç başına':'Sezon toplamı')} · ${escapeHTML(p.pos||'Pozisyon bilinmiyor')} · ${p.valid?'Analize uygun':'Eksik/hatalı istatistik: önerilerde kullanılamaz'}</div><div class="data-strip spaced">${parts.map(([k,x])=>`<span class="data-tag">${k} <b>${x===null?'—':fmt(x,k==='GP'?0:2)}${k==='FG%'||k==='FT%'?'%':''}</b></span>`).join('')}</div>`;}
+function assign(id,team){const p=state.players.find(p=>p.id===id);if(!p||team<-1||team>9)return;const idx=state.picks.findIndex(v=>v.id===id);if(team===-1){if(idx<0)return;if(!confirm(`${p.name} seçimini kaldırmak istiyor musun? Sonraki seçimlerin sıradaki takım hesabı bir basamak kayacak.`)){renderMatrix();return;}state.picks.splice(idx,1);saveRender();toast(`${p.name} seçimi kaldırıldı.`);return;}if(idx>=0){const existing=state.picks[idx];if(existing.team===team){if(!confirm(`${p.name} seçimini kaldırmak istiyor musun? Daha sonraki seçimlerin sırası bir basamak kayacak.`))return;state.picks.splice(idx,1);toast(p.name+' seçimi geri alındı.');}else{if(!confirm(`${p.name}: ${state.teams[existing.team]} → ${state.teams[team]} değiştirilsin mi?`)){renderMatrix();return;}const size=state.picks.filter(x=>x.team===team).length;if(size>=13){toast('Bu takımda 13 oyuncu var.',true);return}existing.team=team;toast('Oyuncunun takımı değiştirildi.');}saveRender();return}
+if(state.picks.length>=130){toast('130 seçim tamamlandı.',true);return}if(state.picks.filter(x=>x.team===team).length>=13){toast('Bu takımda 13 oyuncu var.',true);return}const expected=nextTeamIdx(state.picks.length);if(team!==expected&&!confirm(`Sıradaki seçim ${state.teams[expected]} takımında. ${p.name} oyuncusunu yine de ${state.teams[team]} takımına atamak istiyor musun?`)){renderMatrix();return;}
+state.picks.push({id,team});saveRender();toast(`${p.name} → ${state.teams[team]}`);}
+function eligible(p,slot){
+ if(slot==='UTIL'||slot==='BENCH')return true;
+ const positions=String(p?.pos||'').toUpperCase().split(/[^A-Z]+/).filter(Boolean);
+ if(slot==='G')return positions.some(x=>x==='PG'||x==='SG'||x==='G');
+ if(slot==='F')return positions.some(x=>x==='SF'||x==='PF'||x==='F');
+ return positions.includes(slot);
+}
+function lineup(team,extra){
+ const map=playersById();const roster=state.picks.filter(x=>x.team===team).map(x=>map.get(x.id)).filter(Boolean);if(extra)roster.push(extra);
+ const assigned={};
+ // Deterministic bipartite matching, avoiding exponential enumeration in recommendation loops.
+ const order=MUST.map((slot,i)=>({slot,i,options:roster.map((p,j)=>eligible(p,slot)?j:-1).filter(j=>j>=0)})).sort((a,b)=>a.options.length-b.options.length);
+ const occupant=new Map();
+ function augment(task,seen){for(const j of task.options){if(seen.has(j))continue;seen.add(j);if(!occupant.has(j)||augment(occupant.get(j),seen)){occupant.set(j,task);return true;}}return false;}
+ for(const task of order)augment(task,new Set());
+ const best=[...occupant.entries()].map(([j,t])=>({j,i:t.i,slot:t.slot}));
+ const used=new Set(best.map(x=>x.j));for(const b of best)assigned[b.i]=roster[b.j];
+ const rest=roster.filter((p,j)=>!used.has(j));let ri=0;for(let i=0;i<SLOTS.length;i++){if(assigned[i])continue;if(['UTIL','BENCH'].includes(SLOTS[i])&&ri<rest.length)assigned[i]=rest[ri++];}
+ return {assigned,filled:best.length,unknown:roster.filter(p=>!p.pos).length,total:roster.length};
+}
+function positionFit(team,p){const before=lineup(team),after=lineup(team,p);const change=after.filled-before.filled;const missing=p.pos?'':'POS boş: yerleşim doğrulanamıyor. ';return {bonus:change*0.55,reason:missing+(change>0?`Pozisyon uyumu: ${change} ilave zorunlu slot doldurulabiliyor.`:'Pozisyon uyumu: yeni zorunlu slot açmıyor; UTIL/BENCH yerleşimi kullanılabilir.')};}
+function rosterMarkup(){ document.querySelectorAll('#rosters details[data-roster]').forEach(d=>{if(d.open)closedRosters.delete(Number(d.dataset.roster));else closedRosters.add(Number(d.dataset.roster));}); $('rosters').innerHTML=state.teams.map((name,i)=>{const lay=lineup(i);return `<details data-roster="${i}" ${closedRosters.has(i)?'':'open'}><summary>${escapeHTML(name)} <span class="badge">${lay.total}/13 · zorunlu ${lay.filled}/${MUST.length}</span></summary><div class="roster-slots">${SLOTS.map((slot,n)=>`<div class="roster-line"><span>${slot}${SLOTS.slice(0,n).filter(x=>x===slot).length? ' '+(SLOTS.slice(0,n+1).filter(x=>x===slot).length):''}</span><strong>${escapeHTML(lay.assigned[n]?.name||'—')}</strong></div>`).join('')}</div>${lay.unknown?`<p class="footnote">${lay.unknown} oyuncunun POS bilgisi yok; zorunlu slot hesabı eksik olabilir.</p>`:''}</details>`}).join('');}
+function reasonFor(rec){const sorted=rec.contributions.filter(c=>c.weighted>.04).sort((a,b)=>b.weighted-a.weighted);const out=[];for(const d of sorted){if(out.length>=3)break;const target=targetName(d.goal).toLocaleLowerCase('tr-TR');const ch=d.br!==null&&d.ar!==null&&d.ar<d.br?` (sıra ${d.br}→${d.ar})`:'';const ahead=d.rivals.filter(x=>x.ahead).slice(0,2).map(x=>x.name);const close=d.rivals.filter(x=>!x.ahead).slice(0,2).map(x=>x.name);out.push(`${d.cat}: ${target} hedefinde ${d.need==='Hedefin önünde'?'zaten iyi ilerliyorsun, ek katkı sağlar':d.need==='Başlangıç'?'erken turda güçlü başlangıç sağlar':'kadro hedef temposunun gerisinde; bu oyuncu açığı kapatmaya yardımcı olur'}${ch}. ${ahead.length?ahead.join(', ')+' geçici sıralamada önde. ':''}${close.length?close.join(', ')+' yakın takipte.':''}`);}if(!out.length)out.push('Hedef kategorilerine marjinal katkısı sınırlı; diğer seçeneklerle karşılaştır.');return out;}
+function recMarkup(recs, compact=false){return `<div class="rec-grid ${compact?'rec-grid-compact':''}">${recs.map((r,i)=>{
+ const reasons=reasonFor(r);
+ const chips=r.contributions.filter(x=>x.weighted>.02).slice(0,compact?3:4).map(x=>`<span class="chip ${x.gain>0?'positive':'negative'}">${x.cat} ${x.br===null?'—':x.br}→${x.ar??'—'}</span>`).join('');
+ const meta=`Denge puanı ${fmt(r.score,2)} · GP ${integer(r.p.values.gp)}${r.p.rank?' · Sıra '+integer(r.p.rank):''}`;
+ const body=`<ul>${reasons.map(x=>`<li>${escapeHTML(x)}</li>`).join('')}<li>${escapeHTML(r.fit.reason)}</li></ul>`;
+ return `<div class="rec"><div class="rec-top"><span class="number">#${i+1}</span><div class="rec-main"><div class="rec-name">${escapeHTML(r.p.name)}</div><div class="score">${meta}</div></div><button class="tiny" data-choose="${escapeHTML(r.p.id)}" title="Oyuncuyu havuzda göster">Bul ↗</button></div><div class="deltas">${chips}</div>${compact?`<details class="rec-detail"><summary>Öneri gerekçeleri</summary>${body}</details>`:body}</div>`;
+ }).join('')}</div>`;}
+function recContents(compact=false){
+ if(!state.players.length)return '<div class="notice">Önce Oyuncu verisi sekmesinden tüm havuzu yükle.</div>';
+ if(currentEliteCount()===0)return '<div class="notice">En az bir kategoride lig zirvesi / ilk 3 / ilk 5 / ilk 7 hedefi seç.</div>';
+ if(!calculateModel().usable)return '<div class="notice">Analiz için tam ve geçerli projeksiyon verileri gerekli.</div>';
+ if(state.picks.length>=130||state.picks.filter(x=>x.team===state.myTeam).length>=13)return '<div class="notice">Takımının 13 oyuncusu seçildi veya draft tamamlandı.</div>';
+ const rec=suggestions();
+ const next=myNextPick();
+ const banner=`<p class="sub">Her seçimle yeniden hesaplanır · ${onMyTurn()?'<strong>Şimdi senin sıran</strong>':`Sırada ${escapeHTML(state.teams[nextTeamIdx(state.picks.length)])} var; senin sonraki seçimin #${next??'—'}`}. Öneriler <strong>kendi takımının</strong> mevcut kadrosu ve kategori hedefleri içindir.</p>`;
+ return banner+(rec.length?recMarkup(rec,compact):'<div class="notice">İstatistikleri tam olan seçilebilir oyuncu kalmadı.</div>');
+}
+function threatContents(short=false){const t=threats(teamsScores());if(!state.picks.length)return '<p class="sub">Draft seçimi işlendiğinde burada rakiplerin hedeflediğin kategorilerindeki durumu görünecek.</p>';if(!teamsScores()[state.myTeam].rated)return '<p class="sub">Henüz kendi takımında geçerli projeksiyonu olan oyuncu yok; rakip tehdidi hesaplanamıyor.</p>';if(!t.length)return '<p class="sub">Şu anda hedef kategorilerinde seni geçen veya çok yakın olan rakip görülmüyor. İlk turlarda bu veri belirsizdir.</p>';const selected=t.slice(0,short?5:35);return `<div class="section" style="gap:8px">${selected.map(x=>`<div class="mini-help" style="border-left-color:${x.level==='top1'?'#f3bf64':'#7cc4e9'}"><strong>${escapeHTML(x.cat)}</strong> · ${escapeHTML(x.team)} ${x.ahead?`önde (+${fmt(x.gap,2)} indeks)`:'yakın takipte'}<div class="footnote">Hedef: ${targetName(x.level)} · Karşılaştırma güveni: ${x.confidence}</div></div>`).join('')}</div>`;}
+function renderAnalysis(){$('balanceFull').innerHTML=balanceFullMarkup();const scores=teamsScores(),ranks=rankTeams(scores);$('ranksHead').innerHTML='<tr><th>Takım</th><th>Seçim</th>'+CATS.map(c=>`<th>${c}${state.targets[c]==='top1'?' ★':state.targets[c]==='top3'?' ◆':state.targets[c]==='top5'?' •':''}</th>`).join('')+'</tr>';$('ranksBody').innerHTML=scores.map(t=>`<tr class="${t.i===state.myTeam?'mine':''}"><td><strong>${escapeHTML(t.name)}</strong></td><td>${t.rated}/${t.count}</td>${CATS.map(c=>`<td class="${ranks[c][t.i]===1?'rank-1':ranks[c][t.i]<=7?'rank-mid':''}" title="Gösterge puanı: ${fmt(t.score[c],2)}">${ranks[c][t.i]===null?'—':ranks[c][t.i]+'.'} <span class="muted">${t.score[c]===null?'': '('+fmt(t.score[c],1)+')'}</span></td>`).join('')}</tr>`).join('');$('recommendStatus').textContent=state.picks.length>=130?'Draft tamamlandı':`Her seçimle güncellenir · ${onMyTurn()?'Şimdi senin sıran':`Senin sonraki seçimin #${myNextPick()??'—'}`}`;$('fullRecs').innerHTML=recContents();$('fullThreats').innerHTML=threatContents();}
+function renderSettings(){ $('teamSettings').innerHTML=state.teams.map((t,i)=>`<div class="team-config"><label for="teamName${i}">#${i+1} · ${i===state.myTeam?'Benim takımım':'Takım'}</label><input data-teamname="${i}" id="teamName${i}" value="${escapeHTML(t)}" maxlength="75"></div>`).join('');$('myTeam').innerHTML=state.teams.map((t,i)=>`<option value="${i}">${escapeHTML(t)} (#${i+1})</option>`).join('');$('myTeam').value=String(state.myTeam);$('draftPosition').innerHTML=state.teams.map((_,i)=>`<option value="${i+1}">#${i+1}</option>`).join('');$('draftPosition').value=String(state.myTeam+1);
+$('categorySettings').innerHTML=CATS.map(c=>`<div class="cat-card"><h3>${c}</h3><select data-category="${c}" aria-label="${c} hedefi"><option value="unset">Belirlenmedi</option><option value="top1">Lig zirvesi</option><option value="top3">İlk 3</option><option value="top5">İlk 5</option><option value="top7">İlk 7</option><option value="punt">Punt</option></select></div>`).join('');for(const el of document.querySelectorAll('[data-category]'))el.value=state.targets[el.dataset.category]||'unset';$('targetCount').textContent=`Hedeflenen: ${currentEliteCount()}/${CATS.length}`;
+$('targetCount').style.color=currentEliteCount()>0?'var(--green)':'var(--accent)';}
+function renderDataStatus(){const missing=state.players.filter(p=>!p.valid).length,s=state.source;$('dataStatus').innerHTML=s?`<div class="mini-help"><strong>${escapeHTML(s.file)}</strong> · ${escapeHTML(s.mode==='perGame'?'Maç başına':'Sezon toplamı')} · ${escapeHTML(s.loaded)}<p class="footnote">${state.players.length} oyuncu, ${missing} eksik / hatalı projeksiyon. ${calculateModel().referenceCount||0} oyunculuk referans grubuyla z-score oluşturuldu.</p></div>`:'<div class="notice">Henüz oyuncu verisi yüklenmedi. Bu sürümde 60 oyunculuk ön yüklü örnek liste bulunmuyor.</div>'}
+function renderPower(){
+ const scores=teamsScores();const totalRated=scores.reduce((sum,t)=>sum+t.rated,0);
+ $('powerSummary').textContent=totalRated?`${totalRated} oyuncu analiz edildi`:'Seçim bekleniyor';
+ $('powerGrid').innerHTML=CATS.map(cat=>{
+   const ranked=scores.filter(t=>t.score[cat]!==null).sort((a,b)=>b.score[cat]-a.score[cat]).slice(0,5);
+   const active=state.targets[cat]&&state.targets[cat]!=='punt'&&state.targets[cat]!=='unset';
+   return `<div class="power-card"><div class="power-title"><span>${cat}</span><span class="sub" style="font-size:10px">${active?escapeHTML(targetName(state.targets[cat])):''}</span></div>`+
+      (ranked.length?`<ol>${ranked.map((t,i)=>`<li class="${t.i===state.myTeam?'my-power':''}" title="${escapeHTML(t.name)} · ${t.rated} oyuncu · gösterge ${fmt(t.score[cat],2)}"><span class="power-rank">${i+1}.</span><span class="power-team">${escapeHTML(t.name)}${t.i===state.myTeam?' ★':''}</span><span class="power-score">${fmt(t.score[cat],1)}</span></li>`).join('')}</ol>`:'<div class="power-empty">Henüz sıralanacak seçim yok</div>')+'</div>';
+ }).join('');
+}
+function render(){renderHeader();renderPower();renderMatrix();$('balanceBrief').innerHTML=balanceBriefMarkup();$('inlineRecs').innerHTML=recContents(true);$('inlineThreats').innerHTML=threatContents(true);if(tabName==='draft')rosterMarkup();if(tabName==='analysis')renderAnalysis();if(tabName==='config')renderSettings();if(tabName==='data')renderDataStatus();}
+function go(name){tabName=name;for(const btn of document.querySelectorAll('[data-tab]'))btn.setAttribute('aria-selected',String(btn.dataset.tab===name));for(const section of ['draft','analysis','config','data'])$('view-'+section).classList.toggle('hidden',section!==name);render();}
+function saveBlob(filename,content,type){const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)}
+function exportBackup(){saveBlob('fantasy_draft_backup_'+new Date().toISOString().slice(0,10)+'.json',JSON.stringify(state,null,2),'application/json;charset=utf-8')}
+function undo(){if(!state.picks.length)return;const last=state.picks.pop(),player=state.players.find(x=>x.id===last.id);saveRender();toast(`${player?.name||'Oyuncu'} son seçimi geri alındı.`)}
+function updateTeamName(i,name){if(!name.trim()){toast('Takım ismi boş bırakılamaz.',true);renderSettings();return}state.teams[i]=name.trim();saveRender();}
+function updateMyTeam(i){if(state.picks.length&&!confirm('Kendi takımını değiştirmek mevcut seçilmiş oyuncuları korur ama analiz hedefini değiştirir. Devam?')){renderSettings();return}state.myTeam=i;saveRender()}
+function updateSlot(pos){const old=state.myTeam,next=pos-1;if(old===next)return;if(state.picks.length){toast('Draft başladıktan sonra sıralama değiştirilemez. Önce draftı sıfırla.',true);renderSettings();return}[state.teams[old],state.teams[next]]=[state.teams[next],state.teams[old]];state.myTeam=next;saveRender();}
+function chooseInBoard(id){const p=state.players.find(x=>x.id===id);if(!p)return;query=p.name;filter='all';page=0;go('draft');$('query').value=p.name;$('matrixArea').scrollIntoView({behavior:'smooth',block:'start'});}
+function importPlayers(obj){const keep=new Set(obj.records.map(p=>p.id));const lost=state.picks.filter(p=>!keep.has(p.id));if(lost.length&&!confirm(`${lost.length} seçilmiş oyuncu yeni dosyada bulunamadı ve seçimlerden çıkarılacak. Devam edilsin mi?`))return;state.players=obj.records;state.picks=state.picks.filter(p=>keep.has(p.id));state.source={file:obj.name,loaded:new Date().toLocaleString('tr-TR'),mode:obj.mode};query='';$('query').value='';page=0;expanded.clear();saveRender();toast(`${obj.records.length} oyuncu yüklendi. ${obj.incomplete} satır eksik/hatalı istatistik; ${obj.duplicates} mükerrer isim atlandı.`);go('draft');}
+function attachEvents(){document.querySelectorAll('[data-tab]').forEach(el=>el.addEventListener('click',()=>go(el.dataset.tab)));document.addEventListener('click',e=>{const goLink=e.target.closest('[data-go]');if(goLink)go(goLink.dataset.go);const exp=e.target.closest('[data-expand]');if(exp){expanded.has(exp.dataset.expand)?expanded.delete(exp.dataset.expand):expanded.add(exp.dataset.expand);renderMatrix();return}const sortBtn=e.target.closest('[data-sort]');if(sortBtn){const key=sortBtn.dataset.sort;if(sortKey===key)sortDir=sortDir==='asc'?'desc':'asc';else{sortKey=key;sortDir=key==='rank'||key==='name'||key==='pos'?'asc':'desc';}page=0;renderMatrix();return}const ch=e.target.closest('[data-choose]');if(ch)chooseInBoard(ch.dataset.choose);});document.addEventListener('change',e=>{const selector=e.target.closest('[data-pick-team]');if(!selector)return;if(selector.value==='')return;assign(selector.dataset.pickTeam,Number(selector.value));});$('resetSort').addEventListener('click',()=>{sortKey='rank';sortDir='asc';page=0;renderMatrix()});$('query').addEventListener('input',e=>{query=e.target.value;page=0;renderMatrix()});$('filter').addEventListener('change',e=>{filter=e.target.value;page=0;renderMatrix()});$('prevPage').addEventListener('click',()=>{page=Math.max(0,page-1);renderMatrix()});$('nextPage').addEventListener('click',()=>{page++;renderMatrix()});$('undo').addEventListener('click',undo);$('downloadBackup').addEventListener('click',exportBackup);$('uploadBackup').addEventListener('click',()=>$('backupFile').click());$('backupFile').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());if(!validateState(data))throw Error('Bu dosya v3 formatında bir draft yedeği değil.');if(!confirm('Mevcut oyuncular, strateji ve draft seçimleri yedekle değiştirilsin mi?'))return;state=data;query='';page=0;expanded.clear();saveRender();toast('Yedek geri yüklendi.')}catch(err){toast(err.message,true)}finally{e.target.value=''}});
+$('projectionFile').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const parsed=parseInput(await f.text(),f.name,$('statMode').value);importPlayers(parsed)}catch(err){toast('Dosya yüklenemedi: '+err.message,true)}finally{e.target.value=''}});
+$('csvTemplate').addEventListener('click',()=>saveBlob('fantasy_9cat_v3_projections_sablon.csv','\ufeff'+Object.values(COLNAMES).join(',')+',RANK,POS\r\n','text/csv;charset=utf-8'));
+$('clearDraft').addEventListener('click',()=>{if(!state.picks.length)return;if(confirm('Tüm draft seçimleri silinsin mi? Oyuncu havuzu ve strateji korunur.')){state.picks=[];saveRender()}});
+$('clearPlayers').addEventListener('click',()=>{if(confirm('Tüm oyuncu verileri ve draft seçimleri temizlensin mi?')){state.players=[];state.picks=[];state.source=null;saveRender();toast('Oyuncu havuzu temizlendi.')}});
+$('teamSettings').addEventListener('change',e=>{if(e.target.dataset.teamname!==undefined)updateTeamName(Number(e.target.dataset.teamname),e.target.value)});
+$('myTeam').addEventListener('change',e=>updateMyTeam(Number(e.target.value)));
+$('draftPosition').addEventListener('change',e=>updateSlot(Number(e.target.value)));
+
+$('categorySettings').addEventListener('change',e=>{if(!e.target.dataset.category)return;const c=e.target.dataset.category,v=e.target.value;state.targets[c]=v;saveRender()});}
+attachEvents();go('draft');
+</script>
+</body></html>

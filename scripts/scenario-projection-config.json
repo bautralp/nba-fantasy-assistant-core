@@ -1,0 +1,20 @@
+{
+  "version": "unified-ros/2",
+  "releaseTier": "extended-model-scenario",
+  "scientificAcceptance": false,
+  "attendanceOpportunityVersion": "dated-team-opportunities/1",
+  "depthMinutes": [32, 22, 12, 6],
+  "roleMaximumWeight": 0.2,
+  "roleFadeGames": 5,
+  "preseasonMaximumGames": 2,
+  "participationPriorGames": 20,
+  "injuryParticipationFactors": {"OUT": 0.6, "DAY_TO_DAY": 0.9},
+  "participationScenarioFactors": [0.75, 1, 1.15],
+  "assumptions": [
+    "Depth-chart minute targets and role weights are general scenario assumptions, not calibrated player forecasts.",
+    "Preseason supports minutes only; no preseason counts enter NBA rates, NBA GP or attendance.",
+    "Returning attendance prior is anchor observed attendance divided by 1 + source-observed missed seasons; absence source uncertainty remains explicit.",
+    "Rookie attendance prior is learned from frozen training-only rookie cohorts; it is conditional on the archived NBA-entry selection and does not model never-debut risk.",
+    "Attendance ranges are sensitivity scenarios, not calibrated probability/confidence intervals. Unknown injury return dates are not invented."
+  ]
+}

@@ -1,0 +1,7 @@
+.espn-import { display: grid; gap: 10px; }
+.espn-import-note { margin: 0; padding: 8px 10px; border-left: 3px solid #e9bd49; background: #fff8df; border-radius: 4px; font-size: 13px; color: #182a40; }
+.espn-import-problem { padding: 10px 12px; border: 1px solid #d9a441; border-radius: 8px; background: #fff3c5; color: #182a40; }
+.espn-import-problem p { margin: 0 0 6px; }
+.espn-import-problem ul { margin: 0 0 10px; padding-left: 18px; }
+.espn-import .actions { flex-wrap: wrap; }
+.league-import-notice { margin: 0 0 12px; }

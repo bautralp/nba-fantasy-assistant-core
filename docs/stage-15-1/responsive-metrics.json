@@ -1,0 +1,132 @@
+[
+  {
+    "pool": {
+      "x": 8,
+      "y": 736.9141235351562,
+      "width": 359,
+      "height": 1028,
+      "right": 367
+    },
+    "recommendations": {
+      "x": 8,
+      "y": 1808.9140625,
+      "width": 359,
+      "height": 813.5,
+      "right": 367
+    },
+    "pageWidth": 375,
+    "viewport": 375,
+    "table": {
+      "available": 335,
+      "content": 1120
+    },
+    "firstName": "Fixture Player 114",
+    "firstId": "p114",
+    "source": "automatic",
+    "width": 375
+  },
+  {
+    "pool": {
+      "x": 16,
+      "y": 552.7987060546875,
+      "width": 736,
+      "height": 950.4998779296875,
+      "right": 752
+    },
+    "recommendations": {
+      "x": 16,
+      "y": 1547.298583984375,
+      "width": 736,
+      "height": 825.500244140625,
+      "right": 752
+    },
+    "pageWidth": 768,
+    "viewport": 768,
+    "table": {
+      "available": 700,
+      "content": 1120
+    },
+    "firstName": "Fixture Player 114",
+    "firstId": "p114",
+    "source": "automatic",
+    "width": 768
+  },
+  {
+    "pool": {
+      "x": 16,
+      "y": 543.090576171875,
+      "width": 992,
+      "height": 950.5,
+      "right": 1008
+    },
+    "recommendations": {
+      "x": 16,
+      "y": 1537.590576171875,
+      "width": 992,
+      "height": 825.500244140625,
+      "right": 1008
+    },
+    "pageWidth": 1024,
+    "viewport": 1024,
+    "table": {
+      "available": 956,
+      "content": 1120
+    },
+    "firstName": "Fixture Player 114",
+    "firstId": "p114",
+    "source": "automatic",
+    "width": 1024
+  },
+  {
+    "pool": {
+      "x": 16,
+      "y": 550.2802124023438,
+      "width": 998,
+      "height": 950.5000610351562,
+      "right": 1014
+    },
+    "recommendations": {
+      "x": 1030,
+      "y": 550.2802124023438,
+      "width": 320,
+      "height": 825.5000610351562,
+      "right": 1350
+    },
+    "pageWidth": 1366,
+    "viewport": 1366,
+    "table": {
+      "available": 962,
+      "content": 1120
+    },
+    "firstName": "Fixture Player 114",
+    "firstId": "p114",
+    "source": "automatic",
+    "width": 1366
+  },
+  {
+    "pool": {
+      "x": 16,
+      "y": 550.2808837890625,
+      "width": 1532,
+      "height": 932.4998779296875,
+      "right": 1548
+    },
+    "recommendations": {
+      "x": 1564,
+      "y": 550.2808837890625,
+      "width": 340,
+      "height": 825.4998779296875,
+      "right": 1904
+    },
+    "pageWidth": 1920,
+    "viewport": 1920,
+    "table": {
+      "available": 1496,
+      "content": 1496
+    },
+    "firstName": "Fixture Player 114",
+    "firstId": "p114",
+    "source": "automatic",
+    "width": 1920
+  }
+]

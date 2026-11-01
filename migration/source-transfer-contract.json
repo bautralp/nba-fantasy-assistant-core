@@ -1,0 +1,50 @@
+{
+  "status": "DESIGN_ONLY_NOT_ACTIVE",
+  "direction": "reviewed public code snapshot -> private production integration",
+  "public_snapshot_identity": [
+    "future public commit SHA",
+    "full reviewed public-file manifest digest",
+    "transfer bundle SHA-256 and source tree inventory"
+  ],
+  "shared_code_candidates": [
+    "src/domain/",
+    "src/engine/",
+    "reviewed pure src/application files",
+    "reviewed pure src/seasonAnalysis files"
+  ],
+  "never_transfer_by_default": [
+    "src/main.tsx",
+    "src/publicCore/",
+    "src/seasonAnalysis/loadAnalysis.ts",
+    "src/projections/loadScenarios.ts",
+    "src/infrastructure/espn/client.ts",
+    "src/infrastructure/espn/waiverPool.ts",
+    "src/features/data/CentralDatasetPanel.tsx",
+    "src/features/rankings/CentralRankings.tsx",
+    "src/features/rankings/ProjectedRankings.tsx",
+    ".github/workflows/",
+    "public/demo/",
+    "migration/validation-scopes.json",
+    "research/",
+    "public/data/",
+    "private fixtures",
+    "secrets and settings"
+  ],
+  "private_adapters": "Keep the existing private live-provider and publishing adapters. Public adapters deliberately disable live data and must not overwrite them.",
+  "integration_required": [
+    "trusted human review before untrusted public code runs with private access",
+    "explicit file-level patch allowlist, no private -> public mirror",
+    "private base commit + target merge commit + public source SHA + bundle digest mapping",
+    "core API/schema compatibility checks; full private data tests and current review gates",
+    "original frozen/isolation failures cannot be bypassed",
+    "no public PR artifacts/scripts auto-run in private privileged jobs"
+  ],
+  "rollback": [
+    "stop importing public snapshots",
+    "restore last verified private source/dependency/adapter mapping through existing review process",
+    "use recorded private release and Pages manifest; preserve data and research history"
+  ],
+  "production_owner": "existing private repository only; no new schedule/publish/research writer",
+  "github_actions_cost": "public code CI can be free standard-hosted compute; private production/full validation cost continues",
+  "no_automatic_sync": true
+}

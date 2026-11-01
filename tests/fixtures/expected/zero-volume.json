@@ -1,0 +1,3961 @@
+{
+  "imported": {
+    "records": [
+      {
+        "id": "fixture000",
+        "name": "Fixture 000",
+        "rank": 140,
+        "pos": "PG",
+        "values": {
+          "gp": 40,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 0,
+          "pts": 8,
+          "reb": 2,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture001",
+        "name": "Fixture 001",
+        "rank": 139,
+        "pos": "SG",
+        "values": {
+          "gp": 41,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 2.2,
+          "pts": 14.5,
+          "reb": 3.666666666666667,
+          "ast": 2.3333333333333335,
+          "stl": 0.6,
+          "blk": 1.1666666666666667,
+          "to": 1.25
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture002",
+        "name": "Fixture 002",
+        "rank": 138,
+        "pos": "SF",
+        "values": {
+          "gp": 42,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 0.6,
+          "pts": 21,
+          "reb": 5.333333333333334,
+          "ast": 4.666666666666667,
+          "stl": 1.2,
+          "blk": 0.16666666666666666,
+          "to": 2.5
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture003",
+        "name": "Fixture 003",
+        "rank": 137,
+        "pos": "PF",
+        "values": {
+          "gp": 43,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 2.8,
+          "pts": 27.5,
+          "reb": 7,
+          "ast": 7,
+          "stl": 1.8,
+          "blk": 1.3333333333333333,
+          "to": 3.75
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture004",
+        "name": "Fixture 004",
+        "rank": 136,
+        "pos": "C",
+        "values": {
+          "gp": 44,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 1.2,
+          "pts": 8.5,
+          "reb": 8.666666666666668,
+          "ast": 1.6666666666666667,
+          "stl": 0.2,
+          "blk": 0.3333333333333333,
+          "to": 0.75
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture005",
+        "name": "Fixture 005",
+        "rank": 135,
+        "pos": "PG,SG",
+        "values": {
+          "gp": 45,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 3.4,
+          "pts": 15,
+          "reb": 10.333333333333334,
+          "ast": 4,
+          "stl": 0.8,
+          "blk": 1.5,
+          "to": 2
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture006",
+        "name": "Fixture 006",
+        "rank": 134,
+        "pos": "SF/PF",
+        "values": {
+          "gp": 46,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 1.8,
+          "pts": 21.5,
+          "reb": 2.3333333333333335,
+          "ast": 6.333333333333333,
+          "stl": 1.4,
+          "blk": 0.5,
+          "to": 3.25
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture007",
+        "name": "Fixture 007",
+        "rank": 133,
+        "pos": "C,PF",
+        "values": {
+          "gp": 47,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 0.2,
+          "pts": 28,
+          "reb": 4,
+          "ast": 1,
+          "stl": 2,
+          "blk": 1.6666666666666667,
+          "to": 0.25
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture008",
+        "name": "Fixture 008",
+        "rank": 132,
+        "pos": "G",
+        "values": {
+          "gp": 48,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 2.4,
+          "pts": 9,
+          "reb": 5.666666666666666,
+          "ast": 3.3333333333333335,
+          "stl": 0.4,
+          "blk": 0.6666666666666666,
+          "to": 1.5
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture009",
+        "name": "Fixture 009",
+        "rank": 131,
+        "pos": "F",
+        "values": {
+          "gp": 49,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 0.8,
+          "pts": 15.5,
+          "reb": 7.333333333333333,
+          "ast": 5.666666666666667,
+          "stl": 1,
+          "blk": 1.8333333333333333,
+          "to": 2.75
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture010",
+        "name": "Fixture 010",
+        "rank": 130,
+        "pos": "",
+        "values": {
+          "gp": 50,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 3,
+          "pts": 22,
+          "reb": 9,
+          "ast": 0.3333333333333333,
+          "stl": 1.6,
+          "blk": 0.8333333333333334,
+          "to": 4
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture011",
+        "name": "Fixture 011",
+        "rank": 129,
+        "pos": "PG,SG,SF,PF,C",
+        "values": {
+          "gp": 51,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 1.4,
+          "pts": 28.5,
+          "reb": 10.666666666666666,
+          "ast": 2.6666666666666665,
+          "stl": 0,
+          "blk": 2,
+          "to": 1
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture012",
+        "name": "Fixture 012",
+        "rank": 128,
+        "pos": "PG",
+        "values": {
+          "gp": 52,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 3.6,
+          "pts": 9.5,
+          "reb": 2.6666666666666665,
+          "ast": 5,
+          "stl": 0.6,
+          "blk": 1,
+          "to": 2.25
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture013",
+        "name": "Fixture 013",
+        "rank": 127,
+        "pos": "SG",
+        "values": {
+          "gp": 53,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 2,
+          "pts": 16,
+          "reb": 4.333333333333334,
+          "ast": 7.333333333333333,
+          "stl": 1.2,
+          "blk": 0,
+          "to": 3.5
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture014",
+        "name": "Fixture 014",
+        "rank": 126,
+        "pos": "SF",
+        "values": {
+          "gp": 54,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 0.4,
+          "pts": 22.5,
+          "reb": 6,
+          "ast": 2,
+          "stl": 1.8,
+          "blk": 1.1666666666666667,
+          "to": 0.5
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture015",
+        "name": "Fixture 015",
+        "rank": 125,
+        "pos": "PF",
+        "values": {
+          "gp": 55,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 2.6,
+          "pts": 29,
+          "reb": 7.666666666666667,
+          "ast": 4.333333333333333,
+          "stl": 0.2,
+          "blk": 0.16666666666666666,
+          "to": 1.75
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture016",
+        "name": "Fixture 016",
+        "rank": 124,
+        "pos": "C",
+        "values": {
+          "gp": 56,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 1,
+          "pts": 10,
+          "reb": 9.333333333333332,
+          "ast": 6.666666666666667,
+          "stl": 0.8,
+          "blk": 1.3333333333333333,
+          "to": 3
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture017",
+        "name": "Fixture 017",
+        "rank": 123,
+        "pos": "PG,SG",
+        "values": {
+          "gp": 57,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 3.2,
+          "pts": 16.5,
+          "reb": 11,
+          "ast": 1.3333333333333333,
+          "stl": 1.4,
+          "blk": 0.3333333333333333,
+          "to": 0
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture018",
+        "name": "Fixture 018",
+        "rank": 122,
+        "pos": "SF/PF",
+        "values": {
+          "gp": 58,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 1.6,
+          "pts": 23,
+          "reb": 3,
+          "ast": 3.6666666666666665,
+          "stl": 2,
+          "blk": 1.5,
+          "to": 1.25
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture019",
+        "name": "Fixture 019",
+        "rank": 121,
+        "pos": "C,PF",
+        "values": {
+          "gp": 59,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 0,
+          "pts": 29.5,
+          "reb": 4.666666666666666,
+          "ast": 6,
+          "stl": 0.4,
+          "blk": 0.5,
+          "to": 2.5
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture020",
+        "name": "Fixture 020",
+        "rank": 120,
+        "pos": "G",
+        "values": {
+          "gp": 60,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 2.2,
+          "pts": 10.5,
+          "reb": 6.333333333333333,
+          "ast": 0.6666666666666666,
+          "stl": 1,
+          "blk": 1.6666666666666667,
+          "to": 3.75
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture021",
+        "name": "Fixture 021",
+        "rank": 119,
+        "pos": "F",
+        "values": {
+          "gp": 61,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 0.6,
+          "pts": 17,
+          "reb": 8,
+          "ast": 3,
+          "stl": 1.6,
+          "blk": 0.6666666666666666,
+          "to": 0.75
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture022",
+        "name": "Fixture 022",
+        "rank": 118,
+        "pos": "",
+        "values": {
+          "gp": 62,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 2.8,
+          "pts": 23.5,
+          "reb": 9.666666666666668,
+          "ast": 5.333333333333333,
+          "stl": 0,
+          "blk": 1.8333333333333333,
+          "to": 2
+        },
+        "mode": "perGame",
+        "valid": true
+      },
+      {
+        "id": "fixture023",
+        "name": "Fixture 023",
+        "rank": 117,
+        "pos": "PG,SG,SF,PF,C",
+        "values": {
+          "gp": 63,
+          "fgm": 0,
+          "fga": 0,
+          "ftm": 0,
+          "fta": 0,
+          "three": 1.2,
+          "pts": 30,
+          "reb": 11.333333333333334,
+          "ast": 0,
+          "stl": 0.6,
+          "blk": 0.8333333333333334,
+          "to": 3.25
+        },
+        "mode": "perGame",
+        "valid": true
+      }
+    ],
+    "duplicates": 0,
+    "incomplete": 0,
+    "name": "fixed-fixture.json",
+    "mode": "perGame"
+  },
+  "totals": [
+    {
+      "id": "fixture000",
+      "totals": {
+        "gp": 40,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 0,
+        "pts": 320,
+        "reb": 80,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture001",
+      "totals": {
+        "gp": 41,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 90.2,
+        "pts": 594.5,
+        "reb": 150.33333333333334,
+        "ast": 95.66666666666667,
+        "stl": 24.599999999999998,
+        "blk": 47.833333333333336,
+        "to": 51.25
+      }
+    },
+    {
+      "id": "fixture002",
+      "totals": {
+        "gp": 42,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 25.2,
+        "pts": 882,
+        "reb": 224.00000000000003,
+        "ast": 196,
+        "stl": 50.4,
+        "blk": 7,
+        "to": 105
+      }
+    },
+    {
+      "id": "fixture003",
+      "totals": {
+        "gp": 43,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 120.39999999999999,
+        "pts": 1182.5,
+        "reb": 301,
+        "ast": 301,
+        "stl": 77.4,
+        "blk": 57.33333333333333,
+        "to": 161.25
+      }
+    },
+    {
+      "id": "fixture004",
+      "totals": {
+        "gp": 44,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 52.8,
+        "pts": 374,
+        "reb": 381.33333333333337,
+        "ast": 73.33333333333334,
+        "stl": 8.8,
+        "blk": 14.666666666666666,
+        "to": 33
+      }
+    },
+    {
+      "id": "fixture005",
+      "totals": {
+        "gp": 45,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 153,
+        "pts": 675,
+        "reb": 465,
+        "ast": 180,
+        "stl": 36,
+        "blk": 67.5,
+        "to": 90
+      }
+    },
+    {
+      "id": "fixture006",
+      "totals": {
+        "gp": 46,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 82.8,
+        "pts": 989,
+        "reb": 107.33333333333334,
+        "ast": 291.3333333333333,
+        "stl": 64.39999999999999,
+        "blk": 23,
+        "to": 149.5
+      }
+    },
+    {
+      "id": "fixture007",
+      "totals": {
+        "gp": 47,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 9.4,
+        "pts": 1316,
+        "reb": 188,
+        "ast": 47,
+        "stl": 94,
+        "blk": 78.33333333333334,
+        "to": 11.75
+      }
+    },
+    {
+      "id": "fixture008",
+      "totals": {
+        "gp": 48,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 115.19999999999999,
+        "pts": 432,
+        "reb": 272,
+        "ast": 160,
+        "stl": 19.200000000000003,
+        "blk": 32,
+        "to": 72
+      }
+    },
+    {
+      "id": "fixture009",
+      "totals": {
+        "gp": 49,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 39.2,
+        "pts": 759.5,
+        "reb": 359.3333333333333,
+        "ast": 277.6666666666667,
+        "stl": 49,
+        "blk": 89.83333333333333,
+        "to": 134.75
+      }
+    },
+    {
+      "id": "fixture010",
+      "totals": {
+        "gp": 50,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 150,
+        "pts": 1100,
+        "reb": 450,
+        "ast": 16.666666666666664,
+        "stl": 80,
+        "blk": 41.66666666666667,
+        "to": 200
+      }
+    },
+    {
+      "id": "fixture011",
+      "totals": {
+        "gp": 51,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 71.39999999999999,
+        "pts": 1453.5,
+        "reb": 544,
+        "ast": 136,
+        "stl": 0,
+        "blk": 102,
+        "to": 51
+      }
+    },
+    {
+      "id": "fixture012",
+      "totals": {
+        "gp": 52,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 187.20000000000002,
+        "pts": 494,
+        "reb": 138.66666666666666,
+        "ast": 260,
+        "stl": 31.2,
+        "blk": 52,
+        "to": 117
+      }
+    },
+    {
+      "id": "fixture013",
+      "totals": {
+        "gp": 53,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 106,
+        "pts": 848,
+        "reb": 229.66666666666669,
+        "ast": 388.66666666666663,
+        "stl": 63.599999999999994,
+        "blk": 0,
+        "to": 185.5
+      }
+    },
+    {
+      "id": "fixture014",
+      "totals": {
+        "gp": 54,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 21.6,
+        "pts": 1215,
+        "reb": 324,
+        "ast": 108,
+        "stl": 97.2,
+        "blk": 63.00000000000001,
+        "to": 27
+      }
+    },
+    {
+      "id": "fixture015",
+      "totals": {
+        "gp": 55,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 143,
+        "pts": 1595,
+        "reb": 421.6666666666667,
+        "ast": 238.33333333333331,
+        "stl": 11,
+        "blk": 9.166666666666666,
+        "to": 96.25
+      }
+    },
+    {
+      "id": "fixture016",
+      "totals": {
+        "gp": 56,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 56,
+        "pts": 560,
+        "reb": 522.6666666666666,
+        "ast": 373.33333333333337,
+        "stl": 44.800000000000004,
+        "blk": 74.66666666666666,
+        "to": 168
+      }
+    },
+    {
+      "id": "fixture017",
+      "totals": {
+        "gp": 57,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 182.4,
+        "pts": 940.5,
+        "reb": 627,
+        "ast": 76,
+        "stl": 79.8,
+        "blk": 19,
+        "to": 0
+      }
+    },
+    {
+      "id": "fixture018",
+      "totals": {
+        "gp": 58,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 92.80000000000001,
+        "pts": 1334,
+        "reb": 174,
+        "ast": 212.66666666666666,
+        "stl": 116,
+        "blk": 87,
+        "to": 72.5
+      }
+    },
+    {
+      "id": "fixture019",
+      "totals": {
+        "gp": 59,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 0,
+        "pts": 1740.5,
+        "reb": 275.3333333333333,
+        "ast": 354,
+        "stl": 23.6,
+        "blk": 29.5,
+        "to": 147.5
+      }
+    },
+    {
+      "id": "fixture020",
+      "totals": {
+        "gp": 60,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 132,
+        "pts": 630,
+        "reb": 380,
+        "ast": 40,
+        "stl": 60,
+        "blk": 100,
+        "to": 225
+      }
+    },
+    {
+      "id": "fixture021",
+      "totals": {
+        "gp": 61,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 36.6,
+        "pts": 1037,
+        "reb": 488,
+        "ast": 183,
+        "stl": 97.60000000000001,
+        "blk": 40.666666666666664,
+        "to": 45.75
+      }
+    },
+    {
+      "id": "fixture022",
+      "totals": {
+        "gp": 62,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 173.6,
+        "pts": 1457,
+        "reb": 599.3333333333334,
+        "ast": 330.66666666666663,
+        "stl": 0,
+        "blk": 113.66666666666666,
+        "to": 124
+      }
+    },
+    {
+      "id": "fixture023",
+      "totals": {
+        "gp": 63,
+        "fgm": 0,
+        "fga": 0,
+        "ftm": 0,
+        "fta": 0,
+        "three": 75.6,
+        "pts": 1890,
+        "reb": 714,
+        "ast": 0,
+        "stl": 37.8,
+        "blk": 52.5,
+        "to": 204.75
+      }
+    }
+  ],
+  "model": {
+    "valid": [
+      "fixture000",
+      "fixture001",
+      "fixture002",
+      "fixture003",
+      "fixture004",
+      "fixture005",
+      "fixture006",
+      "fixture007",
+      "fixture008",
+      "fixture009",
+      "fixture010",
+      "fixture011",
+      "fixture012",
+      "fixture013",
+      "fixture014",
+      "fixture015",
+      "fixture016",
+      "fixture017",
+      "fixture018",
+      "fixture019",
+      "fixture020",
+      "fixture021",
+      "fixture022",
+      "fixture023"
+    ],
+    "baselines": {
+      "fg": 0.47,
+      "ft": 0.78
+    },
+    "means": {
+      "FG%": 0,
+      "FT%": 0,
+      "3PM": 88.18333333333334,
+      "PTS": 992.4583333333334,
+      "REB": 350.6944444444444,
+      "AST": 180.80555555555554,
+      "STL": 48.6,
+      "BLK": 50.09722222222222,
+      "TO": -103.03125
+    },
+    "deviations": {
+      "FG%": 1,
+      "FT%": 1,
+      "3PM": 58.611318588363694,
+      "PTS": 444.3825446779979,
+      "REB": 175.30497695056835,
+      "AST": 122.86133406164612,
+      "STL": 34.581573379349074,
+      "BLK": 33.958873843539294,
+      "TO": 67.83865579526687
+    },
+    "z": {
+      "fixture000": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -1.5045444371019607,
+        "PTS": -1.513242005985182,
+        "REB": -1.5441343945458748,
+        "AST": -1.471622923000622,
+        "STL": -1.405372724568462,
+        "BLK": -1.475232142651081,
+        "TO": 1.5187690379795014
+      },
+      "fixture001": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0.03440746113954586,
+        "PTS": -0.895530974605891,
+        "REB": -1.142928823792652,
+        "AST": -0.692967315869858,
+        "STL": -0.6940112220091171,
+        "BLK": -0.06666560555922536,
+        "TO": 0.7633000594273684
+      },
+      "fixture002": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -1.074593352449123,
+        "PTS": -0.2485658688807683,
+        "REB": -0.7227087710132101,
+        "AST": 0.12367149160874803,
+        "STL": 0.052050841650683695,
+        "BLK": -1.2691004542961752,
+        "TO": -0.029021064419990472
+      },
+      "fixture003": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0.5496663006838195,
+        "PTS": 0.4276533111901861,
+        "REB": -0.2834742362075493,
+        "AST": 0.9782934994351963,
+        "STL": 0.8328134664109406,
+        "BLK": 0.21308454292243215,
+        "TO": -0.8581943335625755
+      },
+      "fixture004": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -0.603694545448396,
+        "PTS": -1.39172508177942,
+        "REB": 0.1747747806243309,
+        "AST": -0.874744060391674,
+        "STL": -1.1509019431651188,
+        "BLK": -1.0433371765741357,
+        "TO": 1.0323207200825182
+      },
+      "fixture005": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 1.1058728625759826,
+        "PTS": -0.7143807450028566,
+        "REB": 0.6520382794824298,
+        "AST": -0.006556623869567887,
+        "STL": -0.3643558915547865,
+        "BLK": 0.5124662807712239,
+        "TO": 0.19209180735136552
+      },
+      "fixture006": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -0.0918480160997796,
+        "PTS": -0.007782333880461707,
+        "REB": -1.3882156419308782,
+        "AST": 0.8996140130003802,
+        "STL": 0.4568907211560017,
+        "BLK": -0.7979423094849623,
+        "TO": -0.6849892506750133
+      },
+      "fixture007": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -1.3441658579060607,
+        "PTS": 0.7280701515877649,
+        "REB": -0.9280651768963764,
+        "AST": -1.0890778337830689,
+        "STL": 1.3128378949672463,
+        "BLK": 0.8314796079871496,
+        "TO": 1.3455639550919392
+      },
+      "fixture008": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0.4609462355967259,
+        "PTS": -1.2612069039287865,
+        "REB": -0.44890022983565536,
+        "AST": -0.1693417682174628,
+        "STL": -0.8501637469611683,
+        "BLK": -0.532915853028655,
+        "TO": 0.4574272534769927
+      },
+      "fixture009": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -0.835731638753102,
+        "PTS": -0.524229261754951,
+        "REB": 0.049279199251284614,
+        "AST": 0.7883774976959858,
+        "STL": 0.011566853700151909,
+        "BLK": 1.1701245245702085,
+        "TO": -0.4675615934331798
+      },
+      "fixture010": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 1.054688209641121,
+        "PTS": 0.24200245476471613,
+        "REB": 0.5664731103644439,
+        "AST": -1.335968636044043,
+        "STL": 0.907998015461928,
+        "BLK": -0.24825780720521362,
+        "TO": -1.4294025856385784
+      },
+      "fixture011": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -0.2863496972522539,
+        "PTS": 1.037488245630215,
+        "REB": 1.1026815035038222,
+        "AST": -0.36468394143493665,
+        "STL": -1.405372724568462,
+        "BLK": 1.5284010305204019,
+        "TO": 0.7669852739568911
+      },
+      "fixture012": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 1.6893779060334055,
+        "PTS": -1.1216874724332817,
+        "REB": -1.209479510884419,
+        "AST": 0.6445839535220117,
+        "STL": -0.5031581359566099,
+        "BLK": 0.05603182798536129,
+        "TO": -0.20591136183707526
+      },
+      "fixture013": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0.30397996659648374,
+        "PTS": -0.3250765248621741,
+        "REB": -0.6903841515686377,
+        "AST": 1.691835048826802,
+        "STL": 0.4337570137556979,
+        "BLK": -1.475232142651081,
+        "TO": -1.2156601429262677
+      },
+      "fixture014": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -1.136014935970957,
+        "PTS": 0.5007884970547652,
+        "REB": -0.15227431022663762,
+        "AST": -0.5925831435219895,
+        "STL": 1.405372724568462,
+        "BLK": 0.37995305254307044,
+        "TO": 1.1207658687910607
+      },
+      "fixture015": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0.9352573527931106,
+        "PTS": 1.3559075933175362,
+        "REB": 0.40485001314158175,
+        "AST": 0.46823338047845875,
+        "STL": -1.0872842478142832,
+        "BLK": -1.2052977888529903,
+        "TO": 0.09996144411330052
+      },
+      "fixture016": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -0.5490975823178769,
+        "PTS": -0.9731667872929058,
+        "REB": 0.9809888185360198,
+        "AST": 1.5670331048267498,
+        "STL": -0.10988511015144344,
+        "BLK": 0.7235058664679127,
+        "TO": -0.9576951258596856
+      },
+      "fixture017": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 1.6074824613376268,
+        "PTS": -0.1169225343245259,
+        "REB": 1.5761421059566776,
+        "AST": -0.8530393744786213,
+        "STL": 0.902214588611852,
+        "BLK": -0.9157318456877656,
+        "TO": 1.5187690379795014
+      },
+      "fixture018": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0.07876749368309276,
+        "PTS": 0.7685757929896856,
+        "REB": -1.0079260014064966,
+        "AST": 0.25932577856532707,
+        "STL": 1.9490148484756038,
+        "BLK": 1.0866902697598897,
+        "TO": 0.4500568244179475
+      },
+      "fixture019": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -1.5045444371019607,
+        "PTS": 1.6833281946497287,
+        "REB": -0.4298857478094364,
+        "AST": 1.4096741319571178,
+        "STL": -0.7229283562594969,
+        "BLK": -0.606534313155407,
+        "TO": -0.6555075344388325
+      },
+      "fixture020": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0.7475802920319512,
+        "PTS": -0.8156448485076585,
+        "REB": 0.16716898781384307,
+        "AST": -1.1460526343048323,
+        "STL": 0.32965533045433054,
+        "BLK": 1.4695062624190003,
+        "TO": -1.7979240385908384
+      },
+      "fixture021": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -0.8800916712966487,
+        "PTS": 0.10023270985799357,
+        "REB": 0.7832382054633416,
+        "AST": 0.017861147782616348,
+        "STL": 1.416939578268614,
+        "BLK": -0.27770519125591464,
+        "TO": 0.8443747790768656
+      },
+      "fixture022": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 1.457340812728699,
+        "PTS": 1.0453643425694772,
+        "REB": 1.4183219051390592,
+        "AST": 1.2197581302179068,
+        "STL": -1.405372724568462,
+        "BLK": 1.8719538444452444,
+        "TO": -0.30909736866370807
+      },
+      "fixture023": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": -0.21469118314344757,
+        "PTS": 2.0197500496267926,
+        "REB": 2.072420086840996,
+        "AST": -1.471622923000622,
+        "STL": -0.3123050499041028,
+        "BLK": 0.0707555200107117,
+        "TO": -1.4994216616995077
+      }
+    },
+    "usable": true,
+    "referenceCount": 24
+  },
+  "scores": [
+    {
+      "name": "Team 0",
+      "i": 0,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 1",
+      "i": 1,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 2",
+      "i": 2,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 3",
+      "i": 3,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 4",
+      "i": 4,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 5",
+      "i": 5,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 6",
+      "i": 6,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 7",
+      "i": 7,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 8",
+      "i": 8,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    },
+    {
+      "name": "Team 9",
+      "i": 9,
+      "count": 0,
+      "rated": 0,
+      "sum": {
+        "FG%": 0,
+        "FT%": 0,
+        "3PM": 0,
+        "PTS": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TO": 0
+      },
+      "score": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "PTS": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "TO": null
+      }
+    }
+  ],
+  "ranks": {
+    "FG%": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "FT%": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "3PM": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "PTS": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "REB": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "AST": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "STL": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "BLK": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "TO": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    }
+  },
+  "balance": {
+    "selected": 0,
+    "remaining": 13,
+    "stage": "İlk turlar",
+    "entries": [
+      {
+        "cat": "FG%",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "FT%",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "3PM",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "PTS",
+        "target": "top7",
+        "status": "Başlangıç",
+        "desired": -0.04,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": -0.04,
+        "priority": 0.9859850000000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "STL",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "BLK",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      {
+        "cat": "TO",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      }
+    ],
+    "byCat": {
+      "FG%": {
+        "cat": "FG%",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "FT%": {
+        "cat": "FT%",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "3PM": {
+        "cat": "3PM",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "PTS": {
+        "cat": "PTS",
+        "target": "top7",
+        "status": "Başlangıç",
+        "desired": -0.04,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": -0.04,
+        "priority": 0.9859850000000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "STL": {
+        "cat": "STL",
+        "target": "top1",
+        "status": "Başlangıç",
+        "desired": 0.72,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.72,
+        "priority": 1.5646400000000005,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "BLK": {
+        "cat": "BLK",
+        "target": "top5",
+        "status": "Başlangıç",
+        "desired": 0.19,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.19,
+        "priority": 1.2137262500000001,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      },
+      "TO": {
+        "cat": "TO",
+        "target": "top3",
+        "status": "Başlangıç",
+        "desired": 0.43,
+        "actual": 0,
+        "selected": 0,
+        "remaining": 13,
+        "expectedNow": 0,
+        "paceGap": 0,
+        "futureNeed": 0.43,
+        "priority": 1.3667912500000003,
+        "rank": null,
+        "ahead": [],
+        "close": []
+      }
+    }
+  },
+  "threats": [],
+  "suggestions": [
+    {
+      "p": "fixture018",
+      "score": 6.38699120614408,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "STL",
+          "gain": 5.0674386060365695,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.9490148484756038,
+          "weighted": 3.0495065925188696,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": 2.8253947013757132,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 1.0866902697598897,
+          "weighted": 1.3189445060271594,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 1.9982970617731826,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.7685757929896856,
+          "weighted": 0.7578042032509352,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 1.1701477434866634,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0.4500568244179475,
+          "weighted": 0.6151337296172371,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": 0.2047954835760412,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0.07876749368309276,
+          "weighted": 0.09560217472987886,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ],
+      "positive": [
+        {
+          "cat": "STL",
+          "gain": 5.0674386060365695,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.9490148484756038,
+          "weighted": 3.0495065925188696,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": 2.8253947013757132,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 1.0866902697598897,
+          "weighted": 1.3189445060271594,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 1.9982970617731826,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.7685757929896856,
+          "weighted": 0.7578042032509352,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 1.1701477434866634,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0.4500568244179475,
+          "weighted": 0.6151337296172371,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": 0.2047954835760412,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0.07876749368309276,
+          "weighted": 0.09560217472987886,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ]
+    },
+    {
+      "p": "fixture017",
+      "score": 4.761793281468878,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "TO",
+          "gain": 3.948799498746703,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 1.5187690379795014,
+          "weighted": 2.0758402318813007,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": 4.179454399477829,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 1.6074824613376268,
+          "weighted": 1.951043659740088,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "STL",
+          "gain": 2.345757930390815,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0.902214588611852,
+          "weighted": 1.4116410339256484,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": -0.3039985892437673,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": -0.1169225343245259,
+          "weighted": -0.11528386500596768,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": -2.3809027987881906,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": -0.9157318456877656,
+          "weighted": -1.1114477790721904,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ],
+      "positive": [
+        {
+          "cat": "TO",
+          "gain": 3.948799498746703,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 1.5187690379795014,
+          "weighted": 2.0758402318813007,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": 4.179454399477829,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 1.6074824613376268,
+          "weighted": 1.951043659740088,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "STL",
+          "gain": 2.345757930390815,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0.902214588611852,
+          "weighted": 1.4116410339256484,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ]
+    },
+    {
+      "p": "fixture007",
+      "score": 4.538829212989229,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "STL",
+          "gain": 3.4133785269148404,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.3128378949672463,
+          "weighted": 2.054118683981553,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 3.498466283239042,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 1.3455639550919392,
+          "weighted": 1.839105040135056,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": 2.161846980766589,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0.8314796079871496,
+          "weighted": 1.0091886265537133,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 1.892982394128189,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.7280701515877649,
+          "weighted": 0.7178662484132624,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": -3.494831230555758,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": -1.3441658579060607,
+          "weighted": -1.631449386094356,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ],
+      "positive": [
+        {
+          "cat": "STL",
+          "gain": 3.4133785269148404,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.3128378949672463,
+          "weighted": 2.054118683981553,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 3.498466283239042,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 1.3455639550919392,
+          "weighted": 1.839105040135056,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": 2.161846980766589,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0.8314796079871496,
+          "weighted": 1.0091886265537133,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 1.892982394128189,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.7280701515877649,
+          "weighted": 0.7178662484132624,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ]
+    },
+    {
+      "p": "fixture014",
+      "score": 3.8568731542587456,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "STL",
+          "gain": 3.653969083878001,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.405372724568462,
+          "weighted": 2.198902379768799,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 2.9139912588567576,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 1.1207658687910607,
+          "weighted": 1.5318529827622702,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 1.3020500923423897,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.5007884970547652,
+          "weighted": 0.49376994626854276,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": 0.9878779366119831,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0.37995305254307044,
+          "weighted": 0.4611589936391539,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": -2.9536388335244883,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": -1.136014935970957,
+          "weighted": -1.37881114818002,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ],
+      "positive": [
+        {
+          "cat": "STL",
+          "gain": 3.653969083878001,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.405372724568462,
+          "weighted": 2.198902379768799,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 2.9139912588567576,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 1.1207658687910607,
+          "weighted": 1.5318529827622702,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 1.3020500923423897,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.5007884970547652,
+          "weighted": 0.49376994626854276,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": 0.9878779366119831,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": 0.37995305254307044,
+          "weighted": 0.4611589936391539,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ]
+    },
+    {
+      "p": "fixture021",
+      "score": 2.614663905686794,
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      },
+      "contributions": [
+        {
+          "cat": "STL",
+          "gain": 3.6840429034983964,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.416939578268614,
+          "weighted": 2.217000341742205,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 2.1953744255998506,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0.8443747790768656,
+          "weighted": 1.1540840597629434,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 0.26060504563078324,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.10023270985799357,
+          "weighted": 0.0988279484293338,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FG%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "FT%",
+          "gain": 0,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0,
+          "weighted": 0,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "BLK",
+          "gain": -0.7220334972653781,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": -0.27770519125591464,
+          "weighted": -0.3370580803885741,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "3PM",
+          "gain": -2.2882383453712865,
+          "br": null,
+          "ar": 1,
+          "goal": "top5",
+          "z": -0.8800916712966487,
+          "weighted": -1.0681903638591141,
+          "need": "Başlangıç",
+          "priority": 1.2137262500000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ],
+      "positive": [
+        {
+          "cat": "STL",
+          "gain": 3.6840429034983964,
+          "br": null,
+          "ar": 1,
+          "goal": "top1",
+          "z": 1.416939578268614,
+          "weighted": 2.217000341742205,
+          "need": "Başlangıç",
+          "priority": 1.5646400000000005,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "TO",
+          "gain": 2.1953744255998506,
+          "br": null,
+          "ar": 1,
+          "goal": "top3",
+          "z": 0.8443747790768656,
+          "weighted": 1.1540840597629434,
+          "need": "Başlangıç",
+          "priority": 1.3667912500000003,
+          "paceGap": 0,
+          "rivals": []
+        },
+        {
+          "cat": "PTS",
+          "gain": 0.26060504563078324,
+          "br": null,
+          "ar": 1,
+          "goal": "top7",
+          "z": 0.10023270985799357,
+          "weighted": 0.0988279484293338,
+          "need": "Başlangıç",
+          "priority": 0.9859850000000001,
+          "paceGap": 0,
+          "rivals": []
+        }
+      ]
+    }
+  ],
+  "lineups": [
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    },
+    {
+      "assigned": {},
+      "filled": 0,
+      "unknown": 0,
+      "total": 0
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "fixture000",
+      "slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture001",
+      "slots": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture002",
+      "slots": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture003",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture004",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture005",
+      "slots": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture006",
+      "slots": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture007",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture008",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture009",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture010",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0,
+        "reason": "POS boş: yerleşim doğrulanamıyor. Pozisyon uyumu: yeni zorunlu slot açmıyor; UTIL/BENCH yerleşimi kullanılabilir."
+      }
+    },
+    {
+      "id": "fixture011",
+      "slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture012",
+      "slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture013",
+      "slots": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture014",
+      "slots": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture015",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture016",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture017",
+      "slots": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture018",
+      "slots": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture019",
+      "slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture020",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture021",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    },
+    {
+      "id": "fixture022",
+      "slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0,
+        "reason": "POS boş: yerleşim doğrulanamıyor. Pozisyon uyumu: yeni zorunlu slot açmıyor; UTIL/BENCH yerleşimi kullanılabilir."
+      }
+    },
+    {
+      "id": "fixture023",
+      "slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "fit": {
+        "bonus": 0.55,
+        "reason": "Pozisyon uyumu: 1 ilave zorunlu slot doldurulabiliyor."
+      }
+    }
+  ],
+  "snake": [
+    {
+      "n": 0,
+      "team": 0,
+      "round": 1
+    },
+    {
+      "n": 1,
+      "team": 1,
+      "round": 1
+    },
+    {
+      "n": 2,
+      "team": 2,
+      "round": 1
+    },
+    {
+      "n": 3,
+      "team": 3,
+      "round": 1
+    },
+    {
+      "n": 4,
+      "team": 4,
+      "round": 1
+    },
+    {
+      "n": 5,
+      "team": 5,
+      "round": 1
+    },
+    {
+      "n": 6,
+      "team": 6,
+      "round": 1
+    },
+    {
+      "n": 7,
+      "team": 7,
+      "round": 1
+    },
+    {
+      "n": 8,
+      "team": 8,
+      "round": 1
+    },
+    {
+      "n": 9,
+      "team": 9,
+      "round": 1
+    },
+    {
+      "n": 10,
+      "team": 9,
+      "round": 2
+    },
+    {
+      "n": 11,
+      "team": 8,
+      "round": 2
+    },
+    {
+      "n": 12,
+      "team": 7,
+      "round": 2
+    },
+    {
+      "n": 13,
+      "team": 6,
+      "round": 2
+    },
+    {
+      "n": 14,
+      "team": 5,
+      "round": 2
+    },
+    {
+      "n": 15,
+      "team": 4,
+      "round": 2
+    },
+    {
+      "n": 16,
+      "team": 3,
+      "round": 2
+    },
+    {
+      "n": 17,
+      "team": 2,
+      "round": 2
+    },
+    {
+      "n": 18,
+      "team": 1,
+      "round": 2
+    },
+    {
+      "n": 19,
+      "team": 0,
+      "round": 2
+    },
+    {
+      "n": 20,
+      "team": 0,
+      "round": 3
+    },
+    {
+      "n": 21,
+      "team": 1,
+      "round": 3
+    },
+    {
+      "n": 22,
+      "team": 2,
+      "round": 3
+    },
+    {
+      "n": 23,
+      "team": 3,
+      "round": 3
+    },
+    {
+      "n": 24,
+      "team": 4,
+      "round": 3
+    },
+    {
+      "n": 25,
+      "team": 5,
+      "round": 3
+    },
+    {
+      "n": 26,
+      "team": 6,
+      "round": 3
+    },
+    {
+      "n": 27,
+      "team": 7,
+      "round": 3
+    },
+    {
+      "n": 28,
+      "team": 8,
+      "round": 3
+    },
+    {
+      "n": 29,
+      "team": 9,
+      "round": 3
+    },
+    {
+      "n": 30,
+      "team": 9,
+      "round": 4
+    },
+    {
+      "n": 31,
+      "team": 8,
+      "round": 4
+    },
+    {
+      "n": 32,
+      "team": 7,
+      "round": 4
+    },
+    {
+      "n": 33,
+      "team": 6,
+      "round": 4
+    },
+    {
+      "n": 34,
+      "team": 5,
+      "round": 4
+    },
+    {
+      "n": 35,
+      "team": 4,
+      "round": 4
+    },
+    {
+      "n": 36,
+      "team": 3,
+      "round": 4
+    },
+    {
+      "n": 37,
+      "team": 2,
+      "round": 4
+    },
+    {
+      "n": 38,
+      "team": 1,
+      "round": 4
+    },
+    {
+      "n": 39,
+      "team": 0,
+      "round": 4
+    },
+    {
+      "n": 40,
+      "team": 0,
+      "round": 5
+    },
+    {
+      "n": 41,
+      "team": 1,
+      "round": 5
+    },
+    {
+      "n": 42,
+      "team": 2,
+      "round": 5
+    },
+    {
+      "n": 43,
+      "team": 3,
+      "round": 5
+    },
+    {
+      "n": 44,
+      "team": 4,
+      "round": 5
+    },
+    {
+      "n": 45,
+      "team": 5,
+      "round": 5
+    },
+    {
+      "n": 46,
+      "team": 6,
+      "round": 5
+    },
+    {
+      "n": 47,
+      "team": 7,
+      "round": 5
+    },
+    {
+      "n": 48,
+      "team": 8,
+      "round": 5
+    },
+    {
+      "n": 49,
+      "team": 9,
+      "round": 5
+    },
+    {
+      "n": 50,
+      "team": 9,
+      "round": 6
+    },
+    {
+      "n": 51,
+      "team": 8,
+      "round": 6
+    },
+    {
+      "n": 52,
+      "team": 7,
+      "round": 6
+    },
+    {
+      "n": 53,
+      "team": 6,
+      "round": 6
+    },
+    {
+      "n": 54,
+      "team": 5,
+      "round": 6
+    },
+    {
+      "n": 55,
+      "team": 4,
+      "round": 6
+    },
+    {
+      "n": 56,
+      "team": 3,
+      "round": 6
+    },
+    {
+      "n": 57,
+      "team": 2,
+      "round": 6
+    },
+    {
+      "n": 58,
+      "team": 1,
+      "round": 6
+    },
+    {
+      "n": 59,
+      "team": 0,
+      "round": 6
+    },
+    {
+      "n": 60,
+      "team": 0,
+      "round": 7
+    },
+    {
+      "n": 61,
+      "team": 1,
+      "round": 7
+    },
+    {
+      "n": 62,
+      "team": 2,
+      "round": 7
+    },
+    {
+      "n": 63,
+      "team": 3,
+      "round": 7
+    },
+    {
+      "n": 64,
+      "team": 4,
+      "round": 7
+    },
+    {
+      "n": 65,
+      "team": 5,
+      "round": 7
+    },
+    {
+      "n": 66,
+      "team": 6,
+      "round": 7
+    },
+    {
+      "n": 67,
+      "team": 7,
+      "round": 7
+    },
+    {
+      "n": 68,
+      "team": 8,
+      "round": 7
+    },
+    {
+      "n": 69,
+      "team": 9,
+      "round": 7
+    },
+    {
+      "n": 70,
+      "team": 9,
+      "round": 8
+    },
+    {
+      "n": 71,
+      "team": 8,
+      "round": 8
+    },
+    {
+      "n": 72,
+      "team": 7,
+      "round": 8
+    },
+    {
+      "n": 73,
+      "team": 6,
+      "round": 8
+    },
+    {
+      "n": 74,
+      "team": 5,
+      "round": 8
+    },
+    {
+      "n": 75,
+      "team": 4,
+      "round": 8
+    },
+    {
+      "n": 76,
+      "team": 3,
+      "round": 8
+    },
+    {
+      "n": 77,
+      "team": 2,
+      "round": 8
+    },
+    {
+      "n": 78,
+      "team": 1,
+      "round": 8
+    },
+    {
+      "n": 79,
+      "team": 0,
+      "round": 8
+    },
+    {
+      "n": 80,
+      "team": 0,
+      "round": 9
+    },
+    {
+      "n": 81,
+      "team": 1,
+      "round": 9
+    },
+    {
+      "n": 82,
+      "team": 2,
+      "round": 9
+    },
+    {
+      "n": 83,
+      "team": 3,
+      "round": 9
+    },
+    {
+      "n": 84,
+      "team": 4,
+      "round": 9
+    },
+    {
+      "n": 85,
+      "team": 5,
+      "round": 9
+    },
+    {
+      "n": 86,
+      "team": 6,
+      "round": 9
+    },
+    {
+      "n": 87,
+      "team": 7,
+      "round": 9
+    },
+    {
+      "n": 88,
+      "team": 8,
+      "round": 9
+    },
+    {
+      "n": 89,
+      "team": 9,
+      "round": 9
+    },
+    {
+      "n": 90,
+      "team": 9,
+      "round": 10
+    },
+    {
+      "n": 91,
+      "team": 8,
+      "round": 10
+    },
+    {
+      "n": 92,
+      "team": 7,
+      "round": 10
+    },
+    {
+      "n": 93,
+      "team": 6,
+      "round": 10
+    },
+    {
+      "n": 94,
+      "team": 5,
+      "round": 10
+    },
+    {
+      "n": 95,
+      "team": 4,
+      "round": 10
+    },
+    {
+      "n": 96,
+      "team": 3,
+      "round": 10
+    },
+    {
+      "n": 97,
+      "team": 2,
+      "round": 10
+    },
+    {
+      "n": 98,
+      "team": 1,
+      "round": 10
+    },
+    {
+      "n": 99,
+      "team": 0,
+      "round": 10
+    },
+    {
+      "n": 100,
+      "team": 0,
+      "round": 11
+    },
+    {
+      "n": 101,
+      "team": 1,
+      "round": 11
+    },
+    {
+      "n": 102,
+      "team": 2,
+      "round": 11
+    },
+    {
+      "n": 103,
+      "team": 3,
+      "round": 11
+    },
+    {
+      "n": 104,
+      "team": 4,
+      "round": 11
+    },
+    {
+      "n": 105,
+      "team": 5,
+      "round": 11
+    },
+    {
+      "n": 106,
+      "team": 6,
+      "round": 11
+    },
+    {
+      "n": 107,
+      "team": 7,
+      "round": 11
+    },
+    {
+      "n": 108,
+      "team": 8,
+      "round": 11
+    },
+    {
+      "n": 109,
+      "team": 9,
+      "round": 11
+    },
+    {
+      "n": 110,
+      "team": 9,
+      "round": 12
+    },
+    {
+      "n": 111,
+      "team": 8,
+      "round": 12
+    },
+    {
+      "n": 112,
+      "team": 7,
+      "round": 12
+    },
+    {
+      "n": 113,
+      "team": 6,
+      "round": 12
+    },
+    {
+      "n": 114,
+      "team": 5,
+      "round": 12
+    },
+    {
+      "n": 115,
+      "team": 4,
+      "round": 12
+    },
+    {
+      "n": 116,
+      "team": 3,
+      "round": 12
+    },
+    {
+      "n": 117,
+      "team": 2,
+      "round": 12
+    },
+    {
+      "n": 118,
+      "team": 1,
+      "round": 12
+    },
+    {
+      "n": 119,
+      "team": 0,
+      "round": 12
+    },
+    {
+      "n": 120,
+      "team": 0,
+      "round": 13
+    },
+    {
+      "n": 121,
+      "team": 1,
+      "round": 13
+    },
+    {
+      "n": 122,
+      "team": 2,
+      "round": 13
+    },
+    {
+      "n": 123,
+      "team": 3,
+      "round": 13
+    },
+    {
+      "n": 124,
+      "team": 4,
+      "round": 13
+    },
+    {
+      "n": 125,
+      "team": 5,
+      "round": 13
+    },
+    {
+      "n": 126,
+      "team": 6,
+      "round": 13
+    },
+    {
+      "n": 127,
+      "team": 7,
+      "round": 13
+    },
+    {
+      "n": 128,
+      "team": 8,
+      "round": 13
+    },
+    {
+      "n": 129,
+      "team": 9,
+      "round": 13
+    },
+    {
+      "n": 130,
+      "team": 9,
+      "round": 14
+    }
+  ],
+  "next": 1,
+  "turn": true,
+  "picks": [],
+  "tieRanks": {
+    "FG%": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "FT%": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "3PM": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "PTS": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "REB": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "AST": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "STL": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "BLK": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "TO": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    }
+  },
+  "checkpoints": [],
+  "dialogs": []
+}

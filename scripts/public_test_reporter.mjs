@@ -1,0 +1,2 @@
+/** Minimal machine-readable evidence; does not change test selection or assertions. */
+export default async function* (events){for await(const e of events){if(['test:pass','test:fail'].includes(e.type))yield JSON.stringify({event:e.type,name:e.data.name,file:e.data.file,line:e.data.line,column:e.data.column,skip:!!e.data.skip,todo:!!e.data.todo,duration_ms:e.data.details?.duration_ms,error_type:e.data.details?.error?.code})+'\n';}}

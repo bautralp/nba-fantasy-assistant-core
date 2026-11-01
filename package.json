@@ -1,0 +1,51 @@
+{
+  "name": "nba-fantasy-assistant",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.domain.json --noEmit && tsc -p tsconfig.engine.json --noEmit",
+    "test:stats": "python -m unittest discover -s tests/stats -v",
+    "test": "node scripts/test_public.mjs",
+    "test:capture": "node tests/legacy/capture.mjs",
+    "test:domain": "node --experimental-strip-types --test tests/domain/*.test.ts",
+    "test:legacy": "node --test tests/legacy/regression.test.mjs",
+    "test:engine": "node --experimental-strip-types --test tests/parity/*.test.mjs",
+    "test:persistence": "node --experimental-strip-types --test tests/persistence/*.test.ts",
+    "test:application": "node --experimental-strip-types --test tests/application/*.test.ts",
+    "test:ui": "node --experimental-strip-types --test --test-concurrency=1 tests/ui/*.test.mjs",
+    "test:import": "node --experimental-strip-types --test tests/import/*.test.ts",
+    "test:accessibility": "node --test tests/accessibility/*.test.mjs",
+    "test:performance": "node --experimental-strip-types tests/performance/measure.mjs",
+    "test:browsers": "BROWSER_ENGINES=firefox,webkit node --experimental-strip-types --test --test-concurrency=1 tests/ui/hardening.test.mjs tests/ui/preparation.test.mjs tests/ui/navigation.test.mjs tests/ui/ros.test.mjs tests/ui/redesign.test.mjs tests/ui/draftUsability.test.mjs tests/ui/seasonCompact.test.mjs tests/ui/seasonPower.test.mjs tests/ui/seasonTeamAnalysis.test.mjs tests/ui/seasonWaiver.test.mjs tests/ui/seasonTrade.test.mjs",
+    "test:performance:browser": "node --experimental-strip-types tests/performance/browser.mjs",
+    "test:pages": "node --test tests/deployment/*.test.mjs",
+    "test:historical-original": "npm run test:domain && npm run test:engine && npm run test:persistence && npm run test:legacy && npm run test:application && npm run test:ui && npm run test:import && npm run test:accessibility",
+    "test:public:python": "python scripts/test_public_python.py",
+    "test:full": "python scripts/export_readiness.py",
+    "demo:generate": "node --experimental-strip-types scripts/generate_public_demo.ts",
+    "test:public:ui": "node scripts/test_public_ui.mjs",
+    "check:public-boundary": "python scripts/check_public_boundary.py",
+    "test:public:all": "npm run demo:generate && npm run build && npm test && npm run test:public:python && npm run test:public:ui && npm run check:public-boundary"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "playwright": "1.56.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2",
+    "fflate": "^0.8.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
