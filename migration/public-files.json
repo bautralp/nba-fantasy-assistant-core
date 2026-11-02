@@ -29,8 +29,8 @@
       "source_sha256": "b0270e4b170eec523645f08814f223a3c2319f689272268ddd1bc0aa6a1856a5"
     },
     "LICENSE-SCOPE.md": {
-      "sha256": "58d235fbec8e791e251779f43f120e320abf0b3c2e77fdae5838293f1610e2dd",
-      "bytes": 786,
+      "sha256": "d466531a8d8a31020aa6aced41cf0e051ed15a729901105109b955fb23414a7a",
+      "bytes": 820,
       "kind": "new-source-or-metadata",
       "source_sha256": null
     },
@@ -47,8 +47,8 @@
       "source_sha256": "9623a07ab53d13c6785e8e53a7931623af3eff88df2217d351b09ea87863c502"
     },
     "README.md": {
-      "sha256": "41b2d19d8a54b37ec54fdb27bf14b5ff254d6bb2eb42549fb211484e88438af5",
-      "bytes": 2107,
+      "sha256": "61e5558147f937cafcaf126cce5aef33add64a6f0f6a13e5f0d2dd79452846e4",
+      "bytes": 2632,
       "kind": "reviewed-source",
       "source_sha256": "17884a3f1ef309fc3cc888cb521c8023e0786498df3af12b31caf9676d9e9dc4"
     },
